@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+    <link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Goods/goods_detail.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_gwxlz2wzu9wfjemi.css">
+	<script>
+		var coupon = '{$coupon_json}';
+		var gr_info_json = {$gr_info_json};
+		var format_json = {$format_json};
+	</script>
+</head>
+
+<body>
+	<!--loading-->
+	<div class="loading">
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+	<header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">商品详情</h1>
+    </header> 
+	<!--容器开始-->
+    <div class="mui-content" id="control">
+    	<div class="main">
+	    	<!-- 轮播图 -->
+	        <div class="banner">
+	            <!-- Swiper -->
+	            <div class="swiper-container swiper-container1">
+	                <div class="swiper-wrapper">
+	                    <div class="swiper-slide" v-for="itme in goodsMsg.img" style="height: auto;">
+	                        <img width="100%" height="100%" :src=itme alt="" />
+	                    </div>
+	                </div>
+	                <!-- Add Pagination -->
+	                <div class="swiper-pagination"></div>
+	            </div>
+	        </div>
+	        <div class="goods_msg">
+	        	<p class="title" v-text="goodsMsg.title"></p>
+	        	<p>
+	        		<span class="price">&yen;<span v-text="goodsMsg.cur_price"></span></span>
+	        		<span class="old-price" v-show="goodsMsg.old_price">&yen;<span v-text="goodsMsg.old_price"></span></span>
+	        		<span class="sale">销量：<span v-text="goodsMsg.sale"></span>件</span>
+	        	</p>
+	        </div>
+	        <div class="acount" @click="showBox(1)"><span v-text="showAcount"></span><i class="iconfont icon-xiangyou"></i></div>
+	        <div class="coupon" style="display:none" v-show="couponMsg.length">
+	        	<p class="coupon-title">优惠券</p>
+	        	<div class="coupon-main">
+	        		<div class="swiper-container swiper-container2">
+					  	<div class="swiper-wrapper">
+					    	<div class="swiper-slide" v-for="(item,index) in couponMsg">
+					    		<div class="coupon_box" :class="{received:item.status == 0}"  @click="receice(item.cid,item.status,index)">
+				        			<div class="coupon-left">
+				        				<p class="coupon-msg">
+				        					<span>&yen;</span>
+				        					<span v-text="item.price"></span>
+				        					<span>满<i v-text="item.rulePrice"></i>元使用</span>
+				        				</p>
+				        				<p class="date"><span v-text="item.date_begin"></span>-<span v-text="item.date_end"></span></p>
+				        			</div>
+				        			<div class="coupon-right">领取</div>
+				        		</div>
+					    	</div>
+					  	</div>
+					</div>
+
+	        		<!--<div class="coupon_box" :class="{received:item.status == 0}" v-for="(item,index) in couponMsg" @click="receice(item.cid,item.status,index)">
+	        			<div class="coupon-left">
+	        				<p class="coupon-msg">
+	        					<span>&yen;</span>
+	        					<span v-text="item.price"></span>
+	        					<span>满<i v-text="item.condition"></i>元使用</span>
+	        				</p>
+	        				<p class="date"><span v-text="item.date_begin"></span>-<span v-text="item.date_end"></span></p>
+	        			</div>
+	        			<div class="coupon-right">领取</div>
+	        		</div>-->
+	        	</div>
+	        </div>
+	        <ul class="details">
+	        	<li class="details-title details-active" @click="choice(0)">商品详情</li>
+	        	<li class="gap">|</li>
+	        	<li class="details-title" @click="choice(1)">基本信息</li>
+	        </ul>
+	        <div class="goods-details" v-html="infoMsg.details">
+	        </div>
+	        <div class="goods-base">
+	        	<p v-for="item in infoMsg.base"><label v-text="item.key"></label><span v-text="item.value"></span></p>
+	        </div>
+	        <ul class="goods-footer">
+	        	<li class="goods-btn1"><a href="/index.php/Home/Index/index">
+	        		<i class="iconfont icon-dianpu"></i>
+	        		<p>店铺</p>
+	        	</a></li>
+	        	<li class="goods-btn1"><a href="/index.php/Home/Cart/index">
+	        		<i class="iconfont icon-gouwuche2"><span class="num" v-show="cartNum" v-text="cartNum"></span><div class="addone">+1</div></i>
+	        		<p>购物车</p>
+	        	</a></li>
+	        	<li class="goods-btn2" @click="showBox(2)">加入购物车</li>
+	        	<li class="goods-btn2" @click="buyNow">立即购买</li>
+	        </ul>
+        </div>
+        <!--规格弹框-->
+        <div class="main2">
+        	<div class="img-box">
+	        	<div class="img"><img :src="goodsMsg.small_img" /></div>
+	        	<div class="goods_mes">
+	        		<p v-text="goodsMsg.title"></p>
+	        		<p>¥<span v-text="goodsMsg.cur_price"></span></p>
+	        		<p>库存：<span v-text="goodsMsg.stock"></span>件</p>
+	        	</div>
+        	</div>
+        	<ul class="specs" v-if="specs.length">
+        		<li class="specs-list" v-for="(item,index) in specs">
+        			<p class="specs-title" v-text="item.title"></p>
+        			<ul class="spec">
+        				<li v-for="(subItem,subIndex) in item.spec" v-text="subItem" @click="choiceSpec(index,subIndex)"></li>
+        			</ul>
+        		</li>
+        	</ul>
+        	<div class="amount">
+        		<p>数量</p>
+        		<div class="amount-box">
+	        		<span class="reduce amount-active" @click="reduce">-</span>
+	        		<input type="text" v-model="acount" />
+	        		<span class="add" @click="add">+</span>
+        		</div>
+        	</div>
+        	<ul class="btn">
+        		<li><button type="button" class="mui-btn cancel" @click="cancel">取消</button></li>
+        		<li><button type="button" class="mui-btn mui-btn-danger sure" @click="sure">确认</button></li>
+        	</ul>
+        </div>
+    </div>
+    <!--容器结束-->
+</body>
+
+    <script src="/Public/home/js/lib/vue.min.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!--脚部-->
+    <!--<script src="/Public/home/js/lib/footer.js"></script>-->
+    <!--轮播-->
+    <script src="/Public/home/js/lib/swiper.jquery.min.js"></script>
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Goods/goods_detail.js"></script>
+    
+</html>

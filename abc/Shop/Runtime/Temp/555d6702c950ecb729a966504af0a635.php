@@ -1,0 +1,3 @@
+<?php
+//000000000000s:496:"<dl class='dl-sort'><dt><span title=熟食>熟食</span></dt><dd><a title=快熟面 href="/sd/Home/Goods/index/id/261.html"><span>快熟面</span></a></dd><dd><a title=凤爪等小食 href="/sd/Home/Goods/index/id/262.html"><span>凤爪等小食</span></a></dd></dl><dl class='dl-sort'><dt><span title=肉类>肉类</span></dt><dd><a title=鸡 href="/sd/Home/Goods/index/id/263.html"><span>鸡</span></a></dd><dd><a title=鸭 href="/sd/Home/Goods/index/id/264.html"><span>鸭</span></a></dd></dl>";
+?>

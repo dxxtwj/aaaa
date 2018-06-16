@@ -1,0 +1,48 @@
+[ 2018-01-10T14:03:18+08:00 ] 192.168.30.109 /abc/Public/Images/Goods/5a3068a9cc120.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:03:23+08:00 ] 192.168.30.109 /abc/Public/Admin/images/loginsj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:03:32+08:00 ] 192.168.30.109 /abc/Public/Admin/images/loginsj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:03:37+08:00 ] 192.168.30.109 /abc/Public/Admin/images/loginsj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:03:43+08:00 ] 192.168.30.109 /abc/Public/Admin/images/loginsj.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:03:57+08:00 ] 192.168.30.109 /abc/Public/Admin/js2/jquery-2.1.4/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:10:00+08:00 ] 192.168.30.109 /abc/Public/Admin/js2/jquery-2.1.4/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-10T14:10:00+08:00 ] 192.168.30.109 /abc/Public/Admin/js2/jquery-2.1.4/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Public
+

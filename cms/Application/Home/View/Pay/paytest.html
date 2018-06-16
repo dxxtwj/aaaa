@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认订单</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+    <link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/pay/pay.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_444972_xhjnb1eq054dvx6r.css">
+   
+    
+</head>
+
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">支付测试页面</h1>
+	</header>
+    <div class="mui-content">
+        <ul class="mui-table-view">
+                <li class="mui-table-view-cell" onclick="toPay()">
+                    <span v-text="data.num" >去付款</span>
+                </li>
+                <li class="mui-table-view-cell">
+                    <span class="topay"><span v-text="data.price"></span></span>
+                </li>
+        </ul>
+    </div>
+</body>
+    <script src="/Public/home/js/lib/vue.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!-- 主要JS -->
+    <script type="text/javascript">
+        function isWeiXin(){
+            var ua = window.navigator.userAgent.toLowerCase();
+            if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        function toPay(){
+            var This = this;
+            var URL = "/index.php/Home/Pay/pay";
+            var temp = document.createElement("form");
+            temp.action = URL;
+            temp.method = "post";
+            temp.style.display = "none";
+            var PARAMS = new Array();
+            PARAMS['oid'] = 16;
+            PARAMS['type'] = 1;
+            if(isWeiXin()){
+                PARAMS['isWeiXin'] = 1;
+            }else{
+                PARAMS['isWeiXin'] = 0;
+            }
+            for (var x in PARAMS) {
+                var opt = document.createElement("textarea");
+                opt.name = x;
+                opt.value = PARAMS[x];
+                // alert(opt.name)
+                temp.appendChild(opt);
+            }
+            document.body.appendChild(temp);
+            temp.submit();
+            return temp;
+        }
+    </script>
+</html>

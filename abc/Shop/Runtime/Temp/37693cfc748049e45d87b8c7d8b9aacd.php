@@ -1,0 +1,3 @@
+<?php
+//000000000000s:633:"<dl class='dl-sort'><dt><span title=薯片>薯片</span></dt><dd><a title=旺旺浪味仙 href="/sd/Home/Goods/index/id/26.html"><span>旺旺浪味仙</span></a></dd><dd><a title=大波浪薯片 href="/sd/Home/Goods/index/id/27.html"><span>大波浪薯片</span></a></dd><dd><a title=可比克 href="/sd/Home/Goods/index/id/28.html"><span>可比克</span></a></dd><dd><a title=品客薯片 href="/sd/Home/Goods/index/id/29.html"><span>品客薯片</span></a></dd></dl><dl class='dl-sort'><dt><span title=薯条>薯条</span></dt><dd><a title=一品巷子 href="/sd/Home/Goods/index/id/35.html"><span>一品巷子</span></a></dd></dl>";
+?>

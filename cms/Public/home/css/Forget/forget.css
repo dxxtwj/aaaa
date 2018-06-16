@@ -1,0 +1,291 @@
+html,body{
+	background-color:#fff;
+}
+/*容器*/
+.mui-content{
+	background-color: #fff;
+}
+/*头部*/
+
+/*主体*/
+main{
+	width:7.666666rem;/*575px*/
+	margin:0 auto;
+	margin-top:1rem;
+}
+.hidden{
+	display: none;
+}
+.input_box{
+	position: relative;
+	width:100%;
+	height: 1.12rem;
+	width: 7.64rem;
+	border:1px solid #dad6d4;
+	border-radius: 8px;
+	margin-bottom: 0.4rem;
+	box-sizing: initial;
+	overflow: hidden;
+	background-color:#fff;
+}
+.input_box:last-of-type{
+	margin-bottom: 0;
+}
+.input_box input{
+	float: left;
+	width:70%;
+	border: 0;
+	height: 1.12rem;
+	color:#333;
+	font-size: 0.373333rem;
+	outline: none;
+	line-height: 0.52rem;
+	margin-bottom: 0;
+	padding: 0;
+	box-sizing: initial;
+}
+.input_box input::-webkit-input-placeholder{
+	color: #999;
+ }
+.input_box i{
+	float: left;
+	display: inline-block;
+	width: 1rem;
+	font-size:0.6rem;
+	color:#000;
+	line-height: 1.12rem;
+	margin-left:0.2rem;
+}
+.input-yzm{
+	position: relative;
+	width: 7.64rem;
+	height: 1.12rem;
+	margin-bottom: 0.4rem;
+	border-radius: 8px;
+	background-color:#fff;
+	display: flex;
+	overflow: hidden;
+}
+.input-yzm .input_box{
+	height: 1.12rem;
+	width: 5rem;
+	border:1px solid #dad6d4;
+	border-radius: 8px;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color:#fff;
+}
+ 
+/*眼睛图片*/
+ .eye{
+ 	position: absolute;
+ 	width: 0.56rem;
+ 	height: 0.333333rem;
+ 	background-image: url(../../images/eye1.png);
+ 	background-size:100% 100%;
+ 	right: 0.4rem;
+ 	top:50%;
+ 	transform: translateY(-50%);
+ }
+.eye2{
+ 	background-image: url(../../images/eye2.png);
+}
+
+
+/*按钮*/
+.mui-btn{
+	line-height: 0.8rem;
+}
+.btn{
+	width:100%;
+	background-color:#9d9d9d;
+	color:#fff;
+	margin-top:0.8rem;
+	border: 1px solid #9d9d9d;
+}
+.btn:active{
+	background-color:#eee!important; 
+	color:#bfbfbf!important;
+	border: 1px solid #eee!important;
+}
+.btn_login{
+	width:100%;
+	margin-top:0.8rem;
+}
+.mui-btn-danger:active{
+	color: #fff!important;
+    border: 1px solid #cf2d28!important;
+    background-color: #cf2d28!important;
+}
+.btn-red {
+    background-color: #ff5500;
+    border: 1px solid #ff5500;
+	color:#fff;
+}
+
+
+
+
+
+/*验证码*/
+.login_msg .send{
+	width:auto;
+	height:auto;
+}
+.send[type=button]{
+	position: absolute;
+	right: 0;
+	top:50%;
+	transform:translateY(-50%);
+	/*width:1.866666rem;*/
+	padding: 0 0.2rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background-color:#ff6017;
+	color:#fff;
+	font-size:0.293333rem;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+}
+.active[type=button]{
+  background-color: #999;
+  color: #fff;
+}
+@media only screen and (max-width: 330px) {
+	.send[type=button],.active[type=button]{
+		width:2.2rem;
+	}
+}
+
+
+
+/*滑动验证*/
+.mask{
+  position: fixed;
+  top:0;
+  width:10rem;
+  height:100%;
+  z-index: 999;
+  background-color:rgba(0,0,0,.7);
+}
+.stage{position:relative;padding: 0;height:55px;margin-top:0.666666rem;}
+.slider{position:absolute;height:52px;box-shadow:0 0 3px #999;background-color:#ddd;left:0;right:0;}
+.label {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(.4, #4d4d4d), color-stop(.5, white), color-stop(.6, #4d4d4d), color-stop(1, #4d4d4d));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slidetounlock 3s infinite;
+    -webkit-text-size-adjust: none;
+    line-height: 52px;
+    height: 52px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    color: #aaa;
+}
+@keyframes slidetounlock
+{
+    0%     {background-position:-200px 0;}
+    100%   {background-position:200px 0;}
+}
+@-webkit-keyframes slidetounlock
+{
+    0%     {background-position:-200px 0;}
+    100%   {background-position:200px 0;}
+}
+.button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    transition: left 0s;
+    -webkit-transition: left 0s;
+}
+.button-on{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    transition: left 1s;
+    -webkit-transition: left .5s;
+}
+.track{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: width 0s;
+    -webkit-transition: width 0s;
+}
+.track-on{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: width 1s;
+    -webkit-transition: width .5s;
+}
+.icon  {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top:10px;
+    left:20px;
+    font-family: sans-serif;
+}
+.icon:before{
+    content:'>>';
+    color:#ccc;
+    line-height:32px;
+}
+.spinner {
+    width: 32px;
+    height: 32px;	
+	background: url('../../images/ok.png') no-repeat;
+    position: relative;
+    top:10px;
+    left:10px;
+    display: none;
+}
+
+@-webkit-keyframes bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0.0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+@keyframes bouncedelay {
+    0%, 80%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 40% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+      }
+}
+.bg-green {
+    line-height: 52px;
+    height: 52px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #78c430;
+}
+
+
+/*mui信息框样式修改*/
+.mui-toast-container{
+	bottom:50%;
+}
+.mui-toast-message{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+

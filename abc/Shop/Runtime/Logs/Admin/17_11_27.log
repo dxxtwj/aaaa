@@ -1,0 +1,35 @@
+[ 2017-11-27T10:25:49+08:00 ] ::1 /kejian/zuixin/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-27T10:26:01+08:00 ] ::1 /kejian/zuixin/TP-shop/Admin/User/save.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 5  [ RunTime:0.0012s ]
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0196s ]
+
+[ 2017-11-27T10:26:07+08:00 ] ::1 /kejian/zuixin/TP-shop/Admin/User/save.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 5  [ RunTime:0.0023s ]
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0185s ]
+
+[ 2017-11-27T10:26:11+08:00 ] ::1 /kejian/zuixin/TP-shop/Admin/User/save.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 5  [ RunTime:0.0020s ]
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0211s ]
+
+[ 2017-11-27T10:42:32+08:00 ] ::1 /kejian/zuixin/TP-shop/Admin/User/save.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 2  [ RunTime:0.0018s ]
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=2 ) [ RunTime:0.0152s ]
+

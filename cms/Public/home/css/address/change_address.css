@@ -1,0 +1,82 @@
+/*主体部分开始*/
+.mui-content{overflow:hidden;}
+.change-ul>li{
+	height:42px;
+	background-color:#fff;
+	border-bottom:1px solid rgba(152,152,152,.2);
+	line-height:42px;
+	text-indent: 10px;
+	font-size:14px;
+	display:flex;
+}
+.change-li span{
+	flex:2;
+	color:#777;
+}
+.change-li .mui-switch{
+    margin-right:10px;
+    margin-top:6px;
+}
+.change-li input{
+	border:0;
+	outline: none;
+    background: transparent;
+}
+.change-li i{
+	font-size:14px;
+}
+.change-li:nth-child(3) span:last-child{
+	text-align: right;
+	padding-right: 10px;
+}
+.change-li span:last-child{
+	flex:6;
+	color:#333;
+}
+.new-change-text{
+	color:#777;
+}
+.btn{
+    display:block;
+    width:8rem;
+    line-height: 0.8rem;
+    width:9.466667rem;
+    position: fixed;
+    bottom:1.2rem;
+    font-size:16px;
+}
+.foot_div{width:10rem;height:1.2rem;background:#f0f0f0;position:fixed;bottom:0;z-index: 1;}
+/*收货地址样式*/
+.back-loc{
+	display: none;
+}
+.address_input input{
+	padding-right: 0.133333rem;
+	width:6.223333rem;
+}
+.icon-xiangyou1{
+	color:#999;
+}
+.dqld_div ul{
+	width:10rem;
+	height:100%;
+	font-size:14px;
+	color:#333;
+    background: #fff;
+    position:absolute;
+    top:47px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.dqld_div ul li{
+	background: #fff;
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #cccccc;
+	padding-left:10px;
+}
+.dqld_div ul li i{
+	float:right;
+	padding-right: .4rem;
+}			

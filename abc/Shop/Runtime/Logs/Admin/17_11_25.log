@@ -1,0 +1,147 @@
+[ 2017-11-25T15:52:06+08:00 ] 192.168.32.127 /TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-25T15:52:07+08:00 ] 192.168.32.127 /TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-25T15:52:16+08:00 ] 192.168.32.127 /TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-25T15:52:40+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 7  [ RunTime:0.0013s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=7 ) [ RunTime:0.0227s ]
+
+[ 2017-11-25T15:52:49+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0128s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0331s ]
+
+[ 2017-11-25T15:52:49+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0140s ]
+
+[ 2017-11-25T15:52:49+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024861s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0024s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0252s ]
+
+[ 2017-11-25T15:52:49+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026290s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0026s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0134s ]
+
+[ 2017-11-25T15:52:49+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0231s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0014s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0202s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0022s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0132s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0021s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0199s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024532s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0170s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0039s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0165s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0019s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0145s ]
+
+[ 2017-11-25T15:52:50+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0023s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0182s ]
+
+[ 2017-11-25T15:53:00+08:00 ] 192.168.32.127 /TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-25T15:53:03+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 7  [ RunTime:0.0026s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=7 ) [ RunTime:0.0167s ]
+
+[ 2017-11-25T15:53:07+08:00 ] 192.168.32.127 /TP-shop/Admin/User/save.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 2  [ RunTime:0.0028s ]
+NOTIC: [2] Illegal string offset 'id' /usr/local/apache2/htdocs/TP-shop/Shop/Admin/Controller/UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=2 ) [ RunTime:0.0252s ]
+

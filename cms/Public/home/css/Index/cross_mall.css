@@ -1,0 +1,116 @@
+html,body{
+	background-color:#fff;
+}
+/*容器*/
+.mui-content{
+	background-color: #fff;
+}
+
+/*主体*/
+main{
+	width:10rem;
+	margin:0 auto;
+}
+
+.notice{
+	text-align: center;
+	font-size:0.666666rem;
+	line-height: 175%;
+	color:#333;
+	padding: 1.333333rem 0 0 0;
+}
+
+/*首页底部内容*/
+.bottom{
+	width: 100%;
+	margin-top:50px;
+	overflow: hidden;
+}
+.past{
+	width:100%;
+	/*padding: 0 0.2rem;*/
+	margin: 0 auto;
+	background-color:#666;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom:2px;
+}
+/*第一部分*/
+.bottom .b_box{
+	width: 50%;
+	display: flex;
+	padding: 0.4rem 0;
+	padding-left: 5%;
+}
+.bottom .iconfont{
+	font-size:1.146666rem;
+	color:#fff;
+	/*margin-top:20px;*/
+	margin-top:0.25rem;
+}
+.bottom .icon-gengxin11, .bottom .icon-tubiaozhizuomoban{
+	font-size:0.933333rem;
+	margin-right: 0.133333rem;
+}
+.bottom .icon-tuandui1{
+	font-size:1.05rem;
+	
+}
+.text{
+	width: 100%;
+	margin-left: 0.266666rem;
+	float: right;
+}
+.text p:first-of-type{
+	font-size:0.453333rem;
+	line-height: initial;
+	color:#fff;
+}
+.text p:last-of-type{
+	font-size:10px;
+	transform: scale(0.7);
+	white-space: nowrap;
+	transform-origin:left;
+	line-height: initial;
+	color:#fff;
+}
+
+
+/*第二部分*/
+.past2{
+	padding: 0.266666rem 0 0.4rem 0;
+}
+.past2 p{
+	color:#fff;
+	font-size:0.373333rem;
+	text-align: center;
+	width: 100%;
+	line-height: 25px;
+}
+
+
+
+/*左侧浮动框*/
+.black{width:44px;height:40px;background-color:rgba(0,0,0,.8);position:fixed;left:20px;bottom:70px;border-radius:5px;z-index: 997;display:table;}
+.black-line{display:table-cell;vertical-align:middle;}
+.black-line>div{width:30px;height:2px;background-color:#fff;border-radius:5px;margin:0 0 6px 7px;}
+.black-line>div:last-child{margin-bottom: 0;}
+.blackul{width:186px; position:fixed;left:68px;bottom:70px;background-color:#464646;display:none;z-index: 999;padding-bottom:100px;color:#fff;font-size: 14px;}
+.big-gift{position:fixed;right:2px;bottom:44px;width:60px;z-index: 2;}
+.big-gift img{width:100%;}
+.mui-table-view-cell:after{left:0;background:#fff;}
+.black-backdrop {
+position: fixed;
+z-index: 998;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(212,212,212,.1);
+display:none;
+}
+.mui-table-view-cell:last-child:after, .mui-table-view-cell:last-child:before{height:1px;}
+.mui-navigate-right:after, .mui-push-right:after{font-size:18px;}
+.mui-navigate-right>i{padding-right:30px;font-size:20px;}
+.mui-navigate-right>i.icon-weibiaoti102,.mui-navigate-right>i.icon-liwu{font-size:18px;}
+.mui-table-view:after{height:0px;}

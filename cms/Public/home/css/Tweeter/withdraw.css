@@ -1,0 +1,168 @@
+/*loading*/
+.loading{
+    position:fixed;
+    top:0;
+    width:10rem;
+    height:100%;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    transform:translateX(-50%);
+    background-color:#fff;
+    z-index: 999;
+}
+.spinner {
+    margin: 3.6rem auto 0;
+    width: 150px;
+    text-align: center;
+}
+ 
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #03b7cc;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: #fd0202;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background-color:#7fda6d;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+
+html,body{
+	background-color:#f8f8f8;
+}
+
+/*主体*/
+main{
+	width:9.066666rem;
+	margin:0 auto;
+	background:#f8f8f8;
+	margin-top:0.466666rem;
+	background-color:#fff;
+	padding: 0.4rem 0.666666rem 0.8rem;
+	border-radius: 8px;
+	box-shadow: 0px 4px 15px #e7e7e7;
+	
+}
+.title{
+	color:#333;
+	font-size:0.346666rem;
+	line-height: initial;
+}
+.msg{
+	width: 6.533333rem;
+	margin: 0 auto;
+	margin-top:0.4rem;
+}
+.msg label{
+	color:#333;
+	font-size:0.32rem;
+}
+.msg input::-webkit-input-placeholder{color:#999;font-size:0.4rem;}
+.msg input:-moz-placeholder{color:#999;font-size:0.4rem;}
+.msg input::-moz-placeholder{color:#999;font-size:0.4rem;}
+.msg input:-ms-input-placeholder{color:#999;font-size:0.4rem;}
+
+.msg input{
+	/*margin-top:0.1rem;*/
+	font-size:0.533333rem;
+	color:#333;
+	border: none;
+	border-bottom:1px solid #ffb5ac;
+	line-height: 1.2rem;
+	height:1.2rem;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+}
+
+.title2{
+	margin-top:1rem;
+}
+.msg2{
+	position: relative;
+	width: 7.333333rem;
+}
+#money{
+	color:#333;
+	font-size:0.96rem;
+	border: 0;
+	border-bottom:1px solid #8b8b8b;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	margin: 0;
+	border-radius: 0;
+}
+.msg2 span{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0.05rem;
+	font-size:0.4rem;
+	margin-top:-0.1rem;
+}
+.notice{
+	font-size: 0.32rem;
+	color:#777;
+	margin-top:0.2rem;
+}
+.notice .all{
+	color:#ffbb3c;
+}
+.notice2{
+	text-align: center;
+}
+/*按钮*/
+.mui-btn{
+	width:7.333333rem;
+	height: 1.066666rem;
+	border-radius: 5px;
+	margin-top:1.066666rem;
+	font-size:0.4rem;
+	margin-left: 0.2rem;
+}
+.ban , .ban:active{
+	background-color:#eee!important;
+	border-color: #eee!important;
+	color:#bfbfbf!important;
+}
+
+/*mui信息框样式修改*/
+.mui-toast-container{
+	bottom:50%;
+}
+.mui-toast-message{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}

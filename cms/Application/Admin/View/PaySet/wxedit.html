@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/Public/admin/css/style.css"/>       
+        <link href="/Public/admin/assets/css/codemirror.css" rel="stylesheet">
+        <!--<link rel="stylesheet" href="/Public/admin/assets/css/ace.min.css" />-->
+        <link rel="stylesheet" href="/Public/admin/font/css/font-awesome.min.css" />
+        <!--[if lte IE 8]>
+		  <link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+		<![endif]-->
+		<script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+        <script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+		<script src="/Public/admin/assets/js/typeahead-bs2.min.js"></script>           	
+		<script src="/Public/admin/assets/js/jquery.dataTables.min.js"></script>
+		<script src="/Public/admin/assets/js/jquery.dataTables.bootstrap.js"></script>
+        <script src="/Public/admin/assets/layer/layer.js" type="text/javascript" ></script>          
+        <script src="/Public/admin/assets/laydate/laydate.js" type="text/javascript"></script>
+        <style>
+        	.custom_page_header {
+			    border-bottom-color: #d5e3ef;
+			    line-height: 28px;
+			    margin-bottom: 5px;
+			    margin-top: 10px;
+			    padding-left: 15px;
+			    padding-bottom: 4px;
+			    border-bottom: 1px solid #CCC;
+			    color: #478fca!important;
+			    font-weight: lighter;
+			    font-size: 21px;
+			    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			label{font-weight: 700;}
+        </style>
+    </head>
+    <body>
+        <form action="/index.php/Admin/PaySet/wxedit" enctype="multipart/form-data" method="post" class="form-horizontal form">
+	<div class='panel'>
+
+		<h3 class="custom_page_header"> 微信支付配置</h3>
+
+		<div class='panel-body'>
+
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">支付名称</label>
+				<div class="col-sm-9 col-xs-12">
+					微信支付(公众号&H5)</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">微信APPID：</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type="text" name="appId" class="form-control" value="{$res.WP_APPID}" />
+					<span style="color:#ccc">受理商ID，身份标识</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">微信AppSecret：</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type="text" name="secret" class="form-control" value="{$res.WP_AppSecret}" />
+					<span style="color:#ccc"></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">微信支付商户号(MchId)：</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type="text" name="mchId" class="form-control" value="{$res.WP_WXMchId}" />
+					<span style="color:#ccc"></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">通信密钥/商户支付密钥(paySignKey/api密钥)：</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type="text" name="paySignKey" class="form-control" value="{$res.WP_WXSignKey}" />
+					<span style="color:#ccc">商户支付密钥Key。审核通过后，在微信发送的邮件中查看</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">JSAPI路径设置</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type='text' class='form-control' name='jsapi_url' value="{$res.WP_JSAPIURL}" disabled="true" />
+					<span style="color:#ccc">获取access_token过程中的跳转uri，通过跳转将code传入jsapi支付页面</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">异步通知url设置</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type='text' class='form-control' name='notify_url' value="{$res.WP_NOTIFY_URL}" disabled="true" />
+					<span style="color:#ccc">异步通知url，商户根据实际开发过程设定</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">curl超时设置</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type='text' class='form-control' name='curl_timeout' value="{$res.WP_CURL_TIMEOUT}" disabled="true"/>
+					<span style="color:#ccc">以秒计算,默认为30秒</span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">SSLCERT证书</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type='text' class='form-control' name='sslcert' value="{$res.WP_SSLCERT_PATH}" disabled="true" />
+					<span><input type="file" name="sslfile" ></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">SSLKEY证书</label>
+				<div class="col-sm-9 col-xs-12">
+					<input type='text' class='form-control' name='sslkey' value="{$res.WP_SSLKEY_PATH}" disabled="true"/>
+					<span><input type="file" name="sslkeyfile" ></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">支付方式描述：</label>
+				<div class="col-sm-9 col-xs-12">
+					H5支付是指商户在微信客户端外的移动端网页展示商品或服务，用户在前述页面确认使用微信支付时，商户发起本服务呼起微信客户端进行支付。主要用于触屏版的手机浏览器请求微信支付的场景。可以方便的从外部浏览器唤起微信支付。 </div>
+			</div>
+
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label">是否在线支付</label>
+				<if condition="$res.WP_Status eq 1">
+					<div class="col-sm-9 col-xs-12">
+						<input type="radio" name="is_pay" value="0" /> 否
+						<input type="radio" name="is_pay" value="1" checked="checked"/> 是
+					</div>
+				<else />
+					<div class="col-sm-9 col-xs-12">
+						<input type="radio" name="is_pay" value="0" checked="checked"/> 否
+						<input type="radio" name="is_pay" value="1" /> 是
+					</div>
+				</if>
+			</div>
+
+			<div class="form-group">
+				<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+				<div class="col-sm-9">
+					<input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1" />
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+</form>
+    </body>
+</html>

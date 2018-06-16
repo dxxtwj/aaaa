@@ -1,0 +1,117 @@
+<script type="text/javascript">
+    //调用微信JS api 支付
+    function jsApiCall(){
+        WeixinJSBridge.invoke(
+            'getBrandWCPayRequest',
+            {$jsApiParameters},
+            function(res){
+                // WeixinJSBridge.log(res.err_msg);
+                // alert(res.err_code+res.err_desc+res.err_msg);
+                if(res.err_msg == "get_brand_wcpay_request:ok"){
+                    window.location.href="/index.php/Home/MyOrder/index/state/2";
+                    // window.location.href="/Application/Home/Mobile/Altogether/pay_success.html";
+                }
+            }
+        );
+    }
+
+    function callpay(){
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', jsApiCall); 
+                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+            }
+        }else{
+            jsApiCall();
+        }
+    }
+    </script>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <title>微信安全支付</title>
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/mui.css"/>
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/app.css" />
+        <style type="text/css">
+        body{
+            font-family:微软雅黑;
+        }
+        .mui-content{
+            text-align: center;
+            margin:13px 0 0 0;
+        }
+        .textZF{
+            display: inline-block;
+            padding:10px 0;
+        }
+        .queZF{
+            background: #1AAD19;
+            padding:12px 0;
+            display:inline-block;
+            color:#fff;
+            margin:8px 0 0 0;
+            border:none;
+            font-size:18px;
+            margin:0 12px;
+        }
+        .solid{
+            padding:15px 8px;
+            margin:15px 0;
+            background:#fff;
+        }
+        h2{
+            font-size:40px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 0;
+            margin-top:18px;
+            padding-bottom: 10px;
+        }
+        h4{
+            padding:0;
+            margin:0;
+        }
+        .mui-pull-left{
+            float:left;
+            color:#777;
+        }
+        .mui-pull-right{
+        margin-left: 80px;
+        text-align:right;
+        }
+        .mui-block{
+            text-decoration: none;
+            width:90%;
+            border-radius: 6px;
+        }
+        .mui-row2{
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            padding-top:0;
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="mui-content">
+            <div class="textZF">订单编号:{$post['WIDout_trade_no']}</div>
+            <h2>￥<span>{$post['WIDtotal_fee']}</span></h2>
+            <div class="solid mui-row">
+                <div class="mui-pull-left">收款方</div>
+                <div class="mui-pull-right">佛山市油富共享新能源有限公司</div>
+            </div>
+            <div class="solid mui-row mui-row2">
+                <div class="mui-pull-left">商品</div>
+                <div class="mui-pull-right">{$post['WIDsubject']}</div>
+            </div>
+            <a href="javascript:callpay();" class="mui-btn queZF mui-block">立即支付</a>
+        </div>
+        
+        <script type="text/javascript" src="/Public/home/js/jquery.js"></script>
+        <script src="/Public/home/js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+       
+    </body>
+</html>

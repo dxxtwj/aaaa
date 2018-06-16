@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>懒加载</title>
+	<script src='__PUBLIC__/jquery-2.1.4/jquery.min.js'></script>
+
+	<script>
+		window.onload = function () {
+
+			// 找对象 div1
+			var div = $('#div1');
+
+			// 发起scroll 事件
+			$(window).scroll(function() {
+
+				// 获取滚动条的高度
+				var i = $(window).scrollTop();
+
+				// 转换整数
+				var floor = Math.floor(i);
+				
+				// 获取相片路径
+				var upload = '__ROOT__/Image/Goods/';
+				console.log(floor);
+				$.ajax({
+
+					// 异步处理
+					async: true,
+
+					// 传排数
+					data: 'pai=0',
+
+					// 类型
+					type: 'get',
+
+					// url
+					url: "{:U('Ceshi/lanjiazai')}",
+
+					// 返回数据
+					success: function(msg) {
+						for (var i = 0; i < 3; i++) {
+							// 选中所有的div1
+							var div1 = $('#div1').siblings();
+
+							// 获取照片的绝对路径
+							var lujing = upload + msg[i].name;
+
+							// $(div1[i]).append("<img width='500px' height='500px' src=" + lujing + "></img>");
+							if (floor >= 200) {
+								// 第一排
+								$.get("{:U('Ceshi/lanjiazai')}", {pai: '0'}, function(data) {
+									console.log(data[0]);
+								});								
+							}
+
+						}
+					}
+
+				});
+			});
+			// 发起ajax
+				// ajax请求数据
+				// 添加节点
+
+
+
+		}
+
+	</script>
+</head>
+<body>
+	<div>
+	<foreach name='arr' item='val'>
+		<div id="div1" style='width: 500px; height: 500px; float: left; margin: 800px 0px 0px 15px; background-color: red;'>
+		</div>
+	</foreach>
+	</div>
+</body>
+</html>
+<!-- <img src="" alt="" style='width: 500px; height: 500px;'> -->

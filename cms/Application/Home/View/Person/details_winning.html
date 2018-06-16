@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>中奖详情</title>
+
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+
+    <!--加载阿里flexible库-->
+
+    <script src="/Public/home/js/lib/flexible.js"></script>
+
+    <!--<link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">-->
+
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+
+	<link rel="stylesheet" href="/Public/home/css/Person/details_winning.css">
+
+	<!-- 引用阿里矢量图标库 -->
+
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_444972_n8cp5hqu1swi2j4i.css">
+
+    <script type="text/javascript">
+
+        var oy_info_json = '{$oy_info_json}';
+
+        var result_json = '{$result_json}';
+
+    </script>
+
+</head>
+
+
+
+<body>
+
+     <header class="mui-bar mui-bar-nav">
+
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+
+        <h1 class="mui-title">中奖详情</h1>
+
+    </header> 
+
+    <!-- 外部容器开始 -->
+
+    <div class="mui-content" id="control">
+
+		<!--loading-->
+        <div class="loading">
+            <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+            </div>
+        </div>
+		
+    	<main>
+
+    		<ul class="list">
+
+    			<li>
+                    <a :href="winningMes.href">
+    				<div class="list_box list_box2">
+                        
+    					<div class="img">
+
+    						<img :src="winningMes.img">
+
+    					</div>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<div class="goods_msg">
+
+	    					<p v-text="winningMes.title"></p>
+
+	    					<p class="price"><span>幸运价：</span>&yen;<span v-text="winningMes.price"></span></p>
+
+	    				</div>
+
+    				</div>
+                    </a>
+    				<div class="list_box">
+
+    					<p class="caption">参与时间</p>
+
+    					<p class="text"><span v-text="winningMes.join_date"></span></p>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<p class="caption">参与期数</p>
+
+    					<p class="text" v-text="winningMes.periods"></p>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<p class="caption">抽奖序号</p>
+
+    					<p class="text" v-text="winningMes.orderNum"></p>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<p class="caption">状态</p>
+
+    					<p class="text" v-text="winningMes.status" ></p>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<p class="caption">开奖时间</p>
+
+    					<p class="text"><span v-text="winningMes.open_date"></p>
+
+    				</div>
+
+    				<div class="list_box">
+
+    					<p class="caption">中奖号码</p>
+
+    					<p class="text" v-text="winningMes.num"></p>
+
+    				</div>
+
+    				<div class="list_box list_box3" style="flex-wrap:wrap">
+
+    					<p class="caption">收货人：<span v-text="winningMes.name"></span></p>
+
+    					<p class="text" v-text="winningMes.tel"></p>
+
+    					<div class="loc" v-text="winningMes.loc"></div>
+
+    				</div>
+
+    				<div class="list_box">
+
+                        <p class="caption nine" :class="{nine_pass:winningMes.nineStatus == '3' || winningMes.nineStatus == '0'}" >
+                            <span v-if="winningMes.tobuy=='0'">已失效</span>
+                            <span v-if="winningMes.nineStatus=='3'">已9折支付</span>
+
+                            <span class="nine_pass" v-if="winningMes.nineStatus=='0'">已超过24小时期限</span>
+                            
+                            <span v-if="winningMes.orderState=='1' && (winningMes.orderState=='3' || winningMes.isninebuy=='1')" class="plan">商家正在为您安排发货！<span>
+
+                            <!-- <span v-if="winningMes.tobuy=='0'">已失效</span> -->
+
+                        </p>
+
+                        <p class="text" >
+
+                            <!-- <button type="button" class="mui-btn btn-gray"  @click="check(winningMes.id)">查看详情</button> -->
+
+                            <!-- <button type="button" class="btn_invalid" v-if="winningMes.tobuy=='1'">去付款</button> -->
+
+                            <button type="button" class="mui-btn btn-red mui-btn-danger" v-if="winningMes.tobuy=='1'" @click="buy(winningMes.id)">去付款</button>
+
+                            <button type="button" class="mui-btn btn-red mui-btn-danger" @click="ninebuy(winningMes.id)" v-if="winningMes.nineStatus == '1'">9折购买</button>
+
+                            <button type="button" class="mui-btn btn-red mui-btn-danger" v-if="winningMes.orderState=='2'" @click="confirmOrder(winningMes.id)">确认收货</button>
+
+                            <button type="button" class="mui-btn btn-red mui-btn-danger" @click="comment(winningMes.id)" v-if="winningMes.share == '1'">我要晒单</button>
+
+                            <button type="button" class="mui-btn mui-btn-default is_show" v-if="winningMes.share == '2'">已晒单</button>
+
+                            <!-- <button type="button" class="btn_invalid" v-if="winningMes.status=='未中奖' && winningMes.nineStatus==1 && timeArry[index]">9折购买</button> -->
+
+                        </p>
+
+                    </div>
+
+    			</li>
+
+    		</ul>
+
+    		
+
+    		
+
+    		<div class="logistics" v-if="winningMes.goods_status == 2">
+
+    			<p>物流跟踪</p>
+
+    		</div>
+
+    		<div class="logistics_main">
+
+    			<ul class="address">
+
+    				<li v-for="add in addMes">
+
+    					<p class="title" v-text="add.title"></p>
+
+			 			<p v-text="add.time"></p>
+
+    				</li>
+
+    				<!--<li>
+
+    					<p class="title">【佛山】桂城分局派件员正在为您派件</p>
+
+			 			<p>2016-09-05 11:52:13</p>
+
+    				</li>
+
+    				<li>				                    
+
+			 			<p class="title">[广东广州天河区石牌公司壬丰德欣便利店分部]进行派件扫描；派送业务员：李文曾；联系电话：18620862890</p>
+
+			 			<p>2016-10-09 14:13:40</p>				                
+
+			 		</li>-->
+
+    			</ul>
+
+    			
+
+    		</div>
+
+    		<p class="no_notice">暂时无物流信息</p>
+
+    		
+
+        </main>
+
+    </div>
+
+    <!-- 外部容器结束 -->
+
+</body>
+
+
+
+    <script src="/Public/home/js/lib/vue.js"></script>
+
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+
+    <!--<script src="/Public/home/js/lib/footer.js"></script>-->
+
+    <!-- Swiper JS -->
+
+    <!--<script src="/Public/home/js/lib/swiper.jquery.min.js"></script>-->
+
+    <!-- 主要JS -->
+
+    <script type="text/javascript" src="/Public/home/js/Person/details_winning.js"></script>
+
+</html>
+

@@ -1,0 +1,97 @@
+[ 2017-11-30T00:10:31+08:00 ] 192.168.32.109 /abc/Admin/Huishouzhan/del.html?id=743
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0343s ]
+SQL: DELETE FROM `shop_goods` WHERE `id` = 743 [ RunTime:0.0211s ]
+
+[ 2017-11-30T00:49:33+08:00 ] 192.168.32.109 /abc/Admin/Brand/scan.html
+ERR: 非法操作:scan
+
+[ 2017-11-30T00:49:52+08:00 ] 192.168.32.109 /abc/Admin/Brand/scan.html
+ERR: 非法操作:scan
+
+[ 2017-11-30T00:50:18+08:00 ] 192.168.32.109 /abc/Admin/Brand/scan.html
+ERR: 非法操作:scan
+
+[ 2017-11-30T00:50:24+08:00 ] 192.168.32.109 /abc/Admin/Brand/scan.html
+ERR: 非法操作:scan
+
+[ 2017-11-30T00:50:45+08:00 ] 192.168.32.109 /abc/Admin/Brand/scan.html
+ERR: 非法操作:scan
+
+[ 2017-11-30T08:31:47+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=154&wlname=3&wlid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2017-11-30T08:31:52+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=154&wlname=2&wlid=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `shop_order` WHERE `id` = 154  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `shop_order`  [ RunTime:0.0033s ]
+SQL: UPDATE `shop_order` SET `state`='3',`wlname`='2',`wlid`='123' WHERE `id` = 154 [ RunTime:0.0218s ]
+
+[ 2017-11-30T08:35:43+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=155&wlname=3&wlid=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `shop_order` WHERE `id` = 155  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_order`  [ RunTime:0.0043s ]
+SQL: UPDATE `shop_order` SET `state`='3',`cuidan`='2',`wlname`='3',`wlid`='123' WHERE `id` = 155 [ RunTime:0.0248s ]
+
+[ 2017-11-30T09:07:10+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=154&wlname=3&wlid=234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `shop_order` WHERE `id` = 154  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `shop_order`  [ RunTime:0.0038s ]
+SQL: UPDATE `shop_order` SET `state`='3',`cuidan`='2',`wlname`='3',`wlid`='234' WHERE `id` = 154 [ RunTime:0.0322s ]
+
+[ 2017-11-30T20:50:24+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=166&wlname=4&wlid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0036s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+
+[ 2017-11-30T20:50:29+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=166&wlname=4&wlid=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0054s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `shop_order` WHERE `id` = 166  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_order`  [ RunTime:0.0019s ]
+SQL: UPDATE `shop_order` SET `state`='3',`wlname`='4',`wlid`='123' WHERE `id` = 166 [ RunTime:0.0188s ]
+
+[ 2017-11-30T20:55:06+08:00 ] 192.168.32.109 /abc/Admin/Order/save.html?id=167&wlname=2&wlid=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0053s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /usr/local/apache2/htdocs/abc/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `shop_order` WHERE `id` = 167  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `shop_order`  [ RunTime:0.0029s ]
+SQL: UPDATE `shop_order` SET `state`='3',`wlname`='2',`wlid`='23' WHERE `id` = 167 [ RunTime:0.0213s ]
+

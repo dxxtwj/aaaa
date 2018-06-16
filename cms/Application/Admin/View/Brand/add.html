@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加品牌</title>
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/Public/admin/css/style.css"/>       
+	<!-- <link rel="stylesheet" href="/Public/admin/assets/css/ace.min.css" /> -->
+	<link rel="stylesheet" href="/Public/admin/assets/css/font-awesome.min.css" />
+	<link href="/Public/admin/Widget/icheck/icheck.css" rel="stylesheet" type="text/css" />
+
+
+	<!-- 图片上传 -->
+
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/font-awesome.min.css"> 
+    <!-- <link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/demo.css">
+    <style type="text/css">
+    	.modal-dialog{left:0;}
+    </style>
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="/Public/admin/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+        <!--[if lte IE 8]>
+		  <link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+		<![endif]-->
+	    <script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+        <script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+        <script src="/Public/admin/assets/js/typeahead-bs2.min.js"></script>
+</head>
+
+<body>
+<div class=" clearfix">
+<form action="" method="post" enctype="multipart/form-data">
+	<div id="add_brand" class="clearfix">
+			<div class="title_name">添加品牌</div>
+				<ul class="add_conent">
+					<input type="hidden" name="bid" value="{$res.BR_ID}">
+					<input type="hidden" name="type" id="uploadType" value="brand">
+					<li class=" clearfix"><label class="label_name"><i>*</i>品牌名称：</label> <input name="name" type="text" class="add_text" value="{$res.BR_Name}"/></li>
+					<li class=" clearfix"><label class="label_name"><i>*</i>品牌序号：</label> <input name="sort" type="text" class="add_text" value="{$res.BR_Sort}" style="width:80px"/></li>
+
+					<li class=" clearfix">
+						<label class="label_name"><i>*</i>上传图片：</label>
+						<button name="image" type="button"  data-toggle="modal" data-target="#myModal" class="btn btn-xs btn-success choose_photo" multiple='0'  showContainer=".img_container" uploadType="brand">选择上传图片</button>
+						<br/>
+						<br/>
+						<div class="img_container">
+							<input type="hidden" name="path" class="path" value="{$res.BR_IMG}" />
+							<if condition="$res.BR_IMG neq ''">
+							<img width="100px;" src="{$res.BR_IMG}"/>
+							</if>
+						</div>
+					</li>
+
+					<li class=" clearfix"><label class="label_name"><i>*</i>显示状态：</label> 
+						<if condition="$res.BR_Is_Show eq 1 or $res.BR_Is_Show eq ''">
+							<label><input name="isShow" type="radio" class="ace" value="1" checked="checked"><span class="lbl">显示</span></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<label><input name="isShow" type="radio" class="ace" value="0"><span class="lbl">不显示</span></label>
+						<elseif condition="$res.BR_Is_Show eq 0"/>
+							<label><input name="isShow" type="radio" class="ace" value="1"><span class="lbl">显示</span></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<label><input name="isShow" type="radio" class="ace" value="0" checked="checked"><span class="lbl">不显示</span></label>
+						</if>
+					</li>
+				</ul>
+		 	</div>
+			
+	<div class="button_brand"><input name="" type="submit"  class="btn btn-warning" value="保存"/><input name="" type="reset" value="取消" class="btn btn-warning"/></div>
+</form>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;
+            </button>
+
+				<ul class="nav nav-pills" role="tablist">
+					<li id="li_upload" class="active" role="presentation">
+						<a href="#upload" aria-controls="upload" role="tab" data-toggle="tab">上传图片</a>
+					</li>
+					<li id="li_network" class="" role="presentation">
+						<a href="#network" aria-controls="network" role="tab" data-toggle="tab">提取网络图片</a>
+					</li>
+					<li id="li_history_image" class="" role="presentation">
+						<a href="#history_image" aria-controls="history_image" role="tab" data-toggle="tab">浏览图片</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="modal-body modal-body-more">
+
+				<!-- 上传图片 -->
+				<div class="showUploader">
+					<div id="uploader" class="wu-example">
+						<div class="queueList">
+							<div id="dndArea" class="placeholder">
+								<div id="filePicker"></div>
+								<p>或将照片拖到这里</p>
+							</div>
+						</div>
+						<div class="statusBar" style="display:none;">
+							<div class="progress">
+								<span class="text">0%</span>
+								<span class="percentage"></span>
+							</div>
+							<div class="info"></div>
+							<div class="btns">
+								<div id="filePicker2"></div>
+								<div class="uploadBtn">开始上传</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary yes">
+	                    确认
+	                </button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消
+	                </button>
+					</div>
+				</div>
+
+				<!-- 提取网络图片 -->
+				<div class="get_url_photo" style="display:none;">
+					<form>
+						<div class="form-group">
+							<input type="url" class="form-control" id="networkurl" placeholder="请输入网络图片地址">
+							<input type="hidden" name="network_attachment" value="">
+							<div id="network-img" class="network-img">
+								<span class="network-img-sizeinfo" id="network-img-sizeinfo"></span>
+							</div>
+						</div>
+					</form>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary yes">
+	                    确认
+	                </button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消
+	                </button>
+					</div>
+				</div>
+
+				<!-- 浏览图片 -->
+				<div class="showphoto" style="display:none;">
+					<div id="select">
+						<div id="select-year" style="margin-bottom:10px;">
+							<div class="btn-group">
+								<a href="javascript:;" data-id="0" data-type="year" class="btn btn-default btn-info btn-select">不限</a>
+								<a href="javascript:;" data-id="" data-type="year" class="btn btn-default btn-select">年</a>
+								<a href="javascript:;" data-id="" data-type="year" class="btn btn-default btn-select">年</a>
+								<a href="javascript:;" data-id="" data-type="year" class="btn btn-default btn-select">年</a>
+								<a href="javascript:;" data-id="" data-type="year" class="btn btn-default btn-select">年</a>
+							</div>
+						</div>
+						<div id="select-month">
+							<div class="btn-group">
+								<a href="javascript:;" data-id="0" data-type="month" class="btn btn-default btn-info btn-select">不限</a>
+								<a href="javascript:;" data-id="1" data-type="month" class="btn btn-default btn-select">1</a>
+								<a href="javascript:;" data-id="2" data-type="month" class="btn btn-default btn-select">2</a>
+								<a href="javascript:;" data-id="3" data-type="month" class="btn btn-default btn-select">3</a>
+								<a href="javascript:;" data-id="4" data-type="month" class="btn btn-default btn-select">4</a>
+								<a href="javascript:;" data-id="5" data-type="month" class="btn btn-default btn-select">5</a>
+								<a href="javascript:;" data-id="6" data-type="month" class="btn btn-default btn-select">6</a>
+								<a href="javascript:;" data-id="7" data-type="month" class="btn btn-default btn-select">7</a>
+								<a href="javascript:;" data-id="8" data-type="month" class="btn btn-default btn-select">8</a>
+								<a href="javascript:;" data-id="9" data-type="month" class="btn btn-default btn-select">9</a>
+								<a href="javascript:;" data-id="10" data-type="month" class="btn btn-default btn-select">10</a>
+								<a href="javascript:;" data-id="11" data-type="month" class="btn btn-default btn-select">11</a>
+								<a href="javascript:;" data-id="12" data-type="month" class="btn btn-default btn-select">12</a>
+							</div>
+						</div>
+					</div>
+
+					<!--图片显示开始-->
+
+					<div role="tabpanel" class="tab-pane history active" id="history_image">
+						<div class="history-content" style="height: 310px; text-align: center;">
+							<ul class="img-list clearfix" style="list-style: none;margin:0;padding:0;">
+
+								<li class="img-item img-item-selected" attachid="565" title="">
+									<div class="img-container" style="background-image: url('/Public/admin/assets/webuploader/images/apple.png');">
+										<div class="select-status"><span></span></div>
+									</div>
+									<div class="btnClose" data-id="565">
+										<a href="#"><i class="fa fa-times"></i></a>
+									</div>
+								</li>
+
+								<li class="img-item" attachid="565" title="">
+									<div class="img-container" style="background-image: url('/Public/admin/assets/webuploader/images/bg.png');">
+										<div class="select-status"><span></span></div>
+									</div>
+									<div class="btnClose" data-id="565">
+										<a href="#"><i class="fa fa-times"></i></a>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<div style="float: left;">
+								<nav id="image-list-pager">
+									<div id="myPage" style="text-align: center;" pagination="pagination_new" pagenumber="1" totalpage="15" paginationMaxLength="5" onlyOnePageIsShow="false"></div>
+								</nav>
+							</div>
+							<div style="float: right;">
+								<button type="button" class="btn btn-primary showphoto_yes" data-dismiss="modal">确认</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+							</div>
+						</div>
+						<!--图片显示结束-->
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal -->
+</div>
+
+
+
+
+</body>
+</html>
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="/Public/admin/assets/webuploader/js/pagination.js"></script>
+<script type="text/javascript" src="/Public/admin/assets/webuploader/js/webuploader.js"></script>
+<script type="text/javascript" src="/Public/admin/assets/webuploader/js/myupload.js"></script>
+
+<!-- <script type="text/javascript" src="/Public/admin/assets/webuploader/js/demo.js"></script> -->
+

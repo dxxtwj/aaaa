@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+    <link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Goods/goods_detail.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_444972_dzvs1cxvu72mlsor.css">
+    <script type="text/javascript">
+        var gr_info_json = '{$gr_info_json}';
+        var fo_info_json = '{$fo_info_json}';
+        var format_json = '{$format_json}';
+    </script>
+</head>
+
+<body>
+    <!--loading-->
+        <div class="loading">
+                <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+        </div>
+
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">商品详情</h1>
+	</header>
+
+    <div class="mui-content">
+        <!-- 轮播图 -->
+        <div class="banner">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" v-for="item in imgPh"><img :src="item.img" alt="" /></div>
+                    <!-- <div class="swiper-slide"><img src="/Public/home/images/banner.png" alt="" /></div>
+                    <div class="swiper-slide"><img src="/Public/home/images/banner.png" alt="" /></div> -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 轮播结束 -->
+
+        <main class="details-main">
+            <!-- 商品信息 -->
+            <div class="mes">
+                <p v-text="detailMes.mes"></p>
+                <p class="mes-nextp"><span>&#165;<span v-text="detailMes.price"></span> </span></p>
+            </div>
+            <ul class="mes_p">
+                <li><div>库存：<span v-text="detailMes.inventory"></span>{{detailMes.unit}}</div> <div>销量:<span v-text="detailMes.sale"></span>{{detailMes.unit}}</div></li>
+                <li><div>逛客推广利润：&yen;<span v-text="detailMes.gcus"></span></div> </li>
+                <li><div>创客推广利润：&yen;<span v-text="detailMes.ccus"></span></div> <div>创客消费利润：&yen;<span v-text="detailMes.cpay"></span></div></li>
+            </ul>
+            
+            <!--选项卡-->
+            <ul class="tab-choose">
+                <li><a href="javascript:;" class="first-a" @click="oaClick">商品详情</a></li>
+                <li><a href="javascript:;" @click="taClick">商品参数</a></li>
+                <div class="line"></div>
+            </ul>
+            <!--商品详情-->
+            <div class="goodsDetail" v-show="isShow">
+                <div v-html="detailMes.content"></div>
+            </div>
+
+            <!--产品参数-->
+            <div class="product" v-show="!isShow">
+
+                <table class="product_table">
+                    <tr v-for="item in ProductArr">
+                        <td v-text="item.brand"></td>
+                        <td v-text="item.info"></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- 规格项 -->
+                    <div class="specification mfixed">
+                            <div class="specification-img">
+                                <img :src="detailMes.smallImg" alt="" />
+                            </div>
+                            <div class="specification-mes">
+                                <p v-text="detailMes.mes"></p>
+                                <p>&#165;{{detailMes.price}}<span>库存：<q v-text="detailMes.inventory"></q></span></p>
+                            </div>
+                            <!--关闭按钮-->
+                            <i class="iconfont icon-guanbi" @click="close"></i>
+                            <div class="pline"></div>
+                            <!-- start -->
+                            <div class="specification-main">
+                               <!--选择-->
+                                <ul class="specification-choose" v-for="(item,index) in oChoose" v-show="isChoose">
+                                    <li v-text="item.key"></li>
+                                    <li>
+                                        <ul class="specification-choose-ul">
+                                            <li v-for="(sitem,subIndex) in item.value" v-text="sitem.key" @click="chooseClick(index,subIndex)"></li>
+                                        </ul>
+                                    </li>
+                                
+                                </ul>
+                                
+                                <div class="specification-num">
+                                    <p>购买数量</p>
+                                    <div>
+                                        <button type="button" class="mui-btn" @click="reduceNum">-</button>
+                                        <div class="num" v-text="specificationNum"></div>
+                                        <button type="button" class="mui-btn" @click="addNum">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specification-footer mfixed">
+                                <button type="button" class="mui-btn btn-red mui-btn-danger" @click="mconfirm">确定</button>
+                            </div>
+                            <!-- end -->
+                        </div>
+
+
+        </main>
+		
+        <!-- 脚部 -->
+        <footer class="mfixed">
+            <ul>
+                <li class="footer-first">
+                    <a href="#">
+                        <div><i class="iconfont icon-dian"></i></div>
+                        <p>进店</p>
+                    </a>
+                </li>
+                <li>
+                    <button type="button" class="mui-btn btn-orange mui-btn-warning" @click="joinCar">
+                    加入购物车
+                </button>
+                </li>
+                <li>
+                    <button type="button" class="mui-btn btn-red mui-btn-danger" @click="buy">
+                    立即购买
+                </button>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+    <script src="/Public/home/js/lib/vue.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="/Public/home/js/lib/swiper.jquery.min.js"></script>
+    <!-- 主要JS -->
+    <!-- <script type="text/javascript" src="/Public/home/js/Goods/goods_detail.js"></script> -->
+    <script type="text/javascript">
+        var gr_info = JSON.parse(gr_info_json);
+var fo_info = JSON.parse(fo_info_json);
+var format = JSON.parse(format_json);
+// console.log(fo_info);
+
+Function.prototype.method=function(name,fun){
+    if(!this.prototype[name])
+        this.prototype[name]=fun;
+}
+
+String.method('deentityify',function(){
+    var entity={
+        quot:'"',
+        lt:'<',
+        gt:'>'
+    }
+    return function(){
+        return this.replace(/&([^&;]+);/g,function(a,b){
+            var ret=entity[b];
+            return typeof ret==='string'?ret:a
+        })
+    }
+}());
+if(gr_info['content']!=null && gr_info['content']!= ''){ //商品详情
+    gr_info['content'] = gr_info['content'].deentityify();
+}
+// else{
+//     $(".goodsDetail").append('<div style="width:100%;margin:0 auto;background:transparent;color:#777;text-align:center;font-size:16px;padding-top:1.2rem;"><i class="iconfont icon-shuju" style="color:#DEDEDE;font-size:1.733333rem;"></i><p style="color:#777;line-height:32px;font-size:16px;">暂时无数据</p></div>');
+// }
+var fo_id = 0;
+if(gr_info['GR_Is_Options'] == 0){ 
+    fo_id = 0;
+}else if(gr_info['GR_Is_Options'] == 1){
+    fo_id = fo_info[0]['FO_ID'];
+}
+var vm = new Vue({
+    el:".mui-content",
+    data:{
+        imgPh:[],
+        isShow:true, //切换显示商品详情，商品参数
+        //详情页信息对象
+        detailMes:{},
+        ProductArr:[], //商品参数
+        oChoose:[], //规格项
+        mask:mui.createMask(function(){
+
+                $(".specification").animate({"bottom":"-100%"},300,function(){
+                    $(".specification").hide();
+                });
+                // 取消禁止滑动
+                $('body').css({'position':'fixed','top':0,'left':0,'right':0,'bottom':0,'margin':'auto'});
+                $('body').css('position','');
+                $(document).scrollTop(vm.oTop);}),//callback为用户点击蒙版时自动执行的回调；
+        //购买数量
+        specificationNum:'1',
+        isChoose:true, //有无规格标志
+        //规格参数
+        chooseN:[],
+        chooseFinal:'',//选定的参数
+        oTop:0, //禁止滑动标志,
+        isBool:{"bool":false,"tar":0} //bool属性值说明：确定购买、加入购物车标志  tar属性值说明： 0=》不能 2=》加入购物车 1=》立即购买
+    },
+    methods:{
+        // 初始化
+        init:function(){
+            if(gr_info['is_join'] == 0){//如果是大礼包，禁止购物车按钮
+              $(".btn-orange").hide();
+              $("footer .btn-red").css({"width":"7.6rem","margin-left":"-3.8rem"});
+            }
+            // 轮播图片
+            // var imgPh = [{"img":"/Public/home/images/banner.png"},{"img":"/Public/home/images/banner.png"},{"img":"/Public/home/images/banner.png"}];
+            $('.loading').remove();
+            var imgPh = new Array();
+            for (var i = 0; i < gr_info['banner_img'].length; i++) {
+                imgPh.push({"img":gr_info['banner_img'][i]});
+            }
+
+            vm.imgPh = imgPh;
+            setTimeout(function(){
+                vm.myScroll();
+            },10);
+            var smallImg = '';
+            if(fo_info!=null){
+                smallImg = fo_info[0]['FO_IMG'];
+            }else{
+                smallImg = gr_info['GR_IMG'];
+            }
+            var detailMes = {
+                "gid":gr_info['GR_ID'],
+                "mes":gr_info['GR_Name'],
+                "price":gr_info['GR_Price'], 
+                "inventory":gr_info['GR_Stock'],//库存
+                "unit":gr_info['GR_Unit'],//单位
+                "sale":gr_info['GR_Sale'], //销量
+                "content":gr_info['content'], //描述
+                "gcus":gr_info['gk_son_point'],//逛客推广利润
+                "ccus":gr_info['ck_self_point'],//创客推广利润
+                "cpay":gr_info['ck_son_point'],//创客消费利润
+                "img":"/Public/home/images/banner.png", //商品详情图片
+                "smallImg":smallImg,
+                "fo_id":fo_id,
+                "is_join":gr_info['is_join'],
+            }; //商品规格小图片
+            document.title = detailMes.mes;//设置标题
+            vm.detailMes = detailMes;
+            //商品参数信息数组
+            // var ProductArr = [{"brand":"品牌","info":"粉墨东西pinko"},{"brand":"货号","info":"L7"},{"brand":"年份季节","info":"2017春季"},{"brand":"颜色分类","info":"蓝色"},{"brand":"尺码","info":"均码"},{"brand":"厚薄","info":"加厚"}];
+            var ProductArr = new Array();
+            if(gr_info['GR_Parameter'] != "" && gr_info['GR_Parameter'] != null){
+
+                for(var i in gr_info['GR_Parameter']){
+                    ProductArr.push({'brand':gr_info['GR_Parameter'][i]['key'],"info":gr_info['GR_Parameter'][i]['value']});
+                }
+                vm.ProductArr = ProductArr;
+            }
+            // else{
+            //     $(".product").append('<div style="width:100%;margin:0 auto;background:transparent;color:#777;text-align:center;font-size:16px;padding-top:1rem;"><i class="iconfont icon-shuju" style="color:#DEDEDE;font-size:1.733333rem;"></i><p style="color:#777;line-height:32px;font-size:16px;">暂时无数据</p></div>');
+            // }
+
+            // 规格项 有
+            // var oChoose = [{"key":"规格","value":[{"key":"10kg"},{"key":"15kg"},{"key":"20kg"}]},{"key":"颜色","value":[{"key":"胭脂红"},{"key":"富士红"}]}];
+            var oChoose = new Array();
+            for(var i in format){
+                var opt = new Array();
+                for(var j in format[i]['option']){
+                    opt.push({"key":format[i]['option'][j]['OR_Name']});
+                }
+                oChoose.push({"key":format[i]['FR_Name'],"value":opt});
+            }
+
+            vm.oChoose = oChoose;
+
+            // 无规格
+            if(gr_info['GR_Is_Options'] == 0){ 
+                vm.isChoose = false;
+            }else if(gr_info['GR_Is_Options'] == 1){
+                vm.isChoose = true;
+            }
+            
+
+            //初始化规格数组
+            var chooseN = new Array(oChoose.length);
+            var chooseOpt_name = new Array(oChoose.length); 
+            
+            for(var i=0;i<chooseN.length;i++){
+                chooseN[i] = '';
+                chooseOpt_name[i] = '';
+
+            }
+            vm.chooseN = chooseN;
+            vm.chooseOpt_name = chooseOpt_name;
+        },
+
+        // 轮播事件
+        myScroll:function(){
+          // Swiper控制轮播
+            try{
+                var swiper = new Swiper('.swiper-container', {
+                    autoplay: 3000, //每隔三秒自动轮播
+                    pagination: '.swiper-pagination',
+                    slidesPerView: 1,
+                    paginationClickable: true,
+                    // spaceBetween: 0, //轮播图片的外边距
+                    loop: true,//true就为无限轮播
+                    autoplayDisableOnInteraction : false, //自动手动一起
+                //  direction: 'vertical' //轮播方向
+                    
+            });
+            }catch(e){
+
+            }
+        },
+        oaClick:function(e){ //点击商品详情
+            this.isShow = true;
+            $('.tab-choose a').css({"border-color":"transparent","color":"#777"});
+            $(e.target).css({"border-color":"#db1a1a","color":"#db1a1a"});
+        },
+        taClick:function(e){ //点击商品参数
+            this.isShow = false;
+            $('.tab-choose a').css({"border-color":"transparent","color":"#777"});
+            $(e.target).css({"border-color":"#db1a1a","color":"#db1a1a"});
+        },
+        joinCar:function(){ //加入购物车
+            this.isBool.tar = 2; 
+            //禁止滑动
+            this.oTop = $(document).scrollTop();
+            $('body').css({'position':'fixed','top':'-'+vm.oTop+ 'px','left':0,'right':0,'bottom':0,'margin':'auto'});
+
+            $(".specification").show()
+            .animate({"bottom":0},300);
+            this.mask.show();//显示遮罩
+        },
+        buy:function(){ //立即购买
+            this.isBool.tar = 1; 
+            //禁止滑动
+            this.oTop = $(document).scrollTop();
+            $('body').css({'position':'fixed','top':'-'+vm.oTop+ 'px','left':0,'right':0,'bottom':0,'margin':'auto'});
+
+            $(".specification").show()
+            .animate({"bottom":0},300);
+            this.mask.show();//显示遮罩
+        },
+        // 关闭规格
+        close:function(){
+            $(".specification").animate({"bottom":"-100%"},300,function(){
+               $(".specification").hide(); 
+            });
+            this.mask.close();//隐藏遮罩
+            //取消禁止滑动
+                $('body').css({'position':'fixed','top':0,'left':0,'right':0,'bottom':0,'margin':'auto'});
+                $('body').css('position','');
+                $(document).scrollTop(vm.oTop);
+        },
+        //选择规格确定
+        chooseClick:function(e,e2){
+            var $that = $('.specification-choose-ul').eq(e).children();
+            this.chooseN[e] = '"'+$that.eq(e2).text()+'" ';
+            this.chooseOpt_name[e] = $that.eq(e2).text();
+            $that.css({"border-color":"#ccc","color":"#333"});           
+            $that.eq(e2)
+            .css({"border-color":"#ff5000","color":"#ff5000"});
+            
+            var yunStr='';
+            var getChooseFO = '';
+            for(var i=0;i<this.chooseN.length;i++){
+                yunStr += this.chooseN[i];
+                if(this.chooseOpt_name[i]!=null){
+                    if(i == 0){
+                        getChooseFO += this.chooseOpt_name[i];
+                    }else{
+                        getChooseFO += "@#"+this.chooseOpt_name[i];
+                    }
+                }
+            }
+            
+            this.chooseFinal = yunStr;
+            
+            //确定规格选择完成进行Ajax查询价格
+            // console.log(this.chooseN.length)
+            for(var i=0;i<this.chooseN.length;i++){
+                var flag = true;
+                if(this.chooseN[i] == ''){
+                    flag = false;
+                    // console.log(flag);
+                    break;
+                }
+                
+            }
+            // console.log(getChooseFO);
+            if(flag){ //此时可以进行Ajax
+                // console.log(flag);
+                // alert("此时可以进行Ajax")
+                this.isBool.bool = true;
+                //改变小图片链接
+                // console.log(vm.detailMes.smallImg);
+                // console.log(vm.chooseFinal);
+                for(var i in fo_info){
+                    if(getChooseFO == fo_info[i]['FO_Name']){
+                        vm.detailMes.smallImg = fo_info[i]['FO_IMG'];
+                        vm.detailMes.price = fo_info[i]['FO_Price'];
+                        vm.detailMes.inventory = fo_info[i]['FO_Stock'];
+                        vm.detailMes.fo_id = fo_info[i]['FO_ID'];
+                        vm.detailMes.gcus = fo_info[i]['gk_son_point'];//逛客推广利润
+                        vm.detailMes.ccus = fo_info[i]['ck_self_point'];//创客推广利润
+                        vm.detailMes.cpay = fo_info[i]['ck_son_point'];//创客消费利润
+                        // console.log(vm.detailMes.fo_id);
+                    }
+                }
+            }
+            
+        },
+        //添加购买数量
+        addNum:function(){
+            this.specificationNum++;
+        },
+        //减少购买数量
+        reduceNum:function(){
+            if(this.specificationNum <= 1){
+                mui.toast('不能再减少了哦！',{ duration:'short', type:'div' }); 
+                return false;
+            }
+            this.specificationNum--;
+        },
+        // 确定购买、加入购物车
+        mconfirm:function(){
+            if(this.isBool.bool || !this.isChoose){
+            //     switch(this.isBool.tar){
+            //         case 1: //立即购买
+            //         // alert("立即购买");
+            //         // console.log(fo_id:vm.detailMes.fo_id,gid:vm.detailMes.gid,"规格参数"+vm.chooseFinal,"购买数量："+vm.specificationNum);
+            //         $.ajax({
+            //             url:'/index.php/Home/User/BuyNowSetSession',
+            //             type:'post',
+            //             data:{fo_id:vm.detailMes.fo_id,gid:vm.detailMes.gid,number:vm.specificationNum},
+            //             success:function(data){
+            //                 if(data['state'] == 1){
+            //                     window.location.href = "/index.php/Home/Order/confirm_order";
+            //                 }else if(data['state'] == -2){
+            //                     mui.alert(data['mes'],function(){
+            //                         window.location.href=data['url'];
+            //                     }); 
+            //                 }else{
+            //                     mui.alert(data['mes']);
+            //                 }
+            //             }
+            //         })
+            //         break;
+            //         case 2: //加入购物车
+            //             // alert("加入购物车");
+            //             // console.log(this.chooseFinal);
+
+            //             if(gr_info['GR_Is_Options'] == 1){
+            //                 if(!(vm.detailMes.fo_id > 0) || !(vm.specificationNum>0)||!(vm.detailMes.gid>0)){
+            //                     return false;
+            //                 }
+            //             }else{
+            //                 if(!(vm.specificationNum>0)||!(vm.detailMes.gid>0)){
+            //                     return false;
+            //                 }
+            //             }
+            //             $.ajax({
+            //                 url:'/index.php/Home/Cart/join_cart',
+            //                 type:'post',
+            //                 data:{fo_id:vm.detailMes.fo_id,gid:vm.detailMes.gid,number:vm.specificationNum},
+            //                 success:function(data){
+            //                     if(data == 1){
+            //                         $(".floating_i").addClass('hasdata');
+            //                         vm.close();
+            //                         setTimeout(function(){
+            //                             mui.toast('加入成功',{ duration:'short', type:'div' });
+            //                         },500);
+                                     
+            //                     }else if(data == 0){
+            //                         mui.toast('加入失败',{ duration:'short', type:'div' }); 
+            //                     }else if(data == -3){
+            //                         mui.toast('库存不足',{ duration:'short', type:'div' }); 
+            //                     }
+            //                 }
+            //             });
+            //         break;
+            //     }
+            }else{
+                mui.toast('请选择商品属性！',{ duration:'short', type:'div' }) 
+            }
+        }
+    }
+});
+vm.init(); //初始化
+
+    </script>
+</html>

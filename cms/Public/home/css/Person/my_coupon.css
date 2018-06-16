@@ -1,0 +1,198 @@
+/*loading*/
+.loading{
+    position:fixed;
+    top:85px;
+    width:10rem;
+    height:100%;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    transform:translateX(-50%);
+    background-color:#fff;
+    z-index: 999;
+}
+.spinner {
+    margin: 3.6rem auto 0;
+    width: 150px;
+    text-align: center;
+}
+ 
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #03b7cc;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: #fd0202;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background-color:#7fda6d;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+/*主体*/
+main{
+	width:10rem;
+	margin:0 auto;
+	background:#f0f0f0;
+}
+
+/*分类*/
+.mui-segmented-control{
+	background-color:#fff;
+	position:fixed;
+	top:44px;
+	z-index: 99;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color:#d60000;
+	border-bottom:2px solid #d60000;
+}
+.mui-segmented-control.mui-segmented-control-inverted{
+	border-bottom:1px solid #d9d9d9;
+	width: 10rem;
+}
+
+/*列表*/
+.list{
+	width:9.466666rem;
+	margin:0 0.266666rem;
+	margin-top:55px;
+}
+.list li{
+	position: relative;
+	width:100%;
+	height: 2.4rem;
+	border-radius: 5px;
+	margin-bottom:0.133333rem;
+	overflow: hidden;
+	background-image: url(../../images/coupon_bg1.png);
+	background-size: 100% 100%;
+}
+.list .price{
+	float: left;
+	width: 2.92rem;
+	height: 2.4rem;
+	color:#fff;
+	font-size:0.506666rem;
+	/*line-height: 2.4rem;*/
+	text-align: center;
+}
+.price-txt1{
+	display: inline-block;
+	margin-top:0.7rem;
+}
+.price_num{
+	font-size: 1.066666rem;
+}
+.price-txt2{
+	color:#fff;
+	font-size:0.4rem;
+	margin-top:0.1rem;
+	letter-spacing:4px;
+}
+.list .coupon_msg{
+	float: left;
+	width: 5.2rem;
+	height: 2.4rem;
+	color:#fff;
+}
+.coupon_msg p{
+	color:#fff;
+	margin-left: 0.8rem;
+}
+.coupon_msg p:first-of-type{
+	font-size:0.373333rem;
+	margin-top:0.4rem;
+}
+.coupon_msg p:last-of-type{
+	font-size:0.293333rem;
+	margin-top:0.2rem;
+	line-height: 16px;
+}
+@media only screen and (min-width: 768px) {
+	.coupon_msg p:last-of-type{
+		line-height: 20px;
+	}
+}
+.use, .use:active{
+	float: left;
+	width: 1.333333rem;
+	height: 100%;
+	font-size: 0.373333rem;
+	color:#fff;
+	padding: 0 0.48rem;
+	line-height: 16px;
+	padding-top:0.45rem;
+}
+.iconfont.icon-yishiyong1, .iconfont.icon-yiguoqi{
+	position: absolute;
+	right: -10px;
+	line-height: 2.4rem;
+	color:#666666;
+	font-size:110px;
+	margin-top:0.1rem;
+}
+/*无效优惠券*/
+.list .pass{
+	background-image: url(../../images/coupon_bg2.png);
+}
+/*mui信息框样式修改*/
+.mui-toast-container{
+	bottom:50%;
+}
+.mui-toast-message{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+
+/*没有数据*/
+.no_data{
+	display: none;
+	position:absolute;
+    top:40%;
+    transform: translateY(-50%);
+    width:10rem;
+    margin:0 auto;
+    text-align: center;
+}
+.no_data i{
+	font-size:76px;
+    color:#999;
+    text-align:center;
+}
+.no_data p{
+    text-indent:0px;
+    font-size:0.426666rem;
+    margin-top:0.533333rem;
+    color:#999;
+}

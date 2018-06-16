@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Goods/hot_sale.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_i8ls6ln72knbfbt9.css">
+    <script>
+        var gr_info_json = {$gr_info_json};//商品数据
+        var get_info_json = {$get_info_json};//多条件搜索
+        var searchJson = '{$searchJson}';//搜索
+    </script>
+</head>
+
+<body>
+	<!--loading-->
+	<div class="loading">
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+    <header class="mui-bar mui-bar-nav header">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <a href="/index.php/Home/Search/search" class="search"><i class="iconfont icon-sousuo"></i>请输入关键字</a>
+    </header>
+	<!--容器开始-->
+    <div class="mui-content" id="control">
+    	<ul class="sort_list">
+    		<li class="active" @click="choice">
+    			<span>综合</span>
+    			<div class="dir">
+	    			<i class="iconfont icon-up active-icon"></i>
+	    			<i class="iconfont icon-down"></i>
+    			</div>
+    		</li>
+    		<li @click="choice">
+    			<span>价格</span>
+    			<div class="dir">
+    				<i class="iconfont icon-up"></i>
+    				<i class="iconfont icon-down"></i>
+    			</div>
+    		</li>
+    		<li @click="choice"><span>销量</span></li>
+    		<li @click="choice">
+    			<span>新品</span>
+    			<div class="dir">
+    				<i class="iconfont icon-up"></i>
+    				<i class="iconfont icon-down"></i>
+    			</div>
+    		</li>
+    	</ul>
+    	<!-- 商品 -->
+        <ul class="products">
+            <a v-for="item in productArr" :href="item.href">
+                <li>
+                    <div class="productsimg">
+                        <img :src="item.img" alt="" />
+                    </div>
+                    <div class="mes">
+                        <p v-text="item.text" class="text"></p>
+                        <p>&yen;<span v-text="item.price"></span>&nbsp;<del>原价：&yen;<span v-text="item.old_price"></span></del><i class="iconfont icon-gouwuche2"></i></p>
+                    </div>
+                </li>
+            </a>
+        </ul>
+        <!--没数据-->
+        <div class="no_data">
+        	<i class="iconfont icon-shuju"></i>
+        	<p>暂时还没有数据哦！</p>
+        </div>
+		
+    </div>
+    <!--容器结束-->
+</body>
+
+    <script src="/Public/home/js/lib/vue.min.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!--脚部-->
+    <script src="/Public/home/js/lib/footer.js"></script>
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Goods/hot_sale.js"></script>
+
+</html>

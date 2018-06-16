@@ -1,0 +1,420 @@
+[ 2017-12-16T18:41:13+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011963s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2017-12-16T18:41:13+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-12-16T18:41:16+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshicookie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 非法操作:ceshicookie
+
+[ 2017-12-16T18:41:54+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshicookie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+ERR: 非法操作:ceshicookie
+
+[ 2017-12-16T18:42:04+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.106388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106486s ]
+
+[ 2017-12-16T18:42:58+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: Call to undefined function Home\Controller\data()
+
+[ 2017-12-16T18:43:05+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-12-16T18:44:52+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-12-16T18:45:05+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-12-16T18:45:17+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-12-16T18:45:24+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-12-16T18:45:40+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+
+[ 2017-12-16T18:46:36+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010621s ]
+
+[ 2017-12-16T18:48:11+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-12-16T18:52:12+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008780s ]
+
+[ 2017-12-16T18:52:24+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2017-12-16T18:52:26+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-12-16T18:52:28+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012433s ]
+
+[ 2017-12-16T18:52:29+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-12-16T18:52:29+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2017-12-16T18:52:33+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-12-16T18:52:37+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-12-16T18:52:43+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2017-12-16T18:57:07+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+ERR: syntax error, unexpected '–' (T_STRING), expecting ',' or ';'
+
+[ 2017-12-16T18:57:14+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001401s ]
+
+[ 2017-12-16T18:57:49+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+ERR: Call to undefined function Home\Controller\data()
+
+[ 2017-12-16T18:57:54+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017517s ]
+
+[ 2017-12-16T18:58:10+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011002s ]
+
+[ 2017-12-16T18:58:26+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017707s ]
+
+[ 2017-12-16T19:14:44+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-12-16T19:15:01+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2017-12-16T19:15:10+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010114s ]
+
+[ 2017-12-16T19:15:21+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-12-16T19:15:30+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+
+[ 2017-12-16T19:15:49+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010644s ]
+
+[ 2017-12-16T19:17:13+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION)
+
+[ 2017-12-16T19:17:20+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-12-16T20:11:52+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-12-16T20:15:29+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028638s ]
+
+[ 2017-12-16T20:15:51+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2017-12-16T20:15:52+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-12-16T20:16:04+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009024s ]
+NOTIC: [2] pathinfo() expects parameter 1 to be string, array given /usr/local/apache2/htdocs/ceshitpzhuanyong_xuniji/Application/Home/Controller/CeshiController.class.php 第 218 行.
+
+[ 2017-12-16T20:16:33+08:00 ] 192.168.32.109 /ceshitpzhuanyong_xuniji/index.php?c=Ceshi&a=ceshineirong
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006003s ]
+

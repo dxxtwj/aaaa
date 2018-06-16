@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	//有数据
+	if(true){
+		$('.list').css('display','block');
+		$('.no_data').css('display','none');
+	}
+	//无数据
+	else{
+		$('.list').css('display','none');
+		$('.no_data').css('display','block');		
+	}
+})

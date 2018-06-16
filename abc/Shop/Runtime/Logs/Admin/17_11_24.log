@@ -1,0 +1,102 @@
+[ 2017-11-24T15:29:18+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0087s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2017-11-24T15:29:23+08:00 ] ::1 /zuoye/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-24T15:29:30+08:00 ] ::1 /zuoye/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-24T15:30:05+08:00 ] ::1 /zuoye/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-24T16:37:27+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: 1146:Table 'tpshop.shop_seckil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_seckil`
+
+[ 2017-11-24T16:37:29+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: 1146:Table 'tpshop.shop_seckil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_seckil`
+
+[ 2017-11-24T16:37:34+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: 1146:Table 'tpshop.shop_seckil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_seckil`
+
+[ 2017-11-24T16:38:34+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: 1146:Table 'tpshop.shop_seckil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_seckil`
+
+[ 2017-11-24T16:38:40+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: 1146:Table 'tpshop.shop_seckil' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_seckil`
+
+[ 2017-11-24T18:28:24+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-11-24T18:28:31+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-11-24T18:28:32+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-11-24T18:28:32+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-11-24T18:28:32+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-11-24T19:19:14+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2017-11-24T19:19:52+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$arr' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-24T19:19:53+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$arr' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-24T19:19:53+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$arr' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-24T19:25:16+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected ''08:15:42'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+
+[ 2017-11-24T19:29:39+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '$arr' (T_VARIABLE)
+
+[ 2017-11-24T20:28:37+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/1
+ERR: 非法操作:1
+
+[ 2017-11-24T20:47:46+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/Order/miao
+ERR: 非法操作:Order
+
+[ 2017-11-24T20:48:46+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:47+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:51+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:52+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:52+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:52+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:48:52+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/miao.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-24T20:49:31+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/%7B:U('Order/miao')%7D
+ERR: 非法操作:{:U('Order
+
+[ 2017-11-24T20:50:05+08:00 ] ::1 /zuoye/TP-shop/Admin/Order/U('Order/miao')
+ERR: 非法操作:U('Order
+

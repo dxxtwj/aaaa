@@ -1,0 +1,234 @@
+<!-- 继承首页 -->
+<!-- 商品详情页 -->
+<extend name="Index/index" />
+
+<!-- 重写首页的JS -->
+<block name="header">
+		<link href="__PUBLIC__/Home/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="__PUBLIC__/Home/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
+
+		<link href="__PUBLIC__/Home/basic/css/demo.css" rel="stylesheet" type="text/css" />
+
+		<link href="__PUBLIC__/Home/css/seastyle.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="__PUBLIC__/Home/basic/js/jquery-1.7.min.js"></script>
+		<!-- <script type="text/javascript" src="__PUBLIC__/Home/js/script.js"></script> -->
+		<!-- 引入懒加载文件 -->
+		<script src="__PUBLIC__/Home/js/jquery.lazyload.min.js"></script>
+</block>
+
+	<!-- 中间部分 -->
+	<block name='body'>
+					<div class="am-g am-g-fixed">
+						<div class="am-u-sm-12 am-u-md-12">
+	                  	<div class="theme-popover">														
+							<div class="searchAbout">
+								<span class="font-pale">相关搜索：</span>
+								<a title="坚果" href="#">坚果</a>
+								<a title="瓜子" href="#">瓜子</a>
+								<a title="鸡腿" href="#">豆干</a>
+
+							</div>
+							<ul class="select">
+								<p class="title font-normal">
+									<span class="fl">松子</span>
+									<span class="total fl">搜索到<strong class="num">997</strong>件相关商品</span>
+								</p>
+								<div class="clear"></div>
+								
+								<div class="clear"></div>
+								<li class="select-list">
+									<dl id="select2">
+										<dt class="am-badge am-round">分类</dt>
+										<div class="dd-conent" id="fenlei">
+											<dd class="select-all selected"><a href="{:U('Goods/index', ['id' => I('get.id'), 'pid' => 'a'])}">全部</a></dd>
+											<notempty name="sanjiType">
+												<!-- 分类表 -->
+												<foreach name='sanjiType' item='vv'>
+
+													<dd><a onclick="typeId(this, {$vv['id']})" href="{:U('Goods/index', ['id' => $vv['id']])}" >{$vv['name']}</a></dd>
+												</foreach>
+											</notempty>
+											
+										</div>
+									</dl>
+								</li>
+								<li class="select-list">
+									<dl id="select1">
+										<dt class="am-badge am-round">品牌</dt>	
+									
+										 <div class="dd-conent" id="pinpai">										
+											<dd class="select-all selected"><a href="{:U('Goods/index', ['id' => I('get.id'), 'pid' => 'a'])}">全部</a></dd>
+											<notempty name="pinpaiList">
+											<!-- 品牌表 -->
+											<foreach name='pinpaiList' item='a'>
+												<dd><a href="{:U('Goods/index', ['id' => I('get.id'), 'pid' => $a['id']])}"  >{$a['name']}</a></dd>
+											</foreach>
+											</notempty>
+											
+										 </div>
+						
+									</dl>
+								</li>
+							</ul>
+							<div class="clear"></div>
+                        </div>
+
+							<div class="search-content">
+								<div class="sort">
+									<li class="first"><span href="#" title="综合"><a title="综合从高到低" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'collectnum desc'])}">∧ </a>综合排序<a title="综合从低到高" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'collectnum asc'])}"><span> ∨</span></a></span></li>
+									<li><a href="#"></a><span title="销量"><a title="销量从高到低" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'sellnum desc'])}">∧ </a>销量排序</span><a  title="销量从低到高" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'sellnum asc'])}"><span> ∨</span></a></li>
+									<li class="big"><span href="#"><a title="评价从高到低" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'commentnum desc'])}">∧ </a>评论数目</span><a title="评论从低到高" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'commentnum asc'])}"><span> ∨</span></a></li>
+									<li><span title="价格"><a title="价格从高到低" href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'money desc'])}">∧ </a>商品价格<a title="价格从低到高"  href="{:U('Goods/index', ['id' => I('get.id'), 'order' => 'money asc'])}"> ∨</a></span></li>
+								</div>
+								<div class="clear"></div>
+							<div class="tb">
+
+							<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes" id="goods">
+
+
+							<empty name="goodsList">
+								<li><div style="width: 940px; height: 200px; margin: 0px auto;"><h1 style="font-size: 30px; ">暂无商品</h1></div></li>
+							<else />
+								<!-- 商品表 -->
+								<foreach name="goodsList" item="v">
+										<li>
+											<div class="i-pic limit">
+												<a href="{:U('Detail/index', ['id' => $v['id']])}"><img class="lazy" src="__PUBLIC__/Images/LanJiaZai/timg.gif" data-original="__PUBLIC__/{$v['image0']}" /></a>											
+												<p class="title fl"><a href="{:U('Detail/index', ['id' => $v['id']])}"><span style="font-size: 15px; text-overflow:ellipsis;  white-space:nowrap;  overflow:hidden; display: block">{$v['name']}</span></a></p>
+												<p class="price fl">
+													<b>¥</b>
+													<strong><a href="{:U('Detail/index', ['id' => $v['id']])}"><span style="color: #e4393c;">{$v['money']}</span></a></strong>
+												</p>
+												<p class="number fl">
+
+													销量<span><a href="{:U('Detail/index', ['id' => $v['id']])}" ><span style="color: #e4393c;">{$v['sellnum']}</span></span></a>
+												</p>
+											</div>
+										</li>
+								</foreach>
+								</empty>
+								</div>
+							</ul>
+							</div>
+
+<script>
+	$(function() {
+		$("img.lazy").lazyload({
+			placeholder: "__PUBLIC__/Images/LanJiaZai/timg.gif",
+			effect: "fadeIn",
+			threshold: -200,
+
+		});
+
+	});
+</script>
+							<div class="search-side">
+
+								<div class="side-title">
+									推荐商品
+								</div>
+
+						<notempty name="tuiGuangList">
+						<foreach name="tuiGuangList" item="vg">
+
+								<li>
+									<div class="i-pic check">
+										<a href="{:U('Detail/index', ['id' => $vg['gid']])}"><img class="tuiGuang" data-original="__PUBLIC__/{$vg['image']}" src="__PUBLIC__/Images/LanJiaZai/timg.gif" /></a>
+
+										<p class="check-title"><span style="font-size: 15px; text-overflow:ellipsis;  white-space:nowrap;  overflow:hidden; display: block">{$vg['name']}</span></p>
+										<p class="price fl">
+											<b>¥</b>
+											<strong>{$vg['money']}</strong>
+										</p>
+										<p class="number fl">
+											销量<span style="color: #e4393c";>{$vg['shouliang']}</span>
+										</p>
+									</div>
+								</li>
+						</foreach>
+						</notempty>
+<script>
+	$(function() {
+		$("img.tuiGuang").lazyload({
+			placeholder: "__PUBLIC__/Images/LanJiaZai/timg.gif",
+			effect: "fadeIn",
+			threshold: -200,
+
+		});
+
+	});
+</script>
+							</div>
+							<div class="clear"></div>
+							<!--分页 -->
+							<ul class="am-pagination am-pagination-right" id="show">
+							<!-- 不为空 -->
+							<notempty name="show">
+								{$show}
+							</notempty>
+							</ul>
+
+						</div>
+					</div>
+				
+<script>
+	// 分页按钮样式
+	$('#show a, #show span').unwrap('<div></div>').wrap("<li style='float: left; display:'inline-block' class='btn btn-primary'></li>");
+		
+
+	$('body').delegate('#show a, #show span', 'click', function() {
+		// 地址
+		var url = $(this).attr('href');
+	$.ajax({
+
+		// url
+		url: url,
+		// 类型
+		type: 'get',
+		
+		// 回调
+		success: function(msg) {
+			
+			// 替换按钮
+			$('#show').html(msg.show);
+
+			// 设置按钮样式
+			$('#show a, #show span').unwrap('<div></div>').wrap("<li style='float: left; display:'inline-block' class='btn btn-primary'></li>");
+			
+			// 替换商品表
+			$('#goods').html(msg.goodsAllList);
+
+		$(function() {
+		$("img.lazy").lazyload({
+			placeholder: "__PUBLIC__/Images/LanJiaZai/timg.gif",
+			effect: "fadeIn",
+			threshold: -200,
+
+		});
+
+	});
+		}
+	})
+		return false;
+
+	});
+
+	// function typeId($a, $id) {
+		
+	// 	// 获取跳转路径
+	// 	url = $($a).attr('ahref');
+	// 	console.log(url);
+	// 	// get传值
+	// 	$.get(url, { id: $id}, function(msg) {
+
+	// 		console.log('123', msg);
+	// 	} );
+
+	// 	return false;
+	// }
+
+</script>
+
+<!-- 继承首页结束 -->
+</block>

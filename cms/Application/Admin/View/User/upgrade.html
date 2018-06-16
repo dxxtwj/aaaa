@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/Public/admin/css/style.css"/>       
+<link href="/Public/admin/assets/css/codemirror.css" rel="stylesheet">
+<link rel="stylesheet" href="/Public/admin/assets/css/ace.min.css" />
+<link href="/Public/admin/font/css/font-awesome.min.css" rel="stylesheet">
+<!--[if IE 7]>
+<link rel="stylesheet" href="/Public/admin/assets/css/font-awesome-ie7.min.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+<![endif]-->
+<script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+<script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+<script src="/Public/admin/assets/js/typeahead-bs2.min.js"></script>           	
+<script src="/Public/admin/assets/layer/layer.js" type="text/javascript" ></script>          
+<script src="/Public/admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="/Public/admin/assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="/Public/admin/assets/js/ace-elements.min.js"></script>
+<script src="/Public/admin/assets/js/ace.min.js"></script>
+<title>月结统计</title>
+<style type="text/css">
+  .obox{
+            position:fixed;
+            width:60%;
+            top:15%;
+            left:50%;
+            transform: translateX(-50%);
+            z-index: 999;
+            background:#fff;
+            border:1px solid #ccc;
+            display:none;
+        }
+        .obox>.yclose{
+            position:absolute;
+            display:block;
+            font-size:20px;
+            top:6px;
+            right:6px;
+            cursor: pointer;
+            color:#ccc;
+        }
+        .odiv{
+            max-height: 200px;
+            overflow-y:auto;
+        }
+        .oul{
+            list-style:none;
+            width:90%;
+            margin: 0 auto;
+        }
+        .oul>li{
+            margin-top:10px;
+            display:flex;
+            line-height: 64px;
+            border-bottom: 1px solid rgba(125,125,125,.2);
+            position:relative;
+        }
+        .divimg{
+            width:64px;
+            height:64px;
+            overflow:hidden;
+        }
+        .oul .btn{
+            position:absolute;
+            right:0;
+            top:15px;
+            height:34px;
+        }
+        .oul p{
+            padding-left:20px;
+        }
+        .oul img{
+            width:100%;
+        }
+        input[name="fen"]{text-overflow: ellipsis;}
+        .col-sm-3{text-align:right;}
+        .manchoose{display:none;}
+</style>
+</head>
+
+<body>
+<!-- 弹框开始 -->
+<div class="obox">
+    <i class="yclose fa fa-times" onclick="chooseClose()"></i>
+    <div class="panel-heading" style="border-bottom:1px solid rgba(125,125,125,.2);padding-bottom:20px;margin-bottom:40px;">
+        <div class="panel-options">
+
+            <h2>选择商品</h2>
+        </div>
+    </div>
+
+    <!-- 搜索开始 -->
+    <div class="form-group" style="border-bottom:1px solid rgba(125,125,125,.2);padding-bottom:40px;">
+        <div class="col-sm-10">
+            <input type="text" name="address" value="" class="form-control" id="chooseInput" placeholder="请输入用户账号或昵称">
+        </div>
+        <div class="btn btn-primary" onclick="chooseSerch()">搜索</div>
+    </div>
+    <div class="odiv">
+        <ul class="oul">
+        </ul>
+        <!-- 搜索结束 -->
+        <div style="padding-bottom:15px;">
+            <div style="float:right;margin-right:10px;" class="btn btn-white" onclick="chooseClose()">关闭</div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+</div>
+<!-- 弹框结束 -->
+
+<div class="margin clearfix">
+ <div class="stystems_style">
+  <div class="tabbable">
+	<ul class="nav nav-tabs" id="myTab">
+
+    <li class="fenxiaoSet active">
+        <a data-toggle="tab" data-toggle="dropdown" class="dropdown-toggle" href="#fenxiao">升级经理设置</a>
+    </li>
+
+    <li class="otherSet">
+		    <a data-toggle="tab" data-toggle="dropdown" class="dropdown-toggle" href="#other">升级创客设置</a>
+    </li>
+    
+	</ul>
+
+  <form action="/index.php/Admin/User/upgrade" method="post">
+      <div class="tab-content">
+          <!-- 升级经理设置 -->
+          <div id="fenxiao" class="tab-pane fenxiaoSet active">
+              <div class="form-group">
+                  <label class="col-sm-3 control-label no-padding-right" for="form-field-1"><i>*</i>月销售金额累计达到多少元或以上（元）： </label>
+                  <div class="col-sm-9">
+                      <input type="text" name="UpgradeManager" id="website-title" placeholder="" value="{$res.UR_UpgradeManager}" class="col-xs-5" onkeyup="this.value=this.value.replace(/[^\d]/g,'') " onafterpaste="this.value=this.value.replace(/[^\d]/g,'') " required="required">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-sm-3 control-label no-padding-right" for="form-field-1"><i>*</i>本人直接拓展累计达到多少个创客（个）： </label>
+                  <div class="col-sm-9">
+                      <input type="text" name="UpgradeMaker" id="website-title" placeholder="" value="{$res.UR_UpgradeHaveMaker}" class="col-xs-5" onkeyup="this.value=this.value.replace(/[^\d]/g,'') " onafterpaste="this.value=this.value.replace(/[^\d]/g,'') " required="required">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label class="col-sm-3 control-label no-padding-right" for="form-field-1"><i>*</i>创客团队人数累计达到多少人（人）： </label>
+                  <div class="col-sm-9">
+                      <input type="text" name="UpgradeMakerTeam" id="website-title" placeholder="" value="{$res.UR_UpgradeMakerTeam}" class="col-xs-5" onkeyup="this.value=this.value.replace(/[^\d]/g,'') " onafterpaste="this.value=this.value.replace(/[^\d]/g,'') " required="required">
+                  </div>
+              </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用购买某种商品直接升级：</label>
+                        
+                        <if condition="$res.UR_UpgradeStatus eq 1">
+                          <div class="col-sm-1">
+                              <input type="radio" name="manchoose" id="yes" onclick="chooseYes()">是
+                              <input type="radio" name="manchoose" checked onclick="chooseNo()">否
+                              <input type="hidden" name="yesorno" value="0"/>
+                          </div>
+                        <else />
+                            <div class="col-sm-1">
+                              <input type="radio" name="manchoose" id="yes" checked onclick="chooseYes()">是
+                              <input type="radio" name="manchoose" onclick="chooseNo()">否
+                              <input type="hidden" name="yesorno" value="1"/>
+                            </div>
+                        </if>
+                    </div>
+              <!-- 经理选择商品开始 -->
+                <div class="manchoose">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">指定购买商品才能升级</label>
+                        <div class="col-sm-3">
+                            <input type="text" name="fen" value="{$res.goodsname1.GR_Name}" class="form-control" disabled>
+                            <input type="hidden" name="mangood" value="{$res.UR_SpreeGoodsID}" />
+                            <!-- <span>选择商品</span> -->
+                        </div>
+                        <div class="btn btn-primary" onclick="chooseTop()">选择商品</div>
+                        <div class="btn btn-white" onclick="clearChoose()">清除选择</div>
+                    </div>
+                </div>
+                <!-- 选择商品结束 -->
+
+              <div class="Button_operation"> 
+                  <button class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存
+                  </button>
+                
+                  <button class="btn btn-default radius" type="reset">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+                       
+              </div>
+          </div>
+
+          <!-- 升级创客设置 -->
+    		  <div id="other" class="tab-pane otherSet">
+
+                  <!-- 选择商品开始 -->
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">指定购买商品才能升级：</label>
+                    <div class="col-sm-3">
+                        <input type="text" name="create" value="{$res.goodsname2.GR_Name}" class="form-control" disabled>
+                        <input type="hidden" name="creategood" value="{$res.UP_MakeSpreeGoodsID}"/>
+                        <!-- <span>选择商品</span> -->
+                    </div>
+                    <div class="btn btn-primary" onclick="chooseTop()">选择商品</div>
+                    <div class="btn btn-white" onclick="clearChoose2()">清除选择</div>
+                </div>
+
+                <!-- 选择商品结束 -->
+
+                  <div class="Button_operation"> 
+                      <button class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存
+                      </button>
+                    
+                      <button class="btn btn-default radius" type="reset">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+                           
+                  </div>
+    	    </div>
+      </div>
+  </form>
+
+		</div>
+ </div>
+
+</div>
+</body>
+</html>
+<script>
+// 创客点击保存
+// $("#other button[type=submit]").on('click',function(){
+//     if($("input[name=create]").val() == ""){
+//       $("input[name=create]").val('0');
+//       // alert("请选择商品111");
+//       // return false;
+//     }
+
+// });
+// 经理点击保存
+$("#fenxiao button[type=submit]").on('click',function(){
+    if($("input[name=yesorno]").val() == 1 && $("input[name=fen]").val() == ""){
+      alert("请选择商品");
+      return false;
+    }
+
+});
+
+$('#id-input-file-2').ace_file_input({
+					no_file:'选择上传图标 ...',
+					btn_choose:'选择',
+					btn_change:'更改',
+					droppable:false,
+					onchange:null,
+					thumbnail:false, //| true | large
+					whitelist:'gif|png|jpg|jpeg'
+					//blacklist:'exe|php'
+					//onchange:''
+					//
+				});
+
+// 选择商品开始
+    function chooseTop(){
+        $('.oul li').remove();
+        $('#chooseInput').val('');
+        $('.obox').slideDown();
+        $("body").append('<div id="mk" style="position:fixed;width:100%;height:100%;background-color:rgba(0,0,0,.4);top:0;z-index:998;"></div>');
+        document.documentElement.style.overflow='hidden';
+    }
+
+    // 结束
+    // 关闭
+    function chooseClose(){
+        $('.obox').fadeOut(300);
+        $('#mk').remove();
+        document.documentElement.style.overflow='auto';
+    }
+    var arr = ["1","2"];
+
+    // 搜索
+    function chooseSerch(){
+        $('.oul li').remove(); //清空内容
+        if($('#chooseInput').val() == ''){
+            alert('请输入内容');
+        }else{
+            // ajax
+            $.ajax({
+                url: '__CONTROLLER__/SelectGoods',
+                type: 'post',
+                data: {goods_name: $('#chooseInput').val()},
+                success:function(data){
+                    // alert(typeof data);
+                    // console.log(data[0].UI_Addtime);
+                    if(data == 0){ //没有分销商
+                        $('.oul').append(' <li style="padding-left:45%;">未找到符合要求的商品</li>');
+                    }else{
+                        for(i in data)
+                            $('.oul').append('<li><div class="divimg"><img src="'+data[i].GR_IMG+'" alt="" /></div><p class="ychoose">商品名：<span>'+data[i].GR_Name+'</span></p><p class="ychoose2">商品ID：<span>'+data[i].GR_ID+'</span></p><div class="btn btn-white">选择</div></li>');
+
+
+                        // 选择
+                        $('.oul .btn').on('click',function(){
+                            $('.oul .btn').css({'background-color':'#fff','color':"rgb(103, 106, 108)"});
+                            $(this).css({'background-color':'#1ab394','color':"#fff"});
+                            if($(".fenxiaoSet").hasClass('active')){ //经理
+                              $('input[name=fen]').val($(this).siblings('.ychoose').children('span').text());
+                              $('input[name=mangood]').val($(this).siblings('.ychoose2').children('span').text());
+                            }else{ //创客
+                              $('input[name=create]').val($(this).siblings('.ychoose').children('span').text());
+                              $('input[name=creategood]').val($(this).siblings('.ychoose2').children('span').text());
+                            }
+                            
+                            chooseClose();//关闭
+                        });
+                        // 选择结束
+                    }
+                }
+            });
+        }
+
+    }
+
+    // 清除选择
+    function clearChoose(){ //经理
+        $('input[name=fen]').val("");
+        $('input[name=mangood]').val("");
+
+    };
+
+    function clearChoose2(){ //创客
+        $('input[name=create]').val("");
+        $('input[name=creategood]').val("");
+    };
+
+    // 是否选择：
+    function chooseYes(){
+      $('.manchoose').show();
+      $("input[name=yesorno]").val(1);
+    }
+    function chooseNo(){
+      $('.manchoose').hide();
+      $("input[name=yesorno]").val(0);
+    }
+    if($("#yes").prop('checked')){
+      $('.manchoose').show();
+    }
+</script>

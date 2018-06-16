@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<!--选择器-->
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.picker.min.css" />
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.poppicker.css" />
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Person/info.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_ocw32fg0mcgnwmi.css">
+	<script>
+		var info = '{$ui_info_json}';
+	</script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">个人信息</h1>
+    </header> 
+    <!--选择区域头部-->
+    <header class="mui-bar mui-bar-nav back-loc">
+        <a class="mui-icon mui-icon-left-nav mui-pull-left" href="javascript:void(0);" onclick="back()"></a>
+        <h1 class="mui-title">选择区域</h1>
+    </header> 
+    <!-- 外部容器开始 -->
+    <div class="mui-content" id="control">
+        <main>
+        	<div class="msg-box1">
+	        	<div class="pic photo"  id="preview" onclick="imgfile.click()">
+					<img id="imghead" border=0 :src="areaLoc.photo || defPhoto" >
+				</div>
+	        	<p class="photo_txt" onclick="imgfile.click()">点击修改头像</p>
+				<input type="file" onchange="previewImage(this)" id="imgfile" name="imgfile" style="display:none;"/>
+			</div>
+			<div class="msg-box2" @click="editName">
+				<label>昵称</label>
+				<i class="iconfont icon-xiangyou"></i>
+				<input id="name" type="text" name="name" placeholder="请输入昵称" v-model="areaLoc.name" readonly />
+			</div>
+			<div class="msg-box2" @click="sexPick">
+        		<label>性别</label>
+        		<i class="iconfont icon-xiangyou"></i>
+        		<input id="sex" type="text" name="sex" placeholder="请选择性别" v-model="areaLoc.sex" readonly />
+        	</div>
+        	<div class="msg-box2" @click="birPick">
+        		<label>出生日期</label>
+        		<i class="iconfont icon-xiangyou"></i>
+        		<input id="birthday" type="text" name="birthday" placeholder="请选择出生日期" v-model="areaLoc.birthday" readonly />
+        	</div>
+        	<div class="msg-box2" id="addAddress">
+        		<label>所在地</label>
+				<i class="iconfont icon-xiangyou"></i>
+				<!--<input type="text" placeholder="请选择" id="shengshi" onClick="getProvinceBuy()" v-model="areaLoc.loc" readonly />-->
+				<input class="address_input1" type="text" placeholder="请选择" id="shengshi" onClick="getProvinceBuy()" readonly="readonly" :value="areaLoc.loc">
+        	</div>
+        	<button type="button" class="mui-btn mui-btn-danger save-btn" @click="edit">保存</button>
+        </main>
+        
+        <!--修改昵称-->
+        <div class="edit-name">
+        	<p class="name-title">修改昵称<i class="iconfont icon-guanbi" @click="closeName"></i></p>
+        	<p class="name-main">
+        		<label>昵称</label>
+        		<input id="name2" type="text" name="name2" placeholder="请输入昵称" v-model="name" />
+        	</p>
+        	<button type="button" class="mui-btn mui-btn-danger save-btn sure-btn" @click="sureName">确定</button>
+        </div>
+    </div>
+    <!-- 外部容器结束 -->
+</body>
+
+    <script src="/Public/home/js/lib/vue.min.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!--选择器-->
+    <script src="/Public/home/js/lib/mui.picker.min.js"></script>
+    <script src="/Public/home/js/lib/mui.poppicker.js"></script>
+    <script src="/Public/home/js/lib/show_pic.js"></script>
+    <!--选择地址-->
+    <script src="/Public/home/js/lib/area.js"></script>
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Person/info.js"></script>
+</html>

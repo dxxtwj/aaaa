@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>收货地址</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />		<!-- iphone safri 全屏 -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	<!-- iphone safri 状态栏的背景颜色 -->
+	    <meta name="apple-mobile-web-app-title" content="油卡">		<!-- iphone safri 添加到主屏界面的显示标题 -->
+	    <meta name="format-detection" content="telphone=no, email=no" />	<!-- 禁止数字自动识别为电话号码 -->
+	    <meta name="renderer" content="webkit">				<!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
+	    <meta name="HandheldFriendly" content="true">		<!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+	    <meta http-equiv="Cache-Control" content="no-siteapp" />	<!-- 禁止百度转码 -->
+	    <meta name="screen-orientation" content="portrait">	<!-- uc强制竖屏 -->
+	    <meta name="browsermode" content="application">		<!-- UC应用模式 -->
+	    <meta name="full-screen" content="yes">				<!-- UC强制全屏 -->
+	    <meta name="x5-orientation" content="portrait">		<!-- QQ强制竖屏 -->
+	    <meta name="x5-fullscreen" content="true">			<!-- QQ强制全屏 -->
+	    <meta name="x5-page-mode" content="app">			<!-- QQ应用模式 -->
+	    <!--加载阿里CDN的文件flexible库-->
+        <script src="/Public/home/js/lib/flexible.js"></script>
+        <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+        <link rel="stylesheet" href="/Public/home/css/address/change_address.css">
+        <!-- 引用阿里矢量图标库 -->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_xweiw4qe4o14te29.css">
+        <script>
+            var addressListJson = {$addressListJson};
+        </script>
+    </head>
+    <body>
+        <!-- 外部容器开始 -->
+        <div id="control" class="container">
+            <!-- <header class="center-header">
+                <nav><i class="iconfont icon-fanhui" @click="backFun"></i>修改收获地址</nav>
+                <nav class="back-loc"><i class="iconfont icon-fanhui" @click="backLoc"></i>选择地区</nav>
+            </header> -->
+            <header class="mui-bar mui-bar-nav">
+                    <nav class="up-loc">
+                        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                        <h1 class="mui-title">修改收获地址</h1>
+                    </nav>
+                    <nav class="back-loc">
+                        <a class="mui-icon mui-icon-left-nav mui-pull-left" @click="backLoc"></a>
+                        <h1 class="mui-title">选择地区</h1>
+                    </nav>
+            </header>
+
+            <main class="mui-content">
+            	<ul class="change-ul">
+            		<li class="change-li"><span>收货人</span><span><input type="text" v-model="areaLoc.name" placeholder="请输入收货人姓名"/></span></li>
+            		<li class="change-li"><span>联系方式</span><span><input type="text" v-model="areaLoc.phone" placeholder="请输入收货人联系方式" maxlength="11"/></span></li>
+            		<li class="change-li"><span>所在地址</span><span>
+            			<!--引入收货地址插件-->
+            			<div id="addAddress">
+						    <div class="address_input"><input class="address_input1" type="text" placeholder="请选择" id="shengshi" onClick="getProvinceBuy()" readonly="readonly" :value="areaLoc.loc"><i class="iconfont icon-xiangyou1"></i></div>
+            		</span></li>
+                    <li class="change-li"><span>详细地址</span><span><input type="text" v-model="areaLoc.address" placeholder="请输入详细地址"/></span></li>
+                    <li class="change-li">
+                        <span>设为默认地址</span>
+                            <!-- 简洁模式开关关闭状态 -->
+                            <div class="mui-switch mui-switch-mini">
+                              <div class="mui-switch-handle"></div>
+                            </div>
+                    </li>
+					
+					
+            	</ul>
+				<button type="button" @click="changeSave" class="mfixed btn mui-btn btn-red mui-btn-danger">
+                保存</button>
+                <div class="foot_div"></div>
+            </main>
+            
+        </div>
+        <!-- 外部容器结束 -->
+
+        
+        <script src="/Public/home/js/lib/jquery.min.js"></script>
+        <script src="/Public/home/js/lib/mui.min.js"></script>
+		<script src="/Public/home/js/lib/vue.min.js"></script>
+		<script src="/Public/home/js/address/change_address.js"></script>
+        <script src="/Public/home/js/lib/area.js"></script>
+    </body>
+</html>

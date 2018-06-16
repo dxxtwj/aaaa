@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+   		<title>购物车</title>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />		<!-- iphone safri 全屏 -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	<!-- iphone safri 状态栏的背景颜色 -->
+	    <meta name="apple-mobile-web-app-title" content="YUKI">		<!-- iphone safri 添加到主屏界面的显示标题 -->
+	    <meta name="format-detection" content="telphone=no, email=no" />	<!-- 禁止数字自动识别为电话号码 -->
+	    <meta name="renderer" content="webkit">				<!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
+	    <meta name="HandheldFriendly" content="true">		<!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+	    <meta http-equiv="Cache-Control" content="no-siteapp" />	<!-- 禁止百度转码 -->
+	    <meta name="screen-orientation" content="portrait">	<!-- uc强制竖屏 -->
+	    <meta name="browsermode" content="application">		<!-- UC应用模式 -->
+	    <meta name="full-screen" content="yes">				<!-- UC强制全屏 -->
+	    <meta name="x5-orientation" content="portrait">		<!-- QQ强制竖屏 -->
+	    <meta name="x5-fullscreen" content="true">			<!-- QQ强制全屏 -->
+	    <meta name="x5-page-mode" content="app">			<!-- QQ应用模式 -->
+	    <!--加载阿里flexible库-->
+        <script src="/Public/home/js/lib/flexible.js"></script>
+        <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+        <link rel="stylesheet" href="/Public/home/css/cart/cart.css">
+        <!-- 引用阿里矢量图标库 -->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_444972_6pq0zw5jh7kz9f6r.css">
+        <style type="text/css">
+/*          .radio-no {
+                float: left;
+                padding: 1.2rem .4rem;
+            }
+            .radio-no span{color:#777;}*/
+            a.mui-icon-left-nav:active{
+                color:#575757;
+            }
+        </style>
+		<script>
+			var result = {$cart_json};
+			var login_json = {$login_json};
+		</script>
+    </head>
+    <body>
+        <!--loading-->
+		<div class="loading">
+				<div class="spinner">
+				  <div class="bounce1"></div>
+				  <div class="bounce2"></div>
+				  <div class="bounce3"></div>
+				</div>
+		</div>
+
+        <!-- 外部容器开始 -->
+        <div id="control" class="mui-content">
+            <header class="mui-bar mui-bar-nav">
+                <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                <h1 class="mui-title">购物车(<span class="car-num" v-text="cartNum"></span>) </h1>
+                <span class="car-remove" v-text="edit" @click="changeStatus"></span>
+            </header>
+
+            <main class="car-main">
+               <ul class="content">
+				<li v-for="(item,index) in cartMes" class="content-li" :oIndex = index>
+					<div class="radio" @click="choiceGoods"><i class="iconfont icon-gou1"></i></div>
+					<a :href="item.href" class="show">
+						<div class="img">
+							<img :src="item.img" alt="" />
+						</div>
+						<p v-text="item.mes"></p>
+
+						<span v-if="item.selected">{{item.selected}}</span>
+						<!--<span>&times;{{item.num}}</span>-->
+						<!--<span>剩余:<q>{{item.stock}}件</q></span>-->
+						<span class="price" >&yen;<em v-text="item.price"></em></span>
+					</a>
+                    
+					<div class="ctrl">
+						<div class="ctrl-left"  @click="reduceNum(index)" :class="{'ctrl-left-no':item.num==1}">-</div><!--:class="changeColor(item.num)"-->
+						<div class="ctrl-num"><span v-text="item.num"></span></div>
+						<div class="ctrl-right" @click="addNum(index)">+</div>
+					</div>
+					
+				</li>
+
+			</ul>
+                 <!--购物车为空-->
+                   <div class="car-none">
+                   		<i class="iconfont icon-gouwuche-copy"></i>
+                   		<p>您的购物车还是空的</p>
+                   		<a href="/index.php/Home/Index/index" type="button" class="mui-btn mui-btn-danger btn-red">去逛逛</a>
+                   </div>
+                
+            </main>
+
+            <!-- 脚部开始 -->
+                <footer class="car-footer" style="display:none;" v-show="cartMes.length">
+                   <!--结算-->
+                   <div class="settlement-par" v-show="status">
+	                   <div class="settlement" @click="choiceAll">
+	                   		<div class="settlement-radio"><i class="iconfont icon-gou1"></i></div><p>全选</p>
+	                   </div>
+	                   
+	                   <div class="money" @click="account">
+                            <button type="button" class="mui-btn mui-btn-danger btn-red" >结算( <span v-text="choiceGoodsNum"></span> )</button>
+                       </div>
+	                   
+	                   <div class="total">
+	                   		<span>总计：</span>&#165;<span v-text="price"></span>
+	                   </div>
+                   </div>
+                   
+                   <!--删除-->
+                   <div class="settlement-par remove-par" v-show="!status">
+	                   <div class="settlement" @click="choiceAll">
+	                   		<div class="settlement-radio"><i class="iconfont icon-gou1"></i></div><p>全选</p>
+	                   </div>
+
+                       <div class="money" @click="delGoods">
+                            <button type="button" class="mui-btn mui-btn-danger btn-red" >删除( <span v-text="choiceGoodsNum"></span> )</button>
+                       </div>                                   
+                   </div>
+                </footer>
+            <!-- 脚部结束 -->
+        </div>
+        <!-- 外部容器结束 -->
+        <script src="/Public/home/js/lib/jquery.min.js"></script>
+        <script src="/Public/home/js/lib/vue.min.js"></script>
+        <script src="/Public/home/js/lib/mui.min.js"></script>
+	    <!--脚部-->
+	    <!--<script src="/Public/home/js/lib/footer.js"></script>-->
+        <script src="/Public/home/js/cart/cart.js"></script>
+    </body>
+</html>

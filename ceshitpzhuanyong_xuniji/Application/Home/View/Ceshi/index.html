@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>测试</title>
+	<script src='__PUBLIC__/jquery-2.1.4/jquery.min.js'></script>
+
+</head>
+<body>
+
+</body>
+
+	<script>
+		// 新建一个b 标签 放进 div1里面  --> 创建节点
+		// $('#div1').append('<b>123</b>');
+
+		// 把div1 放进div2里面
+		// $('#div1').appendTo('#div2');
+		alert(123);
+		$.ajax({
+
+			data: {id: 1},
+
+			url: U('Ceshi/jkl'),
+
+			type: 'post',
+
+			success: function(msg) {
+				console.log(msg);
+			}
+
+		});
+
+	</script>
+</html>

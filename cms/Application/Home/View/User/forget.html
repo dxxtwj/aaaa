@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>忘记密码</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Forget/forget.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_z9t1z9wnrc8oajor.css">
+
+</head>
+
+<body>
+
+<div id="mymobile" style="display:none">{$res}</div>
+     <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">忘记密码</h1>
+    </header> 
+    <!-- 外部容器开始 -->
+    <div class="mui-content" id="control">
+        <main>
+        	<!--忘记密码第一页-->
+        	<div class="page1">
+        		<div class="input_box">
+	        		<i class="iconfont icon-shouji"></i>
+	        		<input id="phone" type="text" name="phone" maxlength="11" placeholder="请输入您的手机号码" v-model="phone" @focus="change" />
+	        	</div>
+	        	<div class="input-yzm">
+		        	<div class="input_box">
+		        		<i class="iconfont icon-yanzheng"></i>
+		        		<input type="text" id="yzm" name="yzm" placeholder="请输入短信验证码" maxlength="6" v-model="note" @focus="change" />
+		        	</div>
+		        	<input type="button" class="send" v-model="sendMes" @click="send"/>
+	        	</div>
+	        	<!--滑动验证-->
+	        	<div class="stage" style="display: none;">
+					<div class="slider" id="slider">
+						<div class="label">向右滑动验证</div>
+						<div class="track" id="track">
+							<div class="bg-green"></div>
+						</div>
+						<div class="button" id="btn">
+							<div class="icon" id="icon"></div>
+							<div class="spinner" id="spinner"></div>
+						</div>
+					</div>
+				</div>
+				<button type="button" class="mui-btn btn_login btn" :class="next_btn?'btn-red mui-btn-danger' :''" @click="next">下一步</button>
+        	</div>
+        	<!--忘记密码第一页结束-->
+        	
+        	
+        	
+        	<!--忘记密码第二页-->
+        	<div class="page2 hidden">
+        		<div class="input_box">
+	        		<i class="iconfont icon-password"></i>
+	        		<input :type="input_type1" id="pwd1" name="pwd1" placeholder="6-20位数字、英文组成" maxlength="20" @focus="change2"  />
+	        		<div class="eye" :class="{eye2:isEye1}" @click="changeEye1"></div>
+	        	</div>
+	        	<div class="input_box">
+	        		<i class="iconfont icon-password"></i>
+	        		<input :type="input_type2" id="pwd2" name="pwd2" placeholder="请再次输入密码" maxlength="20" @focus="change2"  />
+	        		<div class="eye" :class="{eye2:isEye2}" @click="changeEye2"></div>
+	        	</div>
+	        	<button type="button" class="mui-btn btn_login btn" :class="finish_btn?'btn-red mui-btn-danger' :''" @click="finish">完成</button>
+        	</div>
+        	<!--忘记密码第二页结束-->
+        </main>
+    </div>
+    <!-- 外部容器结束 -->
+</body>
+
+    <script src="/Public/home/js/lib/vue.min.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!--<script src="/Public/home/js/lib/footer.js"></script>-->
+    <!-- Swiper JS -->
+    <!--<script src="/Public/home/js/lib/swiper.jquery.min.js"></script>-->
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Forget/forget.js"></script>
+</html>

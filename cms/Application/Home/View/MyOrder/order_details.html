@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+   		<title>订单详情</title>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />		<!-- iphone safri 全屏 -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	<!-- iphone safri 状态栏的背景颜色 -->
+	    <meta name="apple-mobile-web-app-title" content="油卡">		<!-- iphone safri 添加到主屏界面的显示标题 -->
+	    <meta name="format-detection" content="telphone=no, email=no" />	<!-- 禁止数字自动识别为电话号码 -->
+	    <meta name="renderer" content="webkit">				<!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
+	    <meta name="HandheldFriendly" content="true">		<!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+	    <meta http-equiv="Cache-Control" content="no-siteapp" />	<!-- 禁止百度转码 -->
+	    <meta name="screen-orientation" content="portrait">	<!-- uc强制竖屏 -->
+	    <meta name="browsermode" content="application">		<!-- UC应用模式 -->
+	    <meta name="full-screen" content="yes">				<!-- UC强制全屏 -->
+	    <meta name="x5-orientation" content="portrait">		<!-- QQ强制竖屏 -->
+	    <meta name="x5-fullscreen" content="true">			<!-- QQ强制全屏 -->
+	    <meta name="x5-page-mode" content="app">			<!-- QQ应用模式 -->
+	    <!--加载阿里flexible库-->
+        <script src="/Public/home/js/lib/flexible.js"></script>
+        <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+        <link rel="stylesheet" href="/Public/home/css/MyOrder/order_details.css">
+		<!-- 引用阿里矢量图标库 -->
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_01w3i5rjbrg7rpb9.css">
+		<script>
+			var orderRecListJson = '{$orderRecListJson}';
+			var addressJson = '{$addressJson}';
+			var orderTimeJson = '{$orderTimeJson}';
+			var orderWuLiuJson = '{$orderWuLiuJson}';
+			var youHuiJson = '{$youHuiJson}';//优惠
+
+		</script>
+    </head>
+    <body>
+        <!--loading-->
+		<div class="loading">
+				<div class="spinner">
+				  <div class="bounce1"></div>
+				  <div class="bounce2"></div>
+				  <div class="bounce3"></div>
+				</div>
+		</div>
+        
+        <!-- 外部容器开始 -->
+        <div id="control" class="container">
+	            <header class="mui-bar mui-bar-nav">
+                    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                    <h1 class="mui-title">订单详情</h1>
+                </header>
+	            <!--主体开始-->
+	            <main class="mui-content">	
+					<!--地址信息-->
+	            	<div class="loc">
+	            		<i class="iconfont icon-dizhi"></i>
+						<div class="loc-mes">
+							<p><span>收货人：<q v-text="oLoc.name"></q></span><span v-text="oLoc.phone"></span></p>
+							<p v-text="oLoc.loc"></p>
+						</div>
+					</div>
+					<!--订单信息-->
+					<ul class="content">
+						<!-- <p class="order-num">订单号：{{oOrderDetails.danhao}}</p> -->
+                        <p class="note-p note-p2 wait" :class="showStatus(oOrderDetails.state)" v-text="oOrderDetails.state"></p>
+						<li v-for="item in oOrderDetails.mes" class="content-li">					
+						<a :href="item.href" class="show">
+							<div class="img">
+								<img :src="item.img" alt="" />
+							</div>
+							<p v-text="item.mes"></p>
+							<span v-show="item.selected">已选：<q v-text="item.selected"></q></span>
+							<span class="price">&yen;<em v-text="item.price"></em></span>
+							<span class="good-num">x&nbsp;<q v-text="item.num"></q></span>	
+						</a>				
+						</li>
+                        <!-- 运费 -->
+                        <div class="take" v-if="oOrderDetails.manJian">
+                        	<p>满额优惠：
+                        		<span><q v-text="oOrderDetails.manJian"></q></span>
+                        	</p>
+                        </div>
+                        <div class="take" v-if="oOrderDetails.youHuiQuan"><p>优惠券：
+                        	<span><q v-text="oOrderDetails.youHuiQuan"></q></span>
+                        </p></div>
+                        <div class="take"><p>运费：<span>&yen;<em v-text="oOrderDetails.takeMoney"></em></span></p></div>
+                        <!--<div class="take-line"></div>-->
+						<p class="note-p">
+							共 <span v-text="oOrderDetails.goodNum"></span> 件商品  
+							<span>(含运费,优惠)</span> 总计：<span>&yen;<q v-text="oOrderDetails.goodPrice"></q></span>
+						</p>
+						
+						<!--脚部按钮-->
+						<p class="order-num footer" v-if="oOrderDetails.move">
+                            <button type="button" class="btn mui-btn mui-btn-danger btn-red" @click="toMove(oOrderDetails.move)" v-text="oOrderDetails.move"></button>
+                            <button type="button" class="mui-btn btn" v-if="oOrderDetails.status == 3" @click="checkGood">查看物流</button>
+                            <button type="button" class="mui-btn btn" v-if="oOrderDetails.status == 1" @click="cancelOrder">取消订单</button>
+                        </p>
+					</ul>
+
+                    <article>
+                        <p>订单号：<span v-text="oOrderDetails.danhao"></span></p>
+                        <p style="display:none;" v-show="detTime.orderTime">创建时间：<span v-text="detTime.orderTime"></span></p>
+                        <p style="display:none;" v-show="detTime.payTime">付款时间：<span v-text="detTime.payTime"></span></p>
+                        <p style="display:none;" v-show="detTime.goodTime">发货时间：<span v-text="detTime.goodTime"></span></p>
+                        <!--<p style="display:none;" v-show="detTime.completeTime">完成时间：<span v-text="detTime.completeTime"></span></p>-->
+                    </article>
+
+                    <!--详细信息-->
+                    <article>
+                        <p>承运公司：<span v-text="oDetails.company"></span></p>
+                        <p>运单编号：<span v-text="oDetails.wuliu"></span></p>
+                    </article>
+					
+					<!--物流跟踪-->
+					<p class="logistics-p">物流跟踪</p>
+					<div class="logistics">
+						<ul class="logistics-ul">
+							<li class="logistics-li" v-for="item in oLogistics">
+								<div class="circle-line">
+									<div class="circle" :class="{'circle-yes':item.flag}"></div>
+									<div class="line"></div>
+								</div>
+								<div class="logistics-mes">
+									<p :class="{'circle-yes-p':item.flag}"><q v-text="item.context"></q></p>  
+									<p v-text="item.time"></p>
+								<div>
+							</li>
+						</ul>
+						<p class="logistics-nodata" style="display: none;" v-show="!oLogistics.length">暂时还没有物流信息哦！</p>
+					</div>
+	            </main>
+	            <!--主体结束-->
+        </div>
+        <!-- 外部容器结束 -->
+        <!--验证信息-->
+    	<div class="verify-msg"></div>
+        
+        <script src="/Public/home/js/lib/jquery.min.js"></script>
+        <script src="/Public/home/js/lib/mui.min.js"></script>
+        <script src="/Public/home/js/lib/vue.min.js"></script>
+        <script src="/Public/home/js/MyOrder/order_details.js"></script>
+    </body>
+</html>

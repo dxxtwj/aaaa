@@ -1,0 +1,42 @@
+[ 2018-01-22T18:43:08+08:00 ] 192.168.30.109 /Public/home/js/lib/maps/swiper.jquery.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.129853s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-22T18:43:36+08:00 ] 192.168.30.109 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.459375s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-01-22T18:43:40+08:00 ] 192.168.30.109 /Public/home/js/lib/maps/swiper.jquery.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-22T18:44:12+08:00 ] 192.168.30.109 /Public/home/js/lib/maps/swiper.jquery.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-22T21:17:56+08:00 ] 192.168.30.109 /Public/home/js/lib/maps/swiper.jquery.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-22T21:17:56+08:00 ] 192.168.30.109 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-01-22T22:02:16+08:00 ] 192.168.30.109 /Public/home/js/lib/maps/swiper.jquery.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.256294s ]
+ERR: 无法加载模块:Public
+

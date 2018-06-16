@@ -1,0 +1,240 @@
+/*loading*/
+.loading{
+    position:fixed;
+    top: 44px;
+    width:10rem;
+    height:100%;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    transform:translateX(-50%);
+    background-color:#fff;
+    z-index: 999;
+}
+.spinner {
+    margin: 3.6rem auto 0;
+    width: 150px;
+    text-align: center;
+}
+ 
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #03b7cc;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: #fd0202;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background-color:#7fda6d;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+
+
+
+html,body{
+	background-color:#f8f8f8;
+}
+
+
+/*主体*/
+main{
+	width:100%;
+	margin:0 auto;
+}
+
+/*列表*/
+.list{
+	width: 100%;
+	background-color:#f8f8f8;
+}
+.list li{
+	background-color:#fff;
+	margin-bottom:0.266666rem;
+	box-shadow: 0 3px 5px #f2f1f1;
+}
+.list_box{
+	display: flex;
+	border-top:1px solid #e5e5e5;
+	padding: 0.333333rem 0.266666rem;
+}
+.list_box2{
+	padding: 0;
+}
+.list_box3{
+	flex-wrap: wrap;
+}
+.img{
+	width:100%;
+	max-height: 9.933333rem;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	height: auto;
+}
+.goods_msg{
+	width:100%;
+}
+.goods_msg p:first-child{
+	color:#333;
+	font-size:0.346666rem;
+	line-height: initial;
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+   /*margin-top:0.1rem;*/
+}
+.goods_msg .price{
+	color:#d60000;
+	font-size:0.32rem;
+	line-height: initial;
+	margin-top:0.333333rem;
+}
+.price span:first-child{
+	color:#666;
+}
+.caption , .text{
+	width: 50%;
+	color:#333;
+	font-size:0.373333rem;
+	line-height: initial;
+}
+.text{
+	text-align: right;
+}
+
+/*按钮颜色*/
+.mui-btn{
+	padding: 0.133333rem  0.266666rem;
+	font-size: 0.32rem;
+	margin-left: 0.1rem;
+}
+.btn-gray{
+	color:#999;
+}
+.loc{
+	color:#999;
+	font-size: 0.32rem;
+	line-height: 0.453333rem;
+	margin-top:0.2rem;
+}
+
+/*提示*/
+/*提示 左*/
+.note_l{
+	color:#ffbb3c;
+}
+/*提示 右*/
+.note_r{
+	font-size:0.32rem;
+}
+/*安排发货*/
+.plan{
+	color:#999;
+}
+/*九折支付超时*/
+.nine_pass{
+	display: block;
+	color:#ffbb3c;
+	margin-top:0.2rem;
+}
+/*九折购买按钮无效*/
+.btn_invalid{
+	color:#fff;
+	background-color:#ccc;
+	padding: 0.133333rem 0.266666rem;
+    font-size: 0.32rem;
+    border-radius: 3px;
+}
+/*已晒单*/
+.is_show{
+	color:#ffbb3c;
+}
+
+
+/*九折购买弹出框*/
+.mui-popup-button{
+	color:#ffbc3c;
+}
+
+
+/*物流*/
+.logistics{
+	width: 100%;
+	height:1rem;
+	line-height: 1rem;
+	background-color:#fff;
+	border-bottom: 1px solid #eee;
+}
+.logistics p{
+	color:#000;
+	font-size:0.32rem;
+	margin-left: 10px;
+}
+.logistics_main{
+	background-color:#fff;
+}
+.address{
+	padding:10px;
+	background: url(../../images/address_solid.png) repeat-y;
+	background-position: 22px 0;
+	margin:0;
+	background-clip: content-box;
+	list-style: none;
+}
+
+.address li:first-child{
+	background: url(../../images/icon_address_active.png) no-repeat;
+	padding-top:5px;
+	margin-top:0;
+}
+.address li:first-child .title{
+	color:#25ae5f;
+}
+.address li{
+	background: url(../../images/icon_address.png) no-repeat ;
+	padding-left:30px;
+	margin-top:30px;
+}
+
+.no_notice{
+	width: 100%;
+	text-align: center;
+	padding-bottom:0.5rem;
+	background-color:#fff;
+}
+.hide{
+	display: none;
+}

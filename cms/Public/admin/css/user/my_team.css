@@ -1,0 +1,152 @@
+
+html,body{
+	background-color:#f8f8f8;
+}
+/*容器*/
+.mui-content{
+	margin:0;
+}
+
+/*主体*/
+main{
+	width:100%;
+	margin:0 auto;
+	background:#f8f8f8;
+}
+
+.team_num{
+	position:fixed;
+	z-index: 99;
+	top:0px;
+	width: 9.466666rem;
+	padding: 0 0.266666rem;
+	font-size:0.373333rem;
+	color:#333;
+	height: 1.066666rem;
+	line-height: 1.066666rem;
+	border-bottom:1px solid #d9d9d9;
+	background-color:#fff;
+}
+/*分类*/
+.sort_box{
+	position: fixed;
+	z-index: 99;
+	width: 10rem;
+	top:0px;
+	margin-top:1.066666rem;
+	padding-bottom:0.266666rem;
+	padding-top:0.266666rem;
+	background-color:#f8f8f8;
+}
+.mui-segmented-control{
+	box-sizing: initial;
+	width:9.466666rem;
+	margin:0 auto;
+	height: 0.8rem;
+	border:1px solid #ff6017;
+	overflow: hidden;
+	border-radius:5px;
+	display: flex;
+	justify-content: space-between;
+}
+.mui-segmented-control .mui-control-item{
+	color:#333;
+	font-size: 0.32rem;
+	line-height: 0.8rem;
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+/*.mui-segmented-control .mui-control-item:nth-child(1),
+.mui-segmented-control .mui-control-item:nth-child(2){
+	width:16%
+}*/
+.mui-segmented-control .mui-control-item.mui-active{
+	background-color:#ff6017;
+	color:#fff;
+}
+
+/*列表*/
+.list{
+	width:100%;
+	margin-top:2.399998rem;
+}
+.list li{
+	width:9.466666rem;
+	padding: 0.2rem 0.266666rem 0.266666rem;
+	background-color:#fff;
+	display: flex;
+	box-shadow: 0 2px 6px #ebebeb;
+	margin-bottom:0.266666rem;
+}
+.img{
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.mes{
+	margin-left: 0.266666rem;
+	height: 1.2rem;
+}
+.mes p:first-child{
+	color:#222;
+	font-size:0.32rem;
+	margin-top:0.1rem;
+	line-height: initial;
+}
+.mes p:last-child{
+	color:#777;
+	font-size:0.293333rem;
+	line-height: initial;
+	margin-top:0.05rem;
+}
+
+@media only screen and (min-width: 360px){
+	.mes p:first-child{
+		margin-top:0.15rem;
+	}
+	.mes p:last-child{
+		margin-top:0.1rem;
+	}
+}
+
+
+
+/*mui信息框样式修改*/
+.mui-toast-container{
+	bottom:50%;
+}
+.mui-toast-message{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+
+/*没有数据*/
+.no_data{
+	display: none;
+	position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:10rem;
+    margin:0 auto;
+    text-align: center;
+}
+.no_data i{
+	font-size:76px;
+    color:#999;
+    text-align:center;
+}
+.no_data p{
+    text-indent:0px;
+    font-size:0.426666rem;
+    margin-top:0.533333rem;
+    color:#999;
+}

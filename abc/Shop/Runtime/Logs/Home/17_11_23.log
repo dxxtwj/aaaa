@@ -1,0 +1,556 @@
+[ 2017-11-23T10:48:58+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0022s ]
+
+[ 2017-11-23T10:48:59+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0021s ]
+
+[ 2017-11-23T10:49:02+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html?id=122
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `shop_tab` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_tab` WHERE `uid` = 122  [ RunTime:0.0020s ]
+
+[ 2017-11-23T10:49:02+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html?id=58
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `shop_tab` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `shop_tab` WHERE `uid` = 58  [ RunTime:0.0024s ]
+
+[ 2017-11-23T10:49:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html?id=184
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `shop_tab` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `shop_tab` WHERE `uid` = 184  [ RunTime:0.0026s ]
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0064s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 44  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0023s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 44  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 43  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 43  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 43  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0027s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 42  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 42  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:00+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 42  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007730s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 41  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 41  [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0021s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 39  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005418s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0033s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 38  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007038s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 45  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006323s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 51  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+
+[ 2017-11-23T10:52:01+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+
+[ 2017-11-23T10:52:02+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 45  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 38  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011562s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0033s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 38  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0024s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 51  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006015s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 38  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:52:27+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0024s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 45  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:59:18+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0027s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 48  [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:59:30+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 41  [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:59:30+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0037s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 38  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:59:30+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005687s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T10:59:30+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 45  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:01:20+08:00 ] 192.168.32.127 /TP-shop/Home/Index/gif.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `shop_ceshi2` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`name1`,`name2`,`name3`,`name4`,`name5`,`name6`,`name7` FROM `shop_ceshi2` LIMIT 1   [ RunTime:0.0058s ]
+
+[ 2017-11-23T11:10:16+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 47  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:10:16+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0032s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 46  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:10:16+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0015s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 46  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:10:16+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0036s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 46  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:10:31+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0049s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 47  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:15+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006206s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0089s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:15+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0019s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:15+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015864s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:15+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004146s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 40  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:18+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 51  [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:19+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 39  [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:19+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 41  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:19+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005159s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0034s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 47  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+
+[ 2017-11-23T11:11:19+08:00 ] 192.168.32.127 /TP-shop/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `shop_types` WHERE `pid` = 0  [ RunTime:0.0038s ]
+SQL: SELECT `id`,`name` FROM `shop_types` WHERE `pid` = 46  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: scc /usr/local/apache2/htdocs/TP-shop/Shop/Home/Controller/IndexController.class.php 第 61 行.
+

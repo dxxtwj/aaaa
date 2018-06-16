@@ -1,0 +1,31 @@
+.mui-content{padding-bottom: 0;}
+.rule_bg{
+    width:10rem;
+    height:15.6rem;
+    position:relative;
+    background:#fff url(/Public/home/images/rule_bg.png) no-repeat top;
+    background-size:100%;
+}
+.text_data{
+    width:100%;
+}
+.text_data>p{position:absolute;font-size:14px;line-height: 18px;left:1.76rem;width:6.6rem;}
+.p_s1{top:4rem;}
+.p_s2{top:6.8rem;}
+.p_s3{top:9.4rem;}
+.p_s4{top:13.8rem;}
+/*备注*/
+.beizhu{
+    padding:5px;
+    color:#4e1b07;
+    background:#fbc524;
+    background-size:contain;
+    width:100%;
+}
+.beizhu p{
+    padding:0;
+    color:#4e1b07;
+    margin:0;
+    font-size:10px;
+    line-height: 25px;
+}

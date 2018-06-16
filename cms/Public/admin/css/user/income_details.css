@@ -1,0 +1,128 @@
+html,body{
+	background-color:#f8f8f8;
+}
+/*外部容器*/
+.mui-content{
+	padding-bottom:0.333333rem;
+	margin: 0;
+}
+
+/*主体*/
+main{
+	width:10rem;
+	margin:0 auto;
+	background:#f8f8f8;
+}
+
+/*分类*/
+.mui-segmented-control{
+	background-color:#fff;
+	position:fixed;
+	top:0px;
+	z-index: 99;
+	height: 0.8rem;
+	border-bottom:1px solid #d9d9d9;
+	width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-size:0.32rem;
+}
+.mui-control-item{
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color:#d60000;
+	border-bottom:2px solid #d60000;
+}
+
+/*列表*/
+.list{
+	width:100%;
+	margin-top:50px;
+}
+.list li{
+	width:100%;
+	background-color:#fff;
+	box-shadow: 0 2px 6px #ebebeb;
+	margin-bottom:0.266666rem;
+}
+.order{
+	padding: 0 0.266666rem;
+	color:#222;
+	font-size:0.32rem;
+	line-height: 0.9rem;
+	border-bottom:1px solid #d9d9d9;
+	border-top:1px solid #d9d9d9;
+}
+.order span:last-child{
+	float: right;
+}
+.msg{
+	position: relative;
+	padding: 0.2rem 0.266666rem;
+	font-size:0.32rem;
+	color:#777;
+}
+.msg p{
+	color:#777;
+	font-size:0.32rem;
+	line-height: 0.65rem;
+}
+.msg .score{
+	position: absolute;
+	font-size:0.4rem;
+	color:#ffbb3c;
+	top:50%;
+	transform: translateY(-50%);
+	right:0.466666rem;
+}
+
+/*购买*/
+.buy{
+	color:#27b618;
+}
+/*销售*/
+.sale{
+	color:#d6bf24;
+}
+/*月结*/
+.monthly{
+	color:#ff6017;
+}
+
+
+/*mui信息框样式修改*/
+.mui-toast-container{
+	bottom:50%;
+}
+.mui-toast-message{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+
+/*没有数据*/
+.no_data{
+	display: none;
+	position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:10rem;
+    margin:0 auto;
+    text-align: center;
+}
+.no_data i{
+	font-size:76px;
+    color:#999;
+    text-align:center;
+}
+.no_data p{
+    text-indent:0px;
+    font-size:0.426666rem;
+    margin-top:0.533333rem;
+    color:#999;
+}

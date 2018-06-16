@@ -1,0 +1,36 @@
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008487s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-09T12:46:09+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-09T12:47:49+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/javascript:void(0)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-09T12:50:53+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/javascript:void(0)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-09T12:51:25+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-09T13:07:04+08:00 ] 192.168.32.44 /TP-shop/Public/Admin/javascript:void(0)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+

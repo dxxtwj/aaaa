@@ -1,0 +1,376 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+
+		<title>实名认证</title>
+
+		<link href="/abc/Public/Home/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="/abc/Public/Home/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+
+		<link href="/abc/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="/abc/Public/Home/css/stepstyle.css" rel="stylesheet" type="text/css">
+		<script src="/abc/Public/Home/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+		<script src="/abc/Public/Home/AmazeUI-2.4.2/assets/js/amazeui.js"></script>	
+		<style>
+			/*错误提示信息类样式*/
+			.error-message {color:red;}
+
+			/*设置输入框的提示信息样式*/
+			.prompt-message{color: #C5C5C5;font-size: 16px;}
+
+			/*错误图标样式*/
+			.item-error{
+				float:left;
+				position:relative;
+				top:4px;
+				color:#fc4343;
+				height:16px;
+				line-height:14px;
+				padding-left:20px;
+				background:url("/abc/Public/Images/Login/err_small.png") 0 0 no-repeat;
+			}
+
+			/*正确图标样式*/
+			.item-succ{
+				float:left;
+				position:relative;
+				top:5px;
+				color:#fc4343;
+				height:16px;
+				line-height:12px;
+				padding-left:20px;
+				background:url("/abc/Public/Images/Login/reg_icons.png") -80px 0 no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<!--头 -->
+		<header>
+			<article>
+				<div class="mt-logo">
+					<!--顶部导航条 -->
+					<div class="am-container header">
+						<ul class="message-l">
+							<div class="topMessage">
+								<div class="menu-hd">
+								<?php  if (empty(session('user'))) { echo "<a href=".U('Index/index')." title='点击前往商城首页'>&nbsp;欢迎您来到零食商城,</a>　<a href=".U('Login/login')." title='亲，要登录后才能买东西哦~'>登录</a>　|　<a href=".U('Login/emailRegister')." title='还没账号?点击立即注册'>注册</a>"; } else { echo "<a href=".U('Index/index')." title='点击前往商城首页'>&nbsp;欢迎您,</a><a href=".U('Usercenter/index')." title='点击前往个人中心'>".session('user')['username']."</a> ｜ <a href=".U('Login/logout')." title='点击退出登录'>注销</a>"; } ?>
+								</div>
+							</div>
+						</ul>
+						<ul class="message-r">
+							<div class="topMessage home">
+								<div class="menu-hd"><a href="<?php echo U('Index/index');?>" target="_top" class="h">商城首页</a></div>
+							</div>
+							<div class="topMessage my-shangcheng">
+								<div class="menu-hd MyShangcheng"><a href="<?php echo U('Usercenter/index');?>" target="_top"><i class="am-icon-user am-icon-fw"></i>个人中心</a></div>
+							</div>
+							<div class="topMessage mini-cart">
+								<div class="menu-hd"><a id="mc-menu-hd" href="<?php echo U('Shopcart/index');?>" target="_top"><i class="am-icon-shopping-cart  am-icon-fw"></i><span>购物车</span><strong id="J_MiniCartNum" class="h">0</strong></a></div>
+							</div>
+							<div class="topMessage favorite">
+								<div class="menu-hd"><a href="#" target="_top"><i class="am-icon-heart am-icon-fw"></i><span>收藏夹</span></a></div>
+						</ul>
+						</div>
+
+						<!--悬浮搜索框-->
+
+						<div class="nav white">
+							<div class="logoBig">
+								<li><img src="/abc/Public/Home/images/logobig.png" /></li>
+							</div>
+
+							<div class="search-bar pr">
+								<a name="index_none_header_sysc" href="#"></a>
+								<form>
+									<input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
+									<input id="ai-topsearch" class="submit am-btn" value="搜索" index="1" type="submit">
+								</form>
+							</div>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+				</div>
+			</article>
+		</header>
+		<div class="nav-table">
+			<div class="long-title"><span class="all-goods">全部分类</span></div>
+			<div class="nav-cont">
+				<ul>
+					<li class="index"><a href="#">首页</a></li>
+					<li class="qc"><a href="#">闪购</a></li>
+					<li class="qc"><a href="#">限时抢</a></li>
+					<li class="qc"><a href="#">团购</a></li>
+					<li class="qc last"><a href="#">大包装</a></li>
+				</ul>
+				<div class="nav-extra">
+					<i class="am-icon-user-secret am-icon-md nav-user"></i><b></b>我的福利
+					<i class="am-icon-angle-right" style="padding-left: 10px;"></i>
+				</div>
+			</div>
+		</div>
+		<b class="line"></b>
+		<div class="center">
+			<div class="col-main">
+				<div class="main-wrap">
+
+					<div class="am-cf am-padding">
+						<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">实名认证</strong> / <small>Real&nbsp;authentication</small></div>
+					</div>
+					<hr/>
+					<div class="authentication">
+						<p class="tip">请填写您身份证上的真实信息，以用于报关审核</p>
+						<div class="authenticationInfo">
+							<p class="title">填写个人信息</p>
+						<form action="<?php echo U('Usercenter/idcard');?>" method="post">	
+							<div class="am-form-group">
+								<label for="user-name" class="am-form-label">真实姓名</label>
+								<div class="am-form-content">
+									<?php $tname = $data['tname']; ?>
+									<?php if(empty($tname)): ?><input type="text" id="tname" name="tname" placeholder="请输入您的真实姓名">
+									<?php else: ?>
+										<?php echo ($data['tname']); ?><span style="color:green">&nbsp;&nbsp;&nbsp;已验证</span><?php endif; ?>
+								</div>
+							</div>
+							<div class="am-form-group">
+								<label for="user-IDcard" class="am-form-label">身份证号</label>
+								<div class="am-form-content">
+									<?php $idcard = $data['idcard'];?>
+									<?php if(empty($idcard)): ?><input type="text" id="idcard" name="idcard" placeholder="请输入您的身份证号码">
+									<?php else: ?>
+										<?php echo ($data['idcard']); ?><span style="color:green">&nbsp;&nbsp;&nbsp;已验证</span><?php endif; ?>
+								</div>
+							</div>
+						</div>
+					<!-- 	<div class="authenticationPic">
+							<p class="title">上传身份证照片</p>
+							<p class="tip">请按要求上传身份证</p>
+							<ul class="cardlist">
+								<li>
+									<div class="cardPic">
+										<img src="/abc/Public/Home/images/cardbg.jpg">
+										<div class="cardText"><i class="am-icon-plus"></i>
+											<p>正面照片</p>
+										</div>
+										<p class="titleText">身份证正面</p>
+									</div>
+									<div class="cardExample">
+										<img src="/abc/Public/Home/images/cardbg.jpg">
+										<p class="titleText">示例</p>										
+									</div>
+									
+								</li>
+								<li>
+									<div class="cardPic">
+										<img src="/abc/Public/Home/images/cardbg.jpg">
+										<div class="cardText"><i class="am-icon-plus"></i>
+											<p>背面照片</p>
+										</div>
+										<p class="titleText">身份证背面</p>
+									</div>
+									<div class="cardExample">
+										<img src="/abc/Public/Home/images/cardbg.jpg">
+										<p class="titleText">示例</p>										
+									</div>
+									
+								</li>
+							</ul>
+						</div> -->
+						<div class="info-btn">
+						<button class="am-btn am-btn-danger" type="submit" id="savebtn">提交</button>
+						</div>
+						</form>
+					</div>
+				</div>
+				<!--底部-->
+				<div class="footer">
+					<div class="footer-hd">
+						<p>
+							<a href="#">恒望科技</a>
+							<b>|</b>
+							<a href="#">商城首页</a>
+							<b>|</b>
+							<a href="#">支付宝</a>
+							<b>|</b>
+							<a href="#">物流</a>
+						</p>
+					</div>
+					<div class="footer-bd">
+						<p>
+							<a href="#">关于恒望</a>
+							<a href="#">合作伙伴</a>
+							<a href="#">联系我们</a>
+							<a href="#">网站地图</a>
+							<em>© 2015-2025 Hengwang.com 版权所有. 更多模板 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></em>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<aside class="menu">
+				<ul>
+					<li class="person active">
+						<a href="index.html"><i class="am-icon-user"></i>个人中心</a>
+					</li>
+					<li class="person">
+						<p><i class="am-icon-newspaper-o"></i>个人资料</p>
+						<ul>
+							<li> <a href="information.html">个人信息</a></li>
+							<li> <a href="safety.html">安全设置</a></li>
+							<li> <a href="address.html">地址管理</a></li>
+							<!-- <li> <a href="cardlist.html">快捷支付</a></li> -->
+						</ul>
+					</li>
+					<li class="person">
+						<p><i class="am-icon-balance-scale"></i>我的交易</p>
+						<ul>
+							<li><a href="order.html">订单管理</a></li>
+							<li> <a href="change.html">退款售后</a></li>
+							<li> <a href="comment.html">评价商品</a></li>
+						</ul>
+					</li>
+					<li class="person">
+						<p><i class="am-icon-dollar"></i>我的资产</p>
+						<ul>
+							<li> <a href="points.html">我的积分</a></li>
+							<li> <a href="coupon.html">优惠券 </a></li>
+							<li> <a href="bonus.html">红包</a></li>
+							<li> <a href="walletlist.html">账户余额</a></li>
+							<li> <a href="bill.html">账单明细</a></li>
+						</ul>
+					</li>
+
+					<li class="person">
+						<p><i class="am-icon-tags"></i>我的收藏</p>
+						<ul>
+							<li> <a href="collection.html">收藏</a></li>
+							<li> <a href="foot.html">足迹</a></li>
+						</ul>
+					</li>
+
+					<li class="person">
+						<p><i class="am-icon-qq"></i>在线客服</p>
+						<ul>
+							<li> <a href="consultation.html">商品咨询</a></li>
+							<li> <a href="suggest.html">意见反馈</a></li>
+
+							<li> <a href="news.html">我的消息</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</aside>
+		</div>
+
+	</body>
+<script>
+$(function() {
+	// 当点击输入框时显示提示信息
+	$('form :input').click(function() {
+
+		// 如果是姓名输入框
+    	if ($(this).is('#tname')) {
+    		// nextAll,查找当前元素之后所有的同辈元素。
+			$(this).nextAll().remove();
+
+    		var $listItem = $(this).parents('div:first');
+    		// 设置输入的提示信息
+			var promptMessage = "请填写实名认证信息，一经提交无法修改，请慎重填写！";
+			$('<span></span>')
+			.addClass('prompt-message')
+			.text(promptMessage)
+			.appendTo($listItem);
+    	}
+
+    	// 如果是身份证号码输入框
+    	if ($(this).is('#idcard')) {
+    		// nextAll,查找当前元素之后所有的同辈元素。
+			$(this).nextAll().remove();
+
+    		var $listItem = $(this).parents('div:first');
+    		// 设置输入的提示信息
+			var promptMessage = "请填写个人身份证号码，一经提交无法修改，请慎重填写！";
+			$('<span></span>')
+			.addClass('prompt-message')
+			.text(promptMessage)
+			.appendTo($listItem);
+    	}
+	});
+
+	// 当输入框失去焦点的时候触发
+	$('form :input').blur(function() {
+
+		// 如果是姓名输入框
+    	if ($(this).is('#tname')) {
+    		
+	    	// nextAll()删除所选输入框的同辈元素 
+	    	$(this).nextAll().remove();
+	    	var $listItem = $(this).parents('div:first');
+
+	    	// 判断姓名是否正确
+		    // 1.可以是中文
+			// 2.可以是英文，允许输入点（英文名字中的那种点）， 允许输入空格
+			// 3.中文和英文不能同时出现
+			// 4.长度在2-20个字符以内
+	    	if (this.value != '' && !/^([\u4e00-\u9fa5]{2,20}|[a-zA-Z\.\s]{2,20})$/.test(this.value)) {
+
+	    		// 将Input框的颜色设置为红色
+				$('#tname').css('border-color', 'red');
+
+
+				// 设置错误信息
+				var errorMessage = '输入的姓名不正确请重新输入';
+		        $('<span></span>')
+		          .addClass('error-message')
+		          .text(errorMessage)
+		          .appendTo($listItem);
+
+		        // 阻止表单提交
+				return false;
+	    	} else {
+	    		// 将Input框的颜色设置为灰色
+				$('#tname').css('border-color', '#E4EAEE');
+
+    			// 允许表单提交
+				return true;
+	    	}
+	    };
+
+	    // 如果是身份证号码输入框
+    	if ($(this).is('#idcard')) {
+    		
+	    	// nextAll()删除所选输入框的同辈元素 
+	    	$(this).nextAll().remove();
+	    	var $listItem = $(this).parents('div:first');
+
+	    	
+	    	if (this.value != '' && !/^\d{6}(18|19|20)?\d{2}(0[1-9]|1[12])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)$/i.test(this.value)) {
+
+	    		// 将Input框的颜色设置为红色
+				$('#idcard').css('border-color', 'red');
+
+
+				// 设置错误信息
+				var errorMessage = '输入的身份证号码有误请重新输入';
+		        $('<span></span>')
+		          .addClass('error-message')
+		          .text(errorMessage)
+		          .appendTo($listItem);
+
+		        // 阻止表单提交
+				return false;
+	    	} else {
+	    		// 将Input框的颜色设置为灰色
+				$('#idcard').css('border-color', '#E4EAEE');
+
+    			// 允许表单提交
+				return true;
+	    	}
+	    };
+	});
+})
+</script>
+
+</html>

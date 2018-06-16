@@ -1,0 +1,934 @@
+[ 2017-12-05T18:40:07+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000759s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-12-05T18:40:08+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-12-05T18:40:20+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-12-05T18:45:04+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T18:45:58+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+ERR: Call to undefined function Admin\Controller\data()
+
+[ 2017-12-05T18:46:06+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T18:47:48+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+ERR: syntax error, unexpected ''H:i:s'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+
+[ 2017-12-05T18:48:11+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0390s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T18:48:42+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T18:48:44+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T18:58:29+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:00:04+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0315s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:02:22+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-05T19:02:58+08:00 ] 192.168.32.127 /sd/Admin/Order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `state` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `state` = 2 LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `state` = 3 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_order` WHERE `state` = 4 LIMIT 1   [ RunTime:0.0048s ]
+SQL: SELECT `id`,`atime`,`username`,`userphone`,`uaddress`,`money`,`state`,`wlname` FROM `shop_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: stime /usr/local/apache2/htdocs/sd/Shop/Admin/Model/OrderModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: stime /usr/local/apache2/htdocs/sd/Shop/Admin/Model/OrderModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: stime /usr/local/apache2/htdocs/sd/Shop/Admin/Model/OrderModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: stime /usr/local/apache2/htdocs/sd/Shop/Admin/Model/OrderModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: stime /usr/local/apache2/htdocs/sd/Shop/Admin/Model/OrderModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant 待发货 - assumed '待发货' /usr/local/apache2/htdocs/sd/Shop/Runtime/Cache/Admin/f586483394037642e85e12fee1335b6e.php 第 106 行.
+NOTIC: [8] Use of undefined constant 待发货 - assumed '待发货' /usr/local/apache2/htdocs/sd/Shop/Runtime/Cache/Admin/f586483394037642e85e12fee1335b6e.php 第 106 行.
+NOTIC: [8] Use of undefined constant 待发货 - assumed '待发货' /usr/local/apache2/htdocs/sd/Shop/Runtime/Cache/Admin/f586483394037642e85e12fee1335b6e.php 第 106 行.
+NOTIC: [8] Use of undefined constant 待发货 - assumed '待发货' /usr/local/apache2/htdocs/sd/Shop/Runtime/Cache/Admin/f586483394037642e85e12fee1335b6e.php 第 106 行.
+NOTIC: [8] Use of undefined constant 待发货 - assumed '待发货' /usr/local/apache2/htdocs/sd/Shop/Runtime/Cache/Admin/f586483394037642e85e12fee1335b6e.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-12-05T19:03:06+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:04:10+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+ERR: Call to undefined function Admin\Controller\data()
+
+[ 2017-12-05T19:04:15+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:05:34+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:06:52+08:00 ] 192.168.32.127 /sd/Admin/Order/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: year /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: month /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: day /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: time /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+NOTIC: [8] Undefined index: branch /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 125 行.
+
+[ 2017-12-05T19:09:11+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-12-05T19:09:12+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-12-05T19:09:15+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-12-05T19:09:37+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-05T19:09:46+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-12-05T19:09:46+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-12-05T19:09:48+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-12-05T19:10:02+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='5',`time`='20',`branch`='10',`second`='0' WHERE `id` = 2 [ RunTime:0.0248s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='5',`time`='21',`branch`='54',`data`='2',`id`='1' WHERE `id` = 1 [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-12-05T19:10:03+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-12-05T19:14:59+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0038s ]
+ERR: Function name must be a string
+
+[ 2017-12-05T19:15:23+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-12-05T19:15:23+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-12-05T19:15:26+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-12-05T19:15:45+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0084s ]
+ERR: Call to undefined function Admin\Controller\parseInt()
+
+[ 2017-12-05T19:15:58+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0088s ]
+ERR: Call to undefined function Admin\Controller\int()
+
+[ 2017-12-05T19:16:12+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0089s ]
+
+[ 2017-12-05T19:16:43+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0094s ]
+
+[ 2017-12-05T19:16:49+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0083s ]
+ERR: Function name must be a string
+
+[ 2017-12-05T19:16:52+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0083s ]
+ERR: Function name must be a string
+
+[ 2017-12-05T19:16:59+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0089s ]
+
+[ 2017-12-05T19:17:14+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-12-05T19:17:14+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-12-05T19:17:18+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-12-05T19:17:34+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0080s ]
+
+[ 2017-12-05T19:17:39+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-12-05T19:17:50+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0034s ]
+ERR: Function name must be a string
+
+[ 2017-12-05T19:18:08+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0046s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='5',`time`='23',`branch`='2',`second`='0' WHERE `id` = 2 [ RunTime:0.0226s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='5',`time`='22',`branch`='2',`data`='2',`id`='1' WHERE `id` = 1 [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-12-05T19:18:09+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-12-05T21:20:04+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: goods /usr/local/apache2/htdocs/sd/Shop/Admin/Controller/OrderController.class.php 第 141 行.
+ERR: Call to a member function where() on null
+
+[ 2017-12-05T21:20:48+08:00 ] 192.168.32.127 /sd/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-12-05T21:20:49+08:00 ] 192.168.32.127 /sd/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-12-05T21:20:52+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-12-05T21:21:07+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0126s ]
+SQL: SELECT `id`,`name`,`money`,`sellnum`,`image1`,`content` FROM `shop_goods` WHERE `state` = 2 LIMIT 4   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `shop_detailed` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 701  [ RunTime:0.0027s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 702  [ RunTime:0.0026s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 703  [ RunTime:0.0024s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 704  [ RunTime:0.0026s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 773 [ RunTime:0.0216s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 774 [ RunTime:0.0054s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 775 [ RunTime:0.0053s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 778 [ RunTime:0.0061s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 779 [ RunTime:0.0051s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-12-05T21:21:28+08:00 ] 192.168.32.127 /sd/Admin/Order/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `shop_seckill` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`name`,`money`,`sellnum`,`image1`,`content` FROM `shop_goods` WHERE `state` = 2 LIMIT 4   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `shop_detailed` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 701  [ RunTime:0.0028s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 702  [ RunTime:0.0023s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 703  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`price` FROM `shop_detailed` WHERE `gid` = 704  [ RunTime:0.0019s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 773 [ RunTime:0.0264s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 774 [ RunTime:0.0093s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 775 [ RunTime:0.0094s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 778 [ RunTime:0.0087s ]
+SQL: UPDATE `shop_detailed` SET `price`='9.9' WHERE `id` = 779 [ RunTime:0.0096s ]
+SQL: SELECT * FROM `shop_seckill` LIMIT 1   [ RunTime:0.0025s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='6',`time`='1',`branch`='6',`second`='0' WHERE `id` = 2 [ RunTime:0.0101s ]
+SQL: UPDATE `shop_seckill` SET `year`='2017',`month`='12',`day`='6',`time`='0',`branch`='6',`data`='2',`id`='1' WHERE `id` = 1 [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-12-05T21:21:29+08:00 ] 192.168.32.127 /sd/Admin/Order/miao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+

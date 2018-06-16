@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	</head>	
+	
+<style type="text/css">
+	.spectable td,.spectable th {border:1px solid #ccc; vertical-align: middle;text-align:center;}
+	.spectable th { font-weight: bold;}
+	.spectableinput { text-align: center;}
+	.f {border-color: #b94a48;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);}
+	.table.table-bordered tr th,.table.table-bordered tr td{overflow:hidden; text-overflow:ellipsis;}
+</style>
+
+<style>
+.btn-danger{
+	margin-left:15px;
+}
+#specs, .panel, .panel-bo , .form-group {
+	float: left;
+	width:100%;
+}
+.panel{
+	padding:20px 0;
+}
+table{
+	table-layout:fixed;
+}
+</style>
+<style>
+	
+    .multi-item { height:110px;float:left;position:relative;}
+     .img-thumbnail { width:100px;height:100px}
+     .img-nickname { position: absolute;bottom:0px;line-height:25px;height:25px;
+                    color:#fff;text-align:center;width:100px;top-25px;background:rgba(0,0,0,0.8);}
+     .multi-img-details { padding:5px;}
+
+
+
+
+	.spectable td,.spectable th {border:1px solid #ccc; vertical-align: middle;text-align:center;}
+	.spectable th { font-weight: bold;}
+	.spectableinput { text-align: center;}
+	.f {border-color: #b94a48;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);}
+	.table.table-bordered tr th,.table.table-bordered tr td{overflow:hidden; text-overflow:ellipsis;}
+
+</style>
+
+
+
+	<body>	
+<!--是否启用多规格-->
+<div class="form-group">
+    <label class="col-xs-12 col-sm-3 col-md-2 control-label">是否启用商品规格</label>
+    <div class="col-sm-9 col-xs-12">
+	    <label class="checkbox-inline">
+			<input type="checkbox" id="hasoption" value="1" name="hasoption" />启用商品规格
+		</label>
+	  	<span class="help-block">启用商品规格后，商品的价格及库存以商品规格为准,库存设置为0则不显示,-1为不限制</span>
+	</div>
+</div>
+<!--是否启用多规格结束-->
+ 
+<div id='tboption'>
+	<!--规格-->
+	<div id='specs'>
+		<img width="100%" height="100%" />
+	</div>
+	<!--规格结束-->
+
+	<!--添加规格-->
+	<table class="table">
+		<tr>
+			<td>
+				<h4>
+					<a href="javascript:;" class='btn btn-primary' id='add-spec' onclick="addSpec()" style="margin-top:10px;margin-bottom:10px;" title="添加规格"><i class='fa fa-plus'></i> 添加规格</a> 
+					<a href="javascript:;" onclick="calc()" title="刷新规格项目表" class="btn btn-primary"><i class="fa fa-refresh"></i> 刷新规格项目表</a>
+				</h4>
+			</td>
+		</tr>
+	</table>
+	<!--添加规格结束-->
+
+	<!--设置规格-->
+	<div class="panel-body table-responsive" id="options" style="padding:0;">
+	</div>
+	<!--设置规格结束-->
+</div>
+
+
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/gui.js"></script>
+	</body>
+</html>

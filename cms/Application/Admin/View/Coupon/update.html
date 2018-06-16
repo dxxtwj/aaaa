@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>编辑购物优惠券</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+
+		<link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/Public/admin/css/style.css" />
+		<link href="/Public/admin/assets/css/codemirror.css" rel="stylesheet">
+		<link rel="stylesheet" href="/Public/admin/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="/Public/admin/font/css/font-awesome.min.css" />
+		<!--[if lte IE 8]>
+<link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+<![endif]-->
+		<script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+		<script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/Public/admin/js/H-ui.js"></script>
+		<script src="/Public/admin/assets/js/typeahead-bs2.min.js"></script>
+		<script src="/Public/admin/assets/js/jquery.dataTables.min.js"></script>
+		<script src="/Public/admin/assets/js/jquery.dataTables.bootstrap.js"></script>
+		<script src="/Public/admin/assets/layer/layer.js" type="text/javascript"></script>
+		<script src="/Public/admin/assets/laydate/laydate.js" type="text/javascript"></script>
+		<script src="/Public/admin/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/Public/admin/js/lrtk.js" type="text/javascript"></script>
+		<style>
+			.custom_page_header {
+				border-bottom-color: #d5e3ef;
+				line-height: 28px;
+				margin-bottom: 5px;
+				margin-top: 10px;
+				padding-left: 15px;
+				padding-bottom: 4px;
+				border-bottom: 1px solid #CCC;
+				color: #478fca!important;
+				font-weight: lighter;
+				font-size: 21px;
+				font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+            .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child){margin:0;}
+		</style>
+	</head>
+
+	<body>
+		<form action="/index.php/Admin/Coupon/update" method="post">
+			<div class="panel panel-default">
+				<h3 class="custom_page_header">  编辑购物优惠券    </h3>
+				<div class="panel-body">
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">排序:</label>
+						<div class="col-sm-5">
+							<input type="text" name="displayorder" class="form-control" value="{$res.CR_Sort}" required>
+							<span class="help-block">数字越大越靠前</span>
+
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">优惠券名称:</label>
+						<div class="col-sm-9 col-xs-12">
+							<input type="text" name="couponname" class="form-control" value="{$res.CR_Name}" required>
+
+						</div>
+					</div>
+					<input type="hidden" name="crid" value="{$res.CR_ID}" />
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">使用条件:</label>
+						<div class="col-sm-9 col-xs-12">
+							<input type="text" name="enough" class="form-control" value="{$res.CR_Condition}" required>
+							<span class="help-block">消费满多少可用</span>
+
+						</div>
+					</div>
+					<!--0119 end  -->
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">优惠方式:</label>
+						<div class="col-sm-2 backtype backtype0">
+							<div class="input-group">
+								<span class="input-group-addon">立减</span>
+								<input type="text" class="form-control" name="deduct" value="{$res.CR_Minus}" style="margin:0;" required>
+								<span class="input-group-addon">元</span>
+							</div>
+						</div>
+					</div>
+                    <!--0119  -->
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">使用时间限制</label>
+                        <if condition="$res.CR_TimeType eq 1">
+                        <div class="col-sm-3">
+                            <div class="input-group">
+	                            <span class="input-group-addon">
+	                            	<label class="radio-inline">
+	                            		<input type="radio" name="timelimit" value="0" checked="true">获得后
+	                            	</label>
+	                            </span>
+	                            <input type="text" class="form-control" name="timedays" value="{$res.timedays}" style="margin:0;">
+	                            <span class="input-group-addon">天内有效</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="width:541px;">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                             	<label class="radio-inline" style="margin-top:-5px;"><input type="radio" name="timelimit" value="1">日期</label>
+                        		</span>
+                                <input value="" class="inline laydate-icon" name="start_timea" id="start">
+                                &nbsp;至&nbsp;
+                                <input value="" class="inline laydate-icon" name="end_timea" id="end">
+                                <span class="input-group-addon">内有效</span>
+                            </div>
+                        </div>
+                        <else />
+                        	<div class="col-sm-3">
+	                            <div class="input-group">
+		                            <span class="input-group-addon">
+		                            	<label class="radio-inline"><input type="radio" name="timelimit" value="0">获得后</label>
+		                            </span>
+		                            <input type="text" class="form-control" name="timedays" value="" style="margin:0;" placeholder="从添加此优惠券时计算">
+		                            <span class="input-group-addon">天内有效</span>
+	                            </div>
+	                        </div>
+	                        <div class="col-sm-4" style="width:541px;margin-left: 60px;">
+	                            <div class="input-group">
+	                                <span class="input-group-addon">
+	                             	<label class="radio-inline" style="margin-top:-5px;"><input type="radio" checked="true" name="timelimit" value="1">日期</label>
+	                        		</span>
+	                                <input value="{$res.CR_StartTime}" class="inline laydate-icon" name="start_timea" id="start" required>
+	                                &nbsp;至&nbsp;
+	                                <input value="{$res.CR_EndTime}" class="inline laydate-icon" name="end_timea" id="end" required>
+	                                <span class="input-group-addon">内有效</span>
+	                            </div>
+	                        </div>
+                    	</if>
+                    </div>
+                    
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label">是否启用:</label>
+						<if condition="$res.CR_State eq 1">
+							<div class="col-sm-9 col-xs-12">
+								<label class="radio-inline">
+	            					<input type="radio" name="gettype" value="0"> 否
+	        					</label>
+								<label class="radio-inline">
+	            					<input type="radio" name="gettype" checked="true" value="1"> 是
+	       						 </label>
+							</div>
+						<else />
+							<div class="col-sm-9 col-xs-12">
+								<label class="radio-inline">
+	            					<input type="radio" name="gettype" value="0" checked="true"> 否
+	        					</label>
+								<label class="radio-inline">
+	            					<input type="radio" name="gettype" value="1"> 是
+	       						 </label>
+							</div>
+						</if>
+					</div>
+<!-- 0118 -->
+                    <!-- <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">退还方式</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <label class="radio-inline">
+            					<input type="radio" name="returntype" value="0" checked="true" onclick="$('.returntype').hide()"> 不可退还
+        					</label>
+                            <label class="radio-inline">
+            					<input type="radio" name="returntype" value="1" onclick="$('.returntype').show()"> 下单取消可退还
+        					</label>
+                            <span class="help-block">会员使用过的优惠券在订单取消或退款后是否自动退回到会员账户</span>
+                        </div>
+                    </div> -->
+
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">领券中心是否可获得</label>
+                        <if condition="$res.CR_ISget eq 1">
+	                        <div class="col-sm-9 col-xs-12">
+	                            <label class="radio-inline">
+	            					<input type="radio" name="isget" value="0"> 不可以
+	            					<!-- onclick="$('.gettype').hide()" -->
+	        					</label>
+	                            <label class="radio-inline">
+	            					<input type="radio" name="isget" value="1"  checked="true"  class="isok"> 可以
+	            					<!-- onclick="$('.gettype').show()" -->
+	        					</label>
+	                            <span class="help-block">会员是否可以在领券中心直接领取</span>
+	                        </div>
+                        <else />
+                        	<div class="col-sm-9 col-xs-12">
+	                            <label class="radio-inline">
+	            					<input type="radio" name="isget" value="0" checked="true" > 不可以
+	        					</label>
+	                            <label class="radio-inline">
+	            					<input type="radio" name="isget" value="1"> 可以
+	        					</label>
+	                            <span class="help-block">会员是否可以在领券中心直接领取</span>
+	                        </div>
+                    	</if>
+                    </div>
+                    <!-- <div class="form-group gettype" style="display:none;">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+                        <div class="col-sm-9">
+                            <div class="input-group">
+                                <span class="input-group-addon">每个限领</span>
+                                <if condition="$res.CR_UserGet egt 1">
+                                	<input type="text" class="form-control" value="{$res.CR_UserGet}" name="getmax">
+                                <else />
+                                	<input type="text" class="form-control" value="" name="getmax">
+                            	</if>
+                                <span class="input-group-addon">张 </span>
+                               <input type="text" class="form-control" value="" name="credit">
+                                <span class="input-group-addon">积分 + 花费</span>
+                                <input type="text" class="form-control" value="" name="money">
+                                <span class="input-group-addon">元&nbsp;&nbsp;
+                                  <label class="checkbox-inline" style="margin-top:-8px;">
+                                    <input type="checkbox" name="usecredit2" value="1"> 优先使用余额支付
+                                </label>
+                              </span> 
+                          </div>
+                            <span class="help-block">每人限领，空不限制</span>
+
+                        </div>
+
+                    </div> -->
+                    <script type="text/javascript">
+                        if($(".isok").prop("checked")) $(".gettype").show();
+                    </script>
+                    <!-- <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">发放总数</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <input type="text" name="total" class="form-control" value="{$res.CR_Number}">
+                            <span class="help-block">优惠券总数量，没有不能领取或发放,-1 为不限制张数</span>
+
+                        </div>
+                    </div> -->
+
+                    <!-- end -->
+					<div class="form-group">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+						<div class="col-sm-9 col-xs-12">
+							<input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1">
+							<input type="button" name="back" onclick="history.back()" style="margin-left:10px;" value="返回列表" class="btn btn-default">
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+	<script>
+		//时间选择
+	     laydate({
+	        elem: '#start',
+	        event: 'focus' 
+	    });
+	    //时间选择
+	     laydate({
+	        elem: '#end',
+	        event: 'focus' 
+	    });
+	</script>
+</html>

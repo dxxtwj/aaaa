@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>收货地址选择</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />		<!-- iphone safri 全屏 -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	<!-- iphone safri 状态栏的背景颜色 -->
+	    <meta name="apple-mobile-web-app-title" content="油卡">		<!-- iphone safri 添加到主屏界面的显示标题 -->
+	    <meta name="format-detection" content="telphone=no, email=no" />	<!-- 禁止数字自动识别为电话号码 -->
+	    <meta name="renderer" content="webkit">				<!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
+	    <meta name="HandheldFriendly" content="true">		<!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+	    <meta http-equiv="Cache-Control" content="no-siteapp" />	<!-- 禁止百度转码 -->
+	    <meta name="screen-orientation" content="portrait">	<!-- uc强制竖屏 -->
+	    <meta name="browsermode" content="application">		<!-- UC应用模式 -->
+	    <meta name="full-screen" content="yes">				<!-- UC强制全屏 -->
+	    <meta name="x5-orientation" content="portrait">		<!-- QQ强制竖屏 -->
+	    <meta name="x5-fullscreen" content="true">			<!-- QQ强制全屏 -->
+	    <meta name="x5-page-mode" content="app">			<!-- QQ应用模式 -->
+	    <!--加载阿里CDN的文件flexible库-->
+        <script src="/Public/home/js/lib/flexible.js"></script>
+        <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+        <link rel="stylesheet" href="/Public/home/css/address/address.css">
+        <!-- 引用阿里矢量图标库 -->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_444972_8wuu4gll5idx6r.css">
+        <script>
+
+            var addressInfoJson = {$addressInfoJson}; // 地址列表
+        </script>
+    </head>
+    <body>
+        <!-- 外部容器开始 -->
+        <div id="control">
+            <header class="mui-bar mui-bar-nav">
+                    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                    <h1 class="mui-title">收货地址选择</h1>
+            </header>
+
+            <main class="mui-content">
+            	<ul class="address-ul">
+            		<li class="loc" v-for="(item,index) in oLoc" @click="locChoose(index)">
+						<div class="radio" :class="{radioChoose:item.isDefaultLoc}"><i class="iconfont icon-gou1"></i></div>
+						<div class="loc-mes">
+							<p><span v-text="item.name" class="loc-name"></span><span class="loc-phone" v-text="item.phone"></span></p>
+							<p><span class="default-loc" v-if="item.isDefaultLoc">&#91;默认地址&#93;</span><q v-text="item.loc"></q></p>
+						</div>
+            		</li>
+            	</ul>   
+				
+                <a href="address_management.html"><button type="button" class="mfixed btn mui-btn btn-red mui-btn-danger">
+                管理收获地址</button></a>
+				<div class="foot_div"></div>
+            </main>
+        </div>
+        <!-- 外部容器结束 -->
+
+        
+        <script src="/Public/home/js/lib/jquery.min.js"></script>
+        <script src="/Public/home/js/lib/mui.min.js"></script>
+		<script src="/Public/home/js/lib/vue.js"></script>
+        <script src="/Public/home/js/address/address.js"></script>
+    </body>
+</html>

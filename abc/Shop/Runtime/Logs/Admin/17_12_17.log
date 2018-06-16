@@ -1,0 +1,480 @@
+[ 2017-12-17T02:37:30+08:00 ] 61.144.152.57 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-12-17T02:37:30+08:00 ] 61.144.152.57 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-12-17T02:37:31+08:00 ] 61.144.152.57 /Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-12-17T02:37:35+08:00 ] 61.144.152.57 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined variable: adname /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 65 行.
+NOTIC: [8] Undefined variable: adpwd /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-12-17T02:37:35+08:00 ] 61.144.152.57 /Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2017-12-17T02:37:43+08:00 ] 61.144.152.57 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`age`,`atime`,`phone`,`qq`,`mail`,`status`,`iplock`,`logtime`,`role` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_admin_user` SET `username`='admin',`password`='$2y$10$cUKGjPv0OEpbdP4C9tDhWOP4e5iPFq8HhBKMVI30jh6dgIGJhhSWi',`sex`='1',`age`='0',`atime`='1512122510',`phone`='13838389438',`qq`='',`mail`='1234567890@163.com',`status`='1',`iplock`='1',`logtime`='7935f38412bf7199cbbe05ca88057ba7',`role`=NULL WHERE `id` = 30 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_admin_ip` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_admin_ip` (`uid`,`ip`,`time`,`adminname`) VALUES ('30','61.144.152.57','1513449463','admin') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`age`,`atime`,`phone`,`qq`,`mail`,`status`,`iplock`,`logtime`,`role` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user_role` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_admin_user_role` WHERE ( aid='30' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin_role` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_admin_role` WHERE ( id='30' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_admin_role_node` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_admin_role_node` WHERE ( rid='30' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_admin_node` [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='103' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='104' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='105' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='106' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='165' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='166' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='167' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='168' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='170' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='171' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='172' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='173' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='174' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='175' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='176' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='107' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='108' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='109' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='110' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='111' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='112' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='113' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='115' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='154' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='155' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='156' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='158' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='159' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='160' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='161' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='116' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='117' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='118' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='119' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='124' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='152' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='121' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='122' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='123' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='125' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='126' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='127' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='128' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='130' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='131' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='163' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='132' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='133' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='134' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='135' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='139' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='140' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='141' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='142' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='143' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='144' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='145' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='146' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='147' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='149' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='150' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='151' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-12-17T02:37:44+08:00 ] 61.144.152.57 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-12-17T02:37:45+08:00 ] 61.144.152.57 /Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-12-17T02:37:47+08:00 ] 61.144.152.57 /Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0004s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/GoodsModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`image0`,`name`,`content`,`atime`,`num`,`money`,`state` FROM `shop_goods` WHERE `del` <> 2 ORDER BY state asc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: arr /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 67 行.
+NOTIC: [8] Undefined variable: show /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-17T02:37:49+08:00 ] 61.144.152.57 /Admin/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [2] Declaration of Admin\Model\PinpaiModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `shop_pinpai` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`content`,`logo`,`region`,`order`,`atime`,`xtime`,`state` FROM `shop_pinpai`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-17T02:37:50+08:00 ] 61.144.152.57 /Admin/type/shopnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Declaration of Admin\Model\TypeModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/TypeModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_type` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`path`,`name`,`atime`,`xtime` FROM `shop_type` ORDER BY concat(path, id) LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-12-17T02:37:59+08:00 ] 61.144.152.57 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-12-17T02:37:59+08:00 ] 61.144.152.57 /Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-12-17T02:38:00+08:00 ] 61.144.152.57 /Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/GoodsModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`image0`,`name`,`content`,`atime`,`num`,`money`,`state` FROM `shop_goods` WHERE `del` <> 2 ORDER BY state asc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: arr /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 67 行.
+NOTIC: [8] Undefined variable: show /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-17T02:38:03+08:00 ] 61.144.152.57 /Admin/Brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [2] Declaration of Admin\Model\PinpaiModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `shop_pinpai` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`content`,`logo`,`region`,`order`,`atime`,`xtime`,`state` FROM `shop_pinpai`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/abc/Shop/Admin/Model/PinpaiModel.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+NOTIC: [8] Undefined index: diqu /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/2afc9e1867c675920d1ddf8a67c29646.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-17T02:38:07+08:00 ] 61.144.152.57 /Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/GoodsModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`image0`,`name`,`content`,`atime`,`num`,`money`,`state` FROM `shop_goods` WHERE `del` <> 2 ORDER BY state asc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: arr /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 67 行.
+NOTIC: [8] Undefined variable: show /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-17T02:38:08+08:00 ] 61.144.152.57 /Admin/Shop/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`pid`,`path` FROM `shop_type` ORDER BY concat(path, id)  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_pinpai` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `shop_pinpai`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: shuxing /data/wwwroot/default/abc/Shop/Admin/Controller/ShopController.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-17T02:38:14+08:00 ] 61.144.152.57 /Admin/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::data() should be compatible with Think\Model::data($data = '') /data/wwwroot/default/abc/Shop/Admin/Model/GoodsModel.class.php 第 0 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`image0`,`name`,`content`,`atime`,`num`,`money`,`state` FROM `shop_goods` WHERE `del` <> 2 ORDER BY state asc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: arr /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 67 行.
+NOTIC: [8] Undefined variable: show /data/wwwroot/default/abc/Shop/Runtime/Cache/Admin/7ddea6070ae8dd98a5bf271817f2853f.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+

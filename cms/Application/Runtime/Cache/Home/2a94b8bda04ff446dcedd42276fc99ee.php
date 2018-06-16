@@ -1,0 +1,114 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+    <link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">
+    <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+    <link rel="stylesheet" href="/Public/home/css/Index/index.css">
+    <!-- 引用阿里矢量图标库 -->
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_524801_3qgrz05m7erpy14i.css">
+    <script>
+        // 轮播图
+        var br_data_json = <?php echo ($br_data_json); ?>;
+
+        // 导航
+        var nr_data_json = <?php echo ($nr_data_json); ?>;
+
+        // 商品
+        var gr_data_json = <?php echo ($gr_data_json); ?>;
+    </script>
+</head>
+<body>
+    <!--loading-->
+        <div class="loading">
+                <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+        </div>
+
+    <!-- 外部容器开始 -->
+    <div class="mui-content">
+    <!-- 搜索 -->
+        <div class="mui-input-row mui-search" @click="searchShow">
+            <input type="search" class="mui-input-clear" placeholder="请输入关键字" disabled="disabled">
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="banner">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" v-for="item in oImg">
+                        <a :href="item.url"><img :src="item.img" alt="" /></a>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <ul class="mui-table-view mui-grid-view mui-grid-9">
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" v-for="item in navigation"><a :href="item.href">
+                    <img :src="item.img" alt="" />
+                    <div class="mui-media-body" v-text="item.text"></div></a></li>
+
+        </ul>
+        
+        <!-- 商品 -->
+        <ul class="products">
+            <a v-for="item in productArr" :href="item.href">
+                <li>
+                    <div class="productsimg">
+                        <img :src="item.img" alt="" />
+                    </div>
+                    <div class="mes">
+                        <p v-text="item.text" class="text"></p>
+                        <p>
+                        	&yen;<span class="price" v-text="item.price"></span>&nbsp;
+                        	<del v-show="item.old_price">原价：&yen;<span v-text="item.old_price"></span></del>
+                        	<i class="iconfont icon-gouwuche2"></i>
+                        </p>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    
+    
+    </div>
+    <!-- 外部容器结束 -->
+    
+</body>
+
+    <script src="/Public/home/js/lib/vue.min.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <script src="/Public/home/js/lib/footer.js"></script>
+    <!-- Swiper JS -->
+    <script src="/Public/home/js/lib/swiper.jquery.min.js"></script>
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Index/index.js"></script>
+
+</html>

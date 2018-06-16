@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+   		<title>确认订单</title>
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+	    <meta name="apple-mobile-web-app-capable" content="yes" />		<!-- iphone safri 全屏 -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />	<!-- iphone safri 状态栏的背景颜色 -->
+	    <meta name="apple-mobile-web-app-title" content="YUKI">		<!-- iphone safri 添加到主屏界面的显示标题 -->
+	    <meta name="format-detection" content="telphone=no, email=no" />	<!-- 禁止数字自动识别为电话号码 -->
+	    <meta name="renderer" content="webkit">				<!-- 启用360浏览器的极速模式(webkit) -->
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
+	    <meta name="HandheldFriendly" content="true">		<!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+	    <meta http-equiv="Cache-Control" content="no-siteapp" />	<!-- 禁止百度转码 -->
+	    <meta name="screen-orientation" content="portrait">	<!-- uc强制竖屏 -->
+	    <meta name="browsermode" content="application">		<!-- UC应用模式 -->
+	    <meta name="full-screen" content="yes">				<!-- UC强制全屏 -->
+	    <meta name="x5-orientation" content="portrait">		<!-- QQ强制竖屏 -->
+	    <meta name="x5-fullscreen" content="true">			<!-- QQ强制全屏 -->
+	    <meta name="x5-page-mode" content="app">			<!-- QQ应用模式 -->
+	    <!--加载阿里CDN的文件flexible库-->
+		<script src="/Public/home/js/lib/flexible.js"></script>
+        <link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+        <link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+        <link rel="stylesheet" href="/Public/home/css/order/confirm_order.css">
+        <!-- 引用阿里矢量图标库 -->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_524801_uarkgj3kz24holxr.css">
+
+		<script>
+			var cartDataJson = {$cartDataJson}; // 提示信息
+			var cartListJson = {$cartListJson}; // 购物车数据
+			var addressJson = {$addressJson}; // 地址
+			var youFeiJson = {$youFeiJson}; // 邮费
+			var manJianJson = {$manJianJson}; // 满减
+			var couponArrayJson = {$couponArrayJson}; // 优惠券
+		</script>
+    </head>
+    <body>
+        <!--loading-->
+		<div class="loading">
+				<div class="spinner">
+				  <div class="bounce1"></div>
+				  <div class="bounce2"></div>
+				  <div class="bounce3"></div>
+				</div>
+		</div>
+        <!-- 外部容器开始 -->
+        <div class="mui-content">
+	            <header class="mui-bar mui-bar-nav">
+                    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+                    <h1 class="mui-title">确认订单</h1>
+                </header>
+				<main class="order-main">
+					<a class="loc" href="/index.php/Home/Address/address">
+						<i class="iconfont icon-dizhi"></i>
+						<div class="loc-mes" v-show="oLoc.name">
+							<p><span>收获人：<q v-text="oLoc.name"></q></span><span v-text="oLoc.phone"></span></p>
+							<p v-text="oLoc.loc"></p>
+						</div>
+                        <div class="loc-mes loc-mes-no" style="display:none;" v-show="!oLoc.name">请先设置收获地址</div>
+						<i class="iconfont icon-xiangyou"></i>
+					</a>
+					<!--订单信息-->
+					<ul class="content">
+						<li v-for="(item,index) in gowuche" class="content-li">					
+							<div class="show">
+								<div class="img">
+									<img :src="item.img" alt="" />
+								</div>
+								<p v-text="item.mes"></p>
+								<span v-show="item.selected">已选：<q v-text="item.selected"></q></span>
+								<span class="price">&yen;<em v-text="item.price"></em></span>
+								<span class="good-num">x&nbsp;<q v-text="item.num"></q></span>
+							</div>
+						</li>
+						<p class="note-p">
+							共 <span v-text="goodNum"></span> 件商品  
+							<span class="total-price">小计：<span>&yen;<span v-text="goodPrice"></span></span></span>
+						</p>
+					</ul>
+                    <!-- 运费 -->
+                    <div class="take note-p2" v-show="manJian"><p>满额优惠：
+                    	<span>满 <q v-text="mane"></q> 元减 <q v-text="manJian"></q> 元</span>
+                    </q></div>
+                    <div class="take" @click="openCoupon" style="display: none;" v-show="oCoupon.length"><p>优惠券：
+                    	<span><q v-text="couponString"></q><i class="iconfont icon-xiangyou"></i></span>
+                    </p></div>
+                    <div class="take"><p>运费：<span>&yen;<q v-text="takeMoney"></q></span></p></div>
+					<!--备注-->
+					<div class="note">
+						<span>备注：</span>
+						<div>
+							<textarea placeholder="有什么想对商家说的可以写在这里哦~" v-model="mes"></textarea>
+						</div>
+					</div>
+				</main>
+				
+				<footer>
+					<p>实付：<span>&#165;<q v-text="goodsTotal"></q></span></p>
+					<!-- <div class="btn" @click="confirmOrder">提交订单</div> -->
+                    <button type="button" class="mui-btn btn-red mui-btn-danger" @click="confirmOrder">提交订单</button>
+				</footer>
+				
+				<!--优惠券-->
+				<div class="coupon">
+					<p>店铺优惠</p>
+					<div class="coupon-list"><form>
+		                <div v-for="(item,index) in oCoupon" @click="choice(index,item.id)"><label class="coupon-box">
+		                	<span v-text="item.text"></span>
+		                	<input name="coupon" type="radio">
+		                	<i class="iconfont icon-dui"></i>	
+		                </label></div>
+		            </form></div>
+		            <button type="button" class="mui-btn mui-btn-danger coupon-btn" @click="closeCoupon">关闭</button>
+				</div>
+				
+        	
+        </div>
+        <!-- 外部容器结束 -->
+        <!--验证信息-->
+    	<!--<div class="verify-msg"></div>-->
+        
+        <script src="/Public/home/js/lib/jquery.min.js"></script>
+        <script src="/Public/home/js/lib/mui.min.js"></script>
+        <script src="/Public/home/js/lib/vue.min.js"></script>
+        <script src="/Public/home/js/order/confirm_order.js"></script>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+/* 
+* @Author: Marte
+* @Date:   2017-09-28 15:59:24
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-10-21 11:20:59
+*/
+/*重置浏览器样式*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td  {margin:0;padding:0;}
+header,nav,main,footer,aside,section,article{display:block;}
+ul,ol{list-style:none;}
+a,a:hover{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;border-radius: 0;}
+table{border-collapse:collapse;border-spacing:0;}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+body {
+  font-family:  "Microsoft Yahei",'宋体', Arial, Helvetica, Tahoma, sans-serif;
+  color: #333;
+  background-color:#f8f8f8;
+}
+.clear{clear:both;}
+.mui-bar-nav,.mui-bar-tab{
+    width:10rem;
+    left:50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color:#fff;
+}
+.mui-icon-left-nav{color:#575757}
+.mui-content {
+    width: 10rem;
+    margin: 0 auto;
+    background-color:#f8f8f8;
+    padding-bottom:50px;
+}
+.mui-bar-tab .mui-tab-item.mui-active{
+    color:#eb5038;
+}
+.mui-bar-tab{-webkit-box-shadow: 0 0 1px rgba(0,0,0,0);box-shadow: 0 0 1px rgba(0,0,0,0);background-color:#fff;}
+.btn-orange{background-color:#ff9402;border: 1px solid #ff9402;}
+.btn-red{background-color:#ff5500;border: 1px solid #ff5500;}
+.mfixed{left:50%;-ms-transform: translateX(-50%);-moz-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);}
+/*浮动框*/
+.floating{width:1rem;min-width:36px;background:rgba(137,137,137,.6);position:fixed;bottom:60px;right:0;border-radius:5px 0 0 5px;overflow: hidden;}
+.floating>li{height:1rem;background-color:rgba(99,99,99,.6);margin-top:1px;text-align:center;}
+.floating>li:first-child{margin:0;}
+.floating span{color:#fff;font-size:20px;line-height: 1rem;position:relative;}
+.floating .icon-zhuan{font-size:26px;}
+.icon-gouwuche1>i.hasdata{position:absolute;right:-2px;top:0;background:#e95757;width:8px;height:8px;border-radius:50%;}
+#toTop{display: none;}
+
+
+
+
+/*浮动款赚样式*/
+.zoom{
+	position: fixed; 
+	width: 9.466666rem;
+	top:50%; 
+	left: 50%; 
+	transform: translate(-50%,-50%);
+	z-index: 999;
+	overflow: hidden;
+}
+.zoom_main{
+	position: relative;
+	width: 100%;
+	background-color:#fff;
+	padding: 0.6rem 0 0.466666rem 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.zoom_main .gengxin_box{
+	position: absolute;
+	right: 0.333333rem;
+	top:0.44rem;
+	width: 0.693333rem;
+	height: 0.693333rem;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	line-height: 0.62rem;
+	text-align: center;
+}
+.zoom_main .gengxin_box:active{
+	border-color:#dfdfdf;
+}
+.zoom_main .iconfont.icon-gengxin1{
+	color:#04be02;
+	font-size:0.453333rem;
+}
+ .zoom_main p{
+	color:#333;
+	font-size:0.32rem;
+	line-height: initial;
+}
+.zoom_main .title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:0.666666rem;
+}
+.zoom_main .main_box{
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+}
+.zoom_main .options{
+	width: 4.066666rem;
+}
+.zoom_main .img{
+	position: relative;
+	margin: 0 auto;
+	width:3.2rem;
+	height: 3.2rem;
+	border: 0.16rem solid #dfdfdf;
+	overflow: hidden;
+}
+.zoom_main .img img{
+	width: 100%;
+	height: auto;
+}
+
+.options p{
+	text-align: center;
+	margin:0.266666rem 0 0.666666rem 0;
+}
+
+/*右下角手势*/
+.zoom_main .point{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 1.066666rem;
+	height: 1.066666rem;
+	border-radius: 50%;
+	animation: myfirst 1s;
+    -webkit-animation: myfirst 1s; /* Safari 与 Chrome */
+   animation-iteration-count: infinite;
+   -webkit-animation-iteration-count: infinite;
+}
+.zoom_main .point img{
+	width: 100%;
+	height: 100%;
+}
+@keyframes myfirst{
+	0 {transform: scale(1);}
+	50% {transform: scale(1.2);}
+	100% {transform: scale(1);}
+}
+@-webkit-keyframes myfirst{ /* Safari and Chrome */
+	0 {scale: 1;}
+	50% {scale: 1.2;}
+	100% {scale: 1;}
+}
+
+/*按钮*/
+.zoom_main .btn-green{
+	width: 100%;
+	height: 1rem;
+	background-color:#03b800;
+	border-color:#028c00;
+}
+.zoom_main .btn-red{
+	width:100%;
+	height: 1rem;
+	border-color:#b33900;
+}
+/*取消*/
+.zoom .btn-cancel{
+	width: 100%;
+	height: 1rem;
+	border-radius: 8px;
+	margin-top:0.2rem;
+}
+
+/*浮动款赚样式结束*/

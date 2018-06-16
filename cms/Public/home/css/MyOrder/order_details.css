@@ -1,0 +1,354 @@
+/*loading*/
+.loading{
+    position:fixed;
+    top:1.2rem;
+    width:10rem;
+    height:100%;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    transform:translateX(-50%);
+    background-color:#fff;
+    z-index: 1008;
+}
+.spinner {
+    margin: 100px auto 0;
+    width: 150px;
+    text-align: center;
+}
+ 
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #03b7cc;
+ 
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: #fd0202;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background-color:#7fda6d;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*外部容器*/
+.container{
+    width: 10rem;
+    margin:0 auto;
+    font-family:"微软雅黑","宋体";
+}
+/*导航栏*/
+nav{
+    width:10rem;
+    height: 1.2rem;
+    border-bottom:1px solid rgba(152,152,152,.2);
+    background-color:#a47341;
+    overflow: hidden;
+    text-align:center;
+    position: fixed;
+    top:0;
+    color:#fff;
+    font-size:0.42666667rem;
+    line-height:1.2rem;
+    z-index: 999;
+}
+.order-header i{
+    position: absolute;
+    left:0;
+    font-size:0.42666667rem;
+    line-height: 1.2rem;
+    padding-left:0.4rem;
+    font-size:22px;
+}
+/*主体部分*/
+/*地址信息*/
+.loc{
+    background:#fff;
+    display: flex;
+    border-bottom:1px solid rgba(152,152,152,.3);
+    margin-bottom: 0.133333rem;
+}
+.loc .icon-dizhi{
+	color:#333;
+    font-size:24px;
+    line-height: 78px;
+    margin-left:0.4rem;
+}
+.loc-mes{
+    width:100%;
+    padding:8px 10px;
+}
+.loc-mes p:first-child{
+    color:#333;
+    padding-top:0.266666rem;
+}
+.loc-mes p:last-child{
+    color:#333;
+    padding:0.133333rem 0;
+    font-size: 16px;
+}
+.loc-mes span{
+    font-size:16px;
+}
+.loc-mes span:last-child{
+    /*float:right;*/
+   margin-left: 0.8rem;
+}
+/*订单信息*/
+.content{
+    margin-top: 0.133333rem;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    background-color:#fff;
+}
+.content>li{
+    position:relative;
+    width:100%;
+    overflow: hidden;
+    margin-top:0.133333rem;
+    /*padding: 0 10px;*/
+    background-color:#f0f0f0;
+}
+.content>li:first-of-type{
+	/*margin-top:0.266666rem;*/
+}
+/*.content>li:last-of-type{border-bottom-style: solid;}*/
+/*商品列表*/
+.show{
+    float:left;
+	width: 100%;
+	padding: 0 10px;
+    margin-top: 0.293333rem;
+    margin-bottom: 0.293333rem;
+    position: relative;
+    color:#333;
+}
+.show .img{
+  width: 1.733333rem;
+  height:1.733333rem;
+  float:left;
+  overflow:hidden;
+}
+.img img{
+    width:100%;
+}
+.show p{
+    margin-left:2.2rem;
+	width:76%;
+    line-height: 17px;
+    font-size:14px;
+    color:#333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.show span{
+    margin-top:0.05rem;
+    margin-left:2.2rem;
+    display: block;
+    font-size:12px;
+    color:#666666;
+    white-space:nowrap;
+    line-height: 16px; 
+}
+.show .price{
+    position:absolute;
+    bottom:2px;
+    font-size:16px;
+    color:#ff4200;
+}
+@media only screen and (max-width:320px ) {
+    .show p{font-size:12px;}
+    .show span{
+    margin-top:0;
+    }
+    .show .price{bottom:-4px;}
+}
+.show .good-num {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    line-height: 17px;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 0;
+    margin-left: 0;
+    display: initial;
+}
+/*运费*/
+.take{
+	background-color:#fff;
+	height:1.146666rem;
+	line-height: 1.146666rem;
+}
+.take>p{
+	width:calc(100% - 20px);
+	height:1.146666rem;
+	border-bottom:1px solid rgba(210,210,210,.3);
+	margin:0 auto;
+	color:#333;
+	font-size: 0.373333rem;
+}
+.take span{
+	float:right;
+}
+.take .icon-xiangyou{
+	font-size:0.35rem;
+	color:#333;
+	margin-left: 0.3rem;
+}
+/*总计*/
+.note-p{
+    height:1.28rem;
+    background-color:#fff;
+    font-size:16px;
+    color:#333;
+    line-height: 1.28rem;
+    text-align: right;
+    padding-right: 0.4rem;
+    border-bottom:1px solid rgba(152,152,152,.3);
+}
+.note-p span:nth-child(3){
+    color:#999;
+    font-size: 12px;
+    margin-left: 0.4rem;
+}
+.note-p span:last-child{
+    color:#ff4200;
+}
+.note-p2{
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+/*订单状态*/
+.wait{
+    color:#ff9200;
+}
+.state_topay{
+    color:#d40303;
+}
+.state_take{
+    color:#ff6017;
+}
+.state_collect{
+    color:#d6bf24;
+}
+
+/*详细信息*/
+article{
+    background-color:#fff;
+    margin:0.133333rem 0;
+    border-top:1px solid rgba(125,125,125,.2);
+    border-bottom:1px solid rgba(125,125,125,.2);
+    padding:4px 10px;
+    padding-bottom: 0;
+}
+article>p{width: 100%;padding: 4px 0;border-bottom: 1px solid #e9e9e9;line-height: 0.8rem;color:#333;}
+article>p:last-child{border-bottom:none;}
+article span{color:#333;}
+.art-img{width:3.866666rem;height:2.6rem;line-height: 2.6rem;margin-top:0.16rem;}
+.art-img img{width:2.4rem;height:2.4rem;float:right;}
+/*脚部按钮*/
+.order-num .btn{
+    float: right;
+    margin-right: .4rem;
+    margin-top: 8px;
+    line-height: 16px;
+}
+.order-num{
+    height:46px;
+    background-color:#fff;
+    line-height: 46px;
+    font-size:14px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgba(125,125,125,.2);
+    color:#333;
+}
+@media only screen and (max-width:320px ) {
+    .order-num{height:49px;line-height: 49px;}
+}
+.footer{width:10rem;position:fixed;bottom:0;z-index: 1;box-shadow: 1px 0 6px #ccc;}
+/*物流跟踪*/
+.logistics-p{
+    margin-top:0.173333rem;
+    background: #fff;
+    height:1.066666rem;
+    line-height: 1.066666rem;
+    padding-left: .4rem;
+    font-size:14px;
+    border-bottom: 1px solid rgba(125,125,125,.2);
+}
+.logistics{
+    background: #fff;
+    padding:.4rem 0 2rem .4rem;
+    color:#999;
+}
+.circle-line{
+    width:10px;
+    height:72px;
+    display: flex;
+    flex-direction: column;
+}
+.circle{
+    width:10px;
+    height:10px;
+    background-color:#ccc;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.circle-yes{
+    background-color: #25ae5f;
+    -webkit-box-shadow: 0 0 2px 2px rgba(186,228,206,.8);;
+    box-shadow: 0 0 2px 2px rgba(186,228,206,.8);
+}
+.circle-yes-p{
+    color:#25ae5f;
+}
+.line{
+    width:1px;
+    height:62px;
+    background-color:#ccc;
+    margin:0 auto;
+}
+.logistics-li:last-of-type .line{
+    display: none;
+}
+.logistics-li {
+    display:flex;
+}
+.logistics-mes{
+    margin-left:.4rem;
+    margin-top:-0.163333rem;
+    line-height: 18px;
+}
+/*无物流信息*/
+.logistics-nodata{
+	/*display:none;*/
+	text-align: center;
+	font-size:16px;
+}

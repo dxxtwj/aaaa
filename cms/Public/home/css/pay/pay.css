@@ -1,0 +1,10 @@
+.mui-content{color:#333;font-size:14px;}
+.mui-content>.mui-table-view:first-child{margin-top:0;}
+.mui-table-view-cell:after{left:0;}
+.towpay{margin-top:.16rem;}
+.topay{color:#e23535;}
+.pay-content{display: flex;}
+.pay-content i{font-size: 30px;line-height: 44px;padding-right: 10px;color:#00c800;}
+.pay-content i.icon-zhifubao{color:#00aff0;}
+.pay_title{font-size:16px;}
+.mui-navigate-right:after, .mui-push-left:after, .mui-push-right:after{font-size:22px;}

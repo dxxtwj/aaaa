@@ -1,0 +1,8 @@
+[ 2017-11-29T23:54:27+08:00 ] 192.168.32.109 /abc/Admin/Brand/index.html
+ERR: 1054:Unknown column 'gid' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`content`,`logo`,`region`,`order`,`gid`,`atime`,`xtime` FROM `shop_pinpai` 
+
+[ 2017-11-29T23:55:03+08:00 ] 192.168.32.109 /abc/Admin/Brand/index.html
+ERR: 1054:Unknown column 'gid' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`content`,`logo`,`region`,`order`,`gid`,`atime`,`xtime` FROM `shop_pinpai` 
+

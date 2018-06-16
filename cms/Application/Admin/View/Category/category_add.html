@@ -1,0 +1,450 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/Public/admin/css/style.css"/>       
+<link rel="stylesheet" href="/Public/admin/assets/css/ace.min.css" />
+<link rel="stylesheet" href="/Public/admin/assets/css/font-awesome.min.css" />
+<link href="/Public/admin/Widget/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]>
+<link rel="stylesheet" href="/Public/admin/assets/css/font-awesome-ie7.min.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+<![endif]-->
+<script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+<script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+
+<!-- 图片上传 -->
+
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/font-awesome.min.css"> 
+<!-- <link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/style.css"> -->
+<link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/webuploader.css">
+<link rel="stylesheet" type="text/css" href="/Public/admin/assets/webuploader/css/demo.css">        
+
+<title>添加产品分类</title>
+<style type="text/css">
+
+.modal-dialog{left:0;}
+  input[type="text"]{
+    margin-left:0;
+  }
+  
+  /* 图片删除 */
+.m_imgBox{
+  float: left;
+  position: relative;
+  width:117px;
+  height:117px;
+  margin: 10px 10px 0 0;
+}
+.m_img{
+  width:100px;
+  height:100px;
+  border:1px solid #ddd;
+}
+.m_img img{
+  width:100%;
+  height:100%;
+}
+.m_imgDel{
+  position: absolute;
+  right: 0;
+  top:0;
+  font-size:18px;
+  color: rgba(0,0,0,0.2);
+}
+.tabs {
+    position:absolute;
+    top:40px;
+    left:0;
+    width: 120px;
+    height:100%;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+    border-right: 1px solid #e8e8e8;
+    margin: 0 40px 0 10px;
+}
+.tabs li {
+    float: left;
+    padding: 10px 15px;
+    margin-right: 2px;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+}
+.change_col {
+    color: #fff;
+    background: #428bca;
+}
+.phone,.computer{
+  display:none;
+}
+.form-label{
+  width:120px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+<div class="type_style">
+ <div class="type_title">产品类型信息</div>
+ <ul class="tabs">
+    <li class="change_col" data-num="0">基本设置</li>
+    <li data-num="1">手机端设置</li>
+    <!-- <li data-num="2">PC端设置</li> -->
+  </ul>
+  <div class="type_content">
+  <div class="Operate_btn basic">
+
+    <if condition="$res.CR_PID neq '' and $res.CR_ID neq '' ">
+      <a href="javascript:void(0)" class="btn  btn-warning add"><i class="icon-edit align-top bigger-125"></i>新增子类型</a>
+      <if condition="$res.CR_Is_Show eq 1">
+        <a href="javascript:void(0)" class="btn  btn-default noShow" v="{$res.CR_Is_Show}"><i class="icon-remove align-top bigger-125"></i>禁用该类型</a>
+      <else />
+        <a href="javascript:void(0)" class="btn  btn-success noShow" v="{$res.CR_Is_Show}"><i class="icon-ok align-top bigger-125"></i>启用该类型</a>
+      </if>
+      <a href="javascript:void(0)" class="btn  btn-danger del"><i class="icon-trash   align-top bigger-125"></i>删除该类型</a>
+    <elseif condition="$res.CR_PID eq '' and $res.CR_ID eq '' and $pres.CR_ID eq ''"/>
+      此处新添加一个顶级分类
+    <else />
+      此处新添加一个分类
+    </if>
+
+  </div>
+  <form action="" method="post" class="form form-horizontal" id="form-user-add">
+
+    <if condition="$pres.CR_Name neq ''">
+      <div class="Operate_cont clearfix basic">
+        <label class="form-label"><span class="c-red">*</span>父类名称：</label>
+        <div class="formControls ">
+          <input type="text" value="{$pres.CR_Name}" id="pname" name="pname" disabled="">
+        </div>
+      </div>
+      <br />
+    </if>
+
+    
+    <div class="Operate_cont clearfix basic">
+      <label class="form-label"><span class="c-red">*</span>分类名称：</label>
+      <div class="formControls ">
+
+        <input type="hidden" value="{$res.CR_ID}" id="cid" name="cid">
+        <if condition="$res.CR_PID eq '' and $pres.CR_ID neq ''">
+          <input type="hidden" value="{$pres.CR_ID}" id="pid" name="pid">
+        <else />
+          <input type="hidden" value="{$res.CR_PID}" id="pid" name="pid">
+        </if>
+        <input type="text" class="input-text" value="{$res.CR_Name}" placeholder="" id="name" name="name" value="">
+      </div>
+    </div>
+      <div class="Operate_cont clearfix basic">
+        <label class="form-label"><span class="c-red">*</span>排序：</label>
+        <div class="formControls ">
+          <input type="text" class="input-text" value="{$res.CR_Sort}" placeholder="" id="sort" name="sort">
+        </div>
+      </div>
+      
+      <if condition="res.url neq null">
+        <div class="Operate_cont clearfix phone">
+          <label class="form-label"><span class="c-red"></span>移动端生成链接：</label>
+          <div class="formControls">
+            
+            <input type="text" class="input-text" value="{$res.url}" style="width: 400px;" disabled="" />
+          </div>
+        </div>
+      </if>
+      <if condition="($res.CR_ID eq '') or ($res.CR_PID eq 0 and $res.CR_ID neq '') ">
+        <div class="Operate_cont clearfix phone">
+          <label class="form-label"><span class="c-red"></span>首页广告图：</label>
+          <div class="formControls ">
+
+            <button data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs choose_photo" type="button"  isMultiple='0' showContainer=".img_container_catebanner" uploadType="category_banner">点击选择图片</button><br/>
+            <span>建议尺寸为650*270</span><br/>
+            <div class="img_container_catebanner">
+              <if condition="$res.CR_Banner neq ''">
+                <div class="m_imgBox">
+                  <div class="m_img">
+                    <input type="hidden" name="path_banner" class="path_banner" value="{$res.CR_Banner}"/>
+                      <img src="{$res.CR_Banner}" class="imgs_banner" style="width:100px;margin:5px;"/>
+                  </div>
+                  <i class="icon-remove m_imgDel" ></i>
+                </div>
+              </if>
+            </div>
+          </div>
+        </div>
+        <div class="Operate_cont clearfix phone">
+          <label class="form-label"><span class="c-red"></span>广告跳转链接：</label>
+          <div class="formControls ">
+            <input type="text" class="input-text" value="{$res.CR_BannerURL}" style="width: 400px;" placeholder="" id="bannerURL" name="bannerURL">
+          </div>
+        </div>
+       <!--  <if condition="res.PCurl neq null">
+          <div class="Operate_cont clearfix computer">
+            <label class="form-label"><span class="c-red"></span>PC端生成链接：</label>
+            <div class="formControls">
+              
+              <input type="text" class="input-text" value="{$res.PCurl}" style="width: 400px;" disabled="" />
+            </div>
+          </div>
+        </if> -->
+        <!-- <div class="Operate_cont clearfix computer">
+          <label class="form-label"><span class="c-red"></span>PCbanner图：</label>
+          <div class="formControls ">
+
+            <button data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs choose_photo" type="button"  isMultiple='0' showContainer=".img_container_cate_PCtop" uploadType="category_PCtop">点击选择图片</button><br/>
+            <span>建议尺寸为1200*90</span><br/>
+            <div class="img_container_cate_PCtop">
+              <if condition="$res.CR_Banner_PCtop neq ''">
+                <div class="m_imgBox">
+                  <div class="m_img">
+                    <input type="hidden" name="path_category_PCtop" class="path_category_PCtop" value="{$res.CR_Banner_PCtop}"/>
+                      <img src="{$res.CR_Banner_PCtop}" class="imgs_PCtop" style="width:100px;margin:5px;"/>
+                  </div>
+                  <i class="icon-remove m_imgDel" ></i>
+                </div>
+              </if>
+            </div>
+          </div>
+        </div> -->
+        
+        <!-- <div class="Operate_cont clearfix computer">
+          <label class="form-label"><span class="c-red"></span>PC首页分类banner跳转链接：</label>
+          <div class="formControls ">
+            <input type="text" class="input-text" value="{$res.CR_BannerURL_PCtop}" style="width: 400px;" placeholder="" id="bannerURL_PCtop" name="bannerURL_PCtop">
+          </div>
+        </div> -->
+
+       <!--  <div class="Operate_cont clearfix computer">
+          <label class="form-label"><span class="c-red"></span>PC首页分类左侧：</label>
+          <div class="formControls ">
+
+            <button data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs choose_photo" type="button"  isMultiple='0' showContainer=".img_container_cate_PCleft" uploadType="category_PCleft">点击选择图片</button><br/>
+            <span>建议尺寸为240*320</span><br/>
+            <div class="img_container_cate_PCleft">
+              <if condition="$res.CR_Banner_PCleft neq ''">
+                <div class="m_imgBox">
+                  <div class="m_img">
+                    <input type="hidden" name="path_category_PCleft" class="path_category_PCleft" value="{$res.CR_Banner_PCleft}"/>
+                      <img src="{$res.CR_Banner_PCleft}" class="imgs_PCleft" style="width:100px;margin:5px;"/>
+                  </div>
+                  <i class="icon-remove m_imgDel" ></i>
+                </div>
+              </if>
+            </div>
+          </div>
+        </div> -->
+
+       <!--  <div class="Operate_cont clearfix computer">
+          <label class="form-label"><span class="c-red"></span>PC首页分类左侧跳转链接：</label>
+          <div class="formControls ">
+            <input type="text" class="input-text" value="{$res.CR_BannerURL_PCleft}" style="width: 400px;" placeholder="" id="bannerURL_PCleft" name="bannerURL_PCleft">
+          </div>
+        </div> -->
+
+      </if>
+
+
+      <!-- <div class="Operate_cont clearfix computer">
+        <label class="form-label" style=""><span class="c-red">*</span>PC首页是否显示：</label>
+        <div class="formControls ">
+          <if condition="$res.CR_Is_Index_PC eq 1 or $res.CR_Is_Index_PC eq ''">
+            <input type="radio" class="input-radio" value="1" name="isIndex_PC" checked="checked">显示&nbsp;&nbsp;
+            <input type="radio" class="input-radio" value="0" name="isIndex_PC">不显示
+          <elseif condition="$res.CR_Is_Index_PC eq 0"/>
+            <input type="radio" class="input-radio" value="1" name="isIndex_PC">显示&nbsp;&nbsp;
+            <input type="radio" class="input-radio" value="0" name="isIndex_PC" checked="checked">不显示
+          </if>
+
+        </div>
+      </div> -->
+      <div class="Operate_cont clearfix phone">
+        <label class="form-label" style=""><span class="c-red">*</span>首页是否显示：</label>
+        <div class="formControls ">
+          <if condition="$res.CR_Is_Index eq 1 or $res.CR_Is_Index eq ''">
+            <input type="radio" class="input-radio" value="1" name="isIndex" checked="checked">显示&nbsp;&nbsp;
+            <input type="radio" class="input-radio" value="0" name="isIndex">不显示
+          <elseif condition="$res.CR_Is_Index eq 0"/>
+            <input type="radio" class="input-radio" value="1" name="isIndex">显示&nbsp;&nbsp;
+            <input type="radio" class="input-radio" value="0" name="isIndex" checked="checked">不显示
+          </if>
+
+        </div>
+      </div>
+
+      <div class="Operate_cont clearfix phone">
+        <label class="form-label"><span class="c-red"></span>图片：</label>
+        <div class="formControls ">
+
+          <button data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs choose_photo" type="button"  isMultiple='0' showContainer=".img_container" uploadType="category">点击选择图片</button><br/>
+          <span>首张图片建议尺寸为375*250;第2、3张图片尺寸为375*125;其余为188*188(排序以填写的排序大小以及添加的时间为准)</span><br/>
+          <div class="img_container">
+            <if condition="$res.CR_IMG neq ''">
+              <div class="m_imgBox">
+                <div class="m_img">
+                  <input type="hidden" name="path[]" class="path" value="{$res.CR_IMG}"/>
+                    <img src="{$res.CR_IMG}" class="imgs" style="width:100px;margin:5px;"/>
+                </div>
+                <i class="icon-remove m_imgDel" ></i>
+              </div>
+            </if>
+          </div>
+        </div>
+      </div>
+    <div class="Operate_cont clearfix">
+      <!-- <label class="form-label">备注：</label>
+      <div class="formControls">
+        <textarea name="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,100)"></textarea>
+        <p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+      </div> -->
+    </div>
+    <div class="">
+      <div class="" style=" text-align:center">
+        <input class="btn btn-primary radius" type="submit" value="提交">
+      </div>
+    </div>
+  </form>
+  </div>
+</div> 
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;
+            </button>
+
+        <ul class="nav nav-pills" role="tablist">
+          <li id="li_upload" class="active" role="presentation">
+            <a href="#upload" aria-controls="upload" role="tab" data-toggle="tab">上传图片</a>
+          </li>
+          <li id="li_network" class="" role="presentation">
+            <a href="#network" aria-controls="network" role="tab" data-toggle="tab">提取网络图片</a>
+          </li>
+          <li id="li_history_image" class="" role="presentation">
+            <a href="#history_image" aria-controls="history_image" role="tab" data-toggle="tab">浏览图片</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="modal-body modal-body-more">
+
+        
+      </div>
+      
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal -->
+</div>
+<script type="text/javascript" src="/Public/admin/Widget/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="/Public/admin/Widget/Validform/5.3.2/Validform.min.js"></script>
+<script type="text/javascript" src="/Public/admin/assets/layer/layer.js"></script>
+<script type="text/javascript" src="/Public/admin/js/H-ui.js"></script> 
+<script type="text/javascript" src="/Public/admin/js/H-ui.admin.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.skin-minimal input').iCheck({
+        checkboxClass: 'icheckbox-blue',
+        radioClass: 'iradio-blue',
+        increaseArea: '20%'
+    });
+    
+  $(".add").click(function(){
+    var pid = $("#cid").val();
+    window.location.href="/index.php/Admin/Category/add/pid/"+pid;
+  });
+  $(".noShow").click(function(){
+    var isShow = $(".noShow").attr('v');
+    var r;
+    if(isShow == 1){
+      r = confirm('该分类与其子类将不显示在首页,你要继续此操作吗？');
+    }else{
+      r = confirm('该分类与其子类将恢复启用,你要继续此操作吗？');
+    }
+    if(r == true){
+      var cid = $("#cid").val();
+      $.ajax({
+        url:'/index.php/Admin/Category/setCategoryShow',
+        type:'post',
+        data:{cid:cid},
+        success:function(data){
+          if(data == -1){
+            alert('传入分类编号有误');
+          }else if(data == 0){
+            alert('操作失败');
+          }else if(data == 1){
+            alert('操作成功');
+            parent.location.reload();
+          }
+        }
+      });
+    }
+      
+  });
+  $(".del").click(function(){
+
+    var r = confirm('将删除该分类与其子类,你要继续此操作吗？');
+    
+    if(r == true){
+      var cid = $("#cid").val();
+      $.ajax({
+        url:'/index.php/Admin/Category/delCategory',
+        type:'post',
+        data:{cid:cid},
+        success:function(data){
+          if(data == -1){
+            alert('传入分类编号有误');
+          }else if(data == 0){
+            alert('操作失败');
+          }else if(data == 1){
+            alert('操作成功');
+            parent.location.reload();
+          }
+        }
+      });
+    }
+  })
+
+    // $("#form-user-add").Validform({
+    //  tiptype:2,
+    //  callback:function(form){
+    //      form[0].submit();
+    //      var index = parent.layer.getFrameIndex(window.name);
+    //      parent.$('.btn-refresh').click();
+    //      parent.layer.close(index);
+    //  }
+    // });
+    
+    // 点击左侧选项卡
+    $(".tabs li").on('click',function(){
+    	$(this)
+		  .siblings('li').removeClass('change_col')
+		  .end()
+		  .addClass('change_col');
+      var num = $(this).attr('data-num');
+      $(".phone,.computer,.basic").hide();
+      if(num == 0){ //基本设置
+      	$(".basic").show();
+      }else if(num == 1){
+      	$(".phone").show();
+      }else{
+      	$(".computer").show();
+      }
+    });
+});
+</script>
+<script src="/Public/admin/assets/webuploader/js/pagination.js"></script>
+<script type="text/javascript" src="/Public/admin/assets/webuploader/js/webuploader.js"></script>
+<script type="text/javascript" src="/Public/admin/assets/webuploader/js/myupload.js"></script>
+</body>
+</html>

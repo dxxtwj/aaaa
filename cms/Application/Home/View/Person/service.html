@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客服中心</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="/Public/home/images/yflogo.ico" media="screen" /> -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,minimal-ui"/><!-- viewport 后面加上 minimal-ui 在safri 体现效果 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />      <!-- iphone safri 全屏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />   <!-- iphone safri 状态栏的背景颜色 -->
+    <meta name="apple-mobile-web-app-title" content="YUKI">       <!-- iphone safri 添加到主屏界面的显示标题 -->
+    <meta name="format-detection" content="telphone=no, email=no" />    <!-- 禁止数字自动识别为电话号码 -->
+    <meta name="renderer" content="webkit">             <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="HandheldFriendly" content="true">       <!-- 是针对一些老的不识别viewport的浏览器，列如黑莓 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />    <!-- 禁止百度转码 -->
+    <meta name="screen-orientation" content="portrait"> <!-- uc强制竖屏 -->
+    <meta name="browsermode" content="application">     <!-- UC应用模式 -->
+    <meta name="full-screen" content="yes">             <!-- UC强制全屏 -->
+    <meta name="x5-orientation" content="portrait">     <!-- QQ强制竖屏 -->
+    <meta name="x5-fullscreen" content="true">          <!-- QQ强制全屏 -->
+    <meta name="x5-page-mode" content="app">            <!-- QQ应用模式 -->
+    <meta name="format-detection" content="telephone=no"> <!--禁用iPhone手机浏览器上给电话号码自动加上的link样式-->
+    <!--加载阿里flexible库-->
+    <script src="/Public/home/js/lib/flexible.js"></script>
+    <!--<link rel="stylesheet" href="/Public/home/css/lib/swiper.min.css">-->
+	<link rel="stylesheet" href="/Public/home/css/lib/mui.min.css">
+	<link rel="stylesheet" type="text/css" href="/Public/home/css/common/common.css" />
+	<link rel="stylesheet" href="/Public/home/css/Person/service.css">
+	<!-- 引用阿里矢量图标库 -->
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_444972_n8cp5hqu1swi2j4i.css">
+
+</head>
+
+<body>
+     <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">客服中心</h1>
+    </header> 
+    <!-- 外部容器开始 -->
+    <div class="mui-content" id="control">
+    	<div class="banner"></div>
+        <main>
+        	<div class="msg">
+        		<i class="iconfont icon-weixin"></i>
+        		<div class="msg_main">
+        			<p>微信客服</p>
+        			<p>{$sr_info.SR_KeFuWeChat}</p>
+        		</div>
+        		<div class="code" @click="show">
+                <if condition="$sr_info.SR_QrcodeImg neq null or $sr_info.SR_QrcodeImg neq ''">
+                    <img src="{$sr_info.SR_QrcodeImg}">
+                <else />
+                    <img src="/Public/home/images/service_QR.jpg">
+                </if>
+                </div>
+        	</div>
+        	<div class="msg" @click="call">
+        		<a href="tel:{$sr_info.SR_KeFuPhone}">
+	        		<i class="iconfont icon-kefuzhongxin"></i>
+	        		<div class="msg_main">
+	        			<p>电话客服</p>
+	        			<p>{$sr_info.SR_KeFuPhone}</p>
+	        		</div>
+	        		<i class="iconfont icon-xiangyou"></i>
+        		</a>
+        	</div>
+        </main>
+        <div id="mk" style="position: fixed; top:0;left: 0;right: 0;bottom: 0; background: #000;opacity:0;z-index:999;" v-show="showPic"></div>
+        <div class="zoom" v-show="showPic">
+        	<if condition="$sr_info.SR_QrcodeImg neq null or $sr_info.SR_QrcodeImg neq ''">
+        		<img src="{$sr_info.SR_QrcodeImg}">
+        	<else />
+        		<img src="/Public/home/images/service_QR.jpg">
+        	</if>
+        </div>
+    </div>
+    <!-- 外部容器结束 -->
+</body>
+
+    <script src="/Public/home/js/lib/vue.js"></script>
+    <script src="/Public/home/js/lib/mui.min.js"></script>
+    <script src="/Public/home/js/lib/jquery.min.js"></script>
+    <!--<script src="/Public/home/js/lib/footer.js"></script>-->
+    <!-- Swiper JS -->
+    <!--<script src="/Public/home/js/lib/swiper.jquery.min.js"></script>-->
+    <!-- 主要JS -->
+    <script type="text/javascript" src="/Public/home/js/Person/service.js"></script>
+</html>

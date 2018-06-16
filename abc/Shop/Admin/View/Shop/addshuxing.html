@@ -1,0 +1,85 @@
+<!-- 添加商品大属性  -->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/html5.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/respond.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/js/PIE_IE678.js"></script>
+<![endif]-->
+<link href="__PUBLIC__/Admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/css/style.css"/>       
+<link href="__PUBLIC__/Admin/assets/css/codemirror.css" rel="stylesheet">
+<link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/ace.min.css" />
+      <link rel="stylesheet" href="__PUBLIC__/Admin/Widget/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/font-awesome.min.css" />
+<!--[if IE 7]>
+		  <link rel="stylesheet" href="__PUBLIC__/Admin/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+<link href="__PUBLIC__/Admin/Widget/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/Widget/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+<!-- 引入JQ -->
+	<script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+<title>新增图片</title>
+</head>
+<body>
+<div class="clearfix" id="add_picture">
+<div id="scrollsidebar" class="left_Treeview">
+    
+  </div>
+   <div class="page_right_style" style="margin-left: -220px; width: 1800px;">
+   <div class="type_title">添加商品属性</div>
+
+	<form action="{:U('Shop/chuliaddshuxing')}" method="post" class="form form-horizontal" id="form-article-add" enctype="multipart/form-data">
+	<input type="hidden" name="gid" value="{$goodsList['id']}">
+		<div style="margin-top: 20px;"><h1>为<span style="color: red">{$goodsList['name']}</span>添加商品属性</h1></div>
+		<div style="position: relative; z-index: 1; margin-left: 228px;  margin-top: 30px; margin-bottom: 30px;"></div>
+		<div id="zhuijia">
+		<div style="width: 1189px; height: auto; float: left;">
+			<!-- 获取替换内容 -->
+			<div id="divs">
+				<div style="float: left; "><span  style="font-size: 20px;">口味：</span><input style="position: relative; z-index: 1" type="text" name="kouwei"></div>
+				<div style="float: left; "><span  style="font-size: 20px;">包装：</span><input style="position: relative; z-index: 1" type="text" name="baozhuang"></div>
+				<div style="float: left; "><span  style="font-size: 20px;">库存</span><input style="position: relative; z-index: 1" type="text" name="num"></div>
+				<div style="float: left; "><span  style="font-size: 20px;">价钱</span><input style="position: relative; z-index: 1" type="text" name="price"></div>
+				<div style="float: left; margin-top: 80px; margin-left: -900px;"><span  style="font-size: 20px;">组合图片</span><input style="position: relative; z-index: 1" type="file" name="image"></div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		</div>
+
+    </div>
+</div>
+</div>
+<div style="margin-top: 146px; margin-left: 920px; z-index:1;"><button style="font-size: 12px; color: red;" class="btn">提交</button></div>
+	</form>
+
+</body>
+
+<script>
+ /**
+  * $a "是点我添加属性"
+  */
+//  function dianji(a) {
+
+//  	// 获取要添加的内容
+// 	var str = $('#zhuijia').html();
+// 	console.log(str);
+// 	// 追加要添加的内容
+//  	$('#zhuijia').after(str);
+//  }
+// /**
+//  * 这是取消按钮
+//  * $b 是"取消"
+//  */
+//  function del(b) {
+
+//  	$(b).parent().remove();
+//  }
+</script>
+</html>

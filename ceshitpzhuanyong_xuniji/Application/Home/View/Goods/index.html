@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<script src='__PUBLIC__/jquery-2.1.4/jquery.min.js'></script>
+	<script>
+		window.onload = function() {
+
+			// 定义滚动条事件
+			$(window).scroll(function() {
+				// 接收高度
+				var i = $(window).scrollTop();
+
+				// 转换整数
+				var floor = Math.floor(i);
+
+				// 定义路劲
+				var upload = '__ROOT__/Image/Goods/';
+
+				// 遍历后的每一个DIV
+				var pp = $('.pp').children();
+
+				// ajax
+				$.ajax({
+
+					// 地址
+					url: "{:U('Goods/index')}",
+					
+					// 类型
+					type: 'get',
+
+					// 返回数据
+					success: function(msg) {
+
+						// for (var i = 0; i < msg.length; i++) {
+
+							var chi = $(pp[0]).children()[0];
+							
+							if (floor >= 2000) {
+								
+								// 第三排div
+							   	var chi = $(pp[7]).children()[0];
+								$(chi).attr('src', upload + msg[0].name)
+
+								var chi = $(pp[6]).children()[0];
+								$(chi).attr('src', upload + msg[1].name)
+
+							} else if (floor >= 900) {
+								// 第二排div
+								var chi = $(pp[5]).children()[0];
+								$(chi).attr('src', upload + msg[2].name)
+
+								var chi = $(pp[4]).children()[0];
+								$(chi).attr('src', upload + msg[3].name)
+
+								var chi = $(pp[3]).children()[0];
+								$(chi).attr('src', upload + msg[4].name)
+
+							} else if (floor >= 209) {
+								// 第一排div
+								var chi = $(pp[0]).children()[0];
+								$(chi).attr('src', upload + msg[5].name)
+
+								var chi = $(pp[1]).children()[0];
+								$(chi).attr('src', upload + msg[6].name)
+
+								var chi = $(pp[2]).children()[0];
+								$(chi).attr('src', upload + msg[7].name)
+
+							}
+						// }
+					}
+				});
+
+
+			});
+
+		}
+	</script>
+</head>
+<body>
+<!-- 	<form action="{:U('Goods/index')}" method="post" enctype="multipart/form-data">
+		<input type="file" multiple name='pic'>
+		<button>提交</button>
+	</form> -->
+	<div class="pp">
+	
+	<foreach name='arr' item='val'>
+		<div id="p" style='width: 500px; height: 500px; float: left; margin: 1500px 0px 0px 15px; background-color: red; margin-top: 500px;'>
+		<img src="" alt="" style='width: 500px; height: 500px;'>
+		</div>
+	</foreach>
+	</div>
+</body>
+
+</html>

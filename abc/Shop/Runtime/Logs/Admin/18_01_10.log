@@ -1,0 +1,553 @@
+[ 2018-01-10T14:03:22+08:00 ] 192.168.30.109 /abc/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+
+[ 2018-01-10T14:03:22+08:00 ] 192.168.30.109 /abc/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2018-01-10T14:03:24+08:00 ] 192.168.30.109 /abc/Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2018-01-10T14:03:30+08:00 ] 192.168.30.109 /abc/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0122s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`age`,`atime`,`phone`,`qq`,`mail`,`status`,`iplock`,`logtime`,`role` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: adname /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 65 行.
+NOTIC: [8] Undefined variable: adpwd /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-01-10T14:03:31+08:00 ] 192.168.30.109 /abc/Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-01-10T14:03:36+08:00 ] 192.168.30.109 /abc/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: adname /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 65 行.
+NOTIC: [8] Undefined variable: adpwd /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+
+[ 2018-01-10T14:03:36+08:00 ] 192.168.30.109 /abc/Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2018-01-10T14:03:41+08:00 ] 192.168.30.109 /abc/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: adname /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 65 行.
+NOTIC: [8] Undefined variable: adpwd /usr/local/apache2/htdocs/abc/Shop/Runtime/Cache/Admin/f152827ede0096efdd0f9201d80b1f5f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2018-01-10T14:03:41+08:00 ] 192.168.30.109 /abc/Admin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2018-01-10T14:03:50+08:00 ] 192.168.30.109 /abc/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`age`,`atime`,`phone`,`qq`,`mail`,`status`,`iplock`,`logtime`,`role` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `shop_admin_user` SET `username`='admin',`password`='$2y$10$cUKGjPv0OEpbdP4C9tDhWOP4e5iPFq8HhBKMVI30jh6dgIGJhhSWi',`sex`='1',`age`='0',`atime`='1512122510',`phone`='13838389438',`qq`='',`mail`='1234567890@163.com',`status`='1',`iplock`='1',`logtime`='6182e54ff5e5cb5ab37d4a9bce5dab87',`role`=NULL WHERE `id` = 30 [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `shop_admin_ip` [ RunTime:0.0016s ]
+SQL: INSERT INTO `shop_admin_ip` (`uid`,`ip`,`time`,`adminname`) VALUES ('30','192.168.30.109','1515564230','admin') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0018s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`age`,`atime`,`phone`,`qq`,`mail`,`status`,`iplock`,`logtime`,`role` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user_role` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `shop_admin_user_role` WHERE ( aid='30' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_admin_role` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `shop_admin_role` WHERE ( id='30' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `shop_admin_role_node` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `shop_admin_role_node` WHERE ( rid='30' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `shop_admin_node` [ RunTime:0.0897s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='103' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='104' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='105' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='106' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='165' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='166' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='167' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='168' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='170' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='171' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='172' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='173' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='174' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='175' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='176' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='107' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='108' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='109' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='111' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='112' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='113' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='114' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='115' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='154' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='155' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='156' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='158' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='159' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='160' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='161' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='116' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='117' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='118' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='119' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='124' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='152' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='121' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='122' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='123' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='125' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='126' ) LIMIT 1   [ RunTime:0.0178s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='127' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='128' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='130' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='131' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='163' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='132' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='133' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='134' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='135' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='139' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='140' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='141' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='142' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='143' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='144' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='145' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='146' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='147' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='149' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='150' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nodebody` FROM `shop_admin_node` WHERE ( id='151' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2018-01-10T14:03:51+08:00 ] 192.168.30.109 /abc/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-01-10T14:03:52+08:00 ] 192.168.30.109 /abc/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `shop_admin_user` [ RunTime:0.0005s ]
+SQL: SELECT `logtime` FROM `shop_admin_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-01-10T14:03:57+08:00 ] 192.168.30.109 /abc/Admin/type/shopnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2] Declaration of Admin\Model\TypeModel::data() should be compatible with Think\Model::data($data = '') /usr/local/apache2/htdocs/abc/Shop/Admin/Model/TypeModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_type` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`path`,`name`,`atime`,`xtime` FROM `shop_type` ORDER BY concat(path, id) LIMIT 0,15   [ RunTime:0.0465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021684s ]
+
+[ 2018-01-10T14:04:08+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-01-10T14:04:08+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2018-01-10T14:04:10+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-01-10T14:04:14+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-01-10T14:04:16+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+
+[ 2018-01-10T14:04:30+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-01-10T14:04:50+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-01-10T14:04:52+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-10T14:04:52+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2018-01-10T14:04:57+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-01-10T14:04:57+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2018-01-10T14:07:38+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-01-10T14:07:38+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/assets/js/jquery-2.0.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2018-01-10T14:08:12+08:00 ] 192.168.30.109 /abc/Admin/Type/typeadd2/id/247/path/0%2C237%2C247%2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-01-10T14:09:59+08:00 ] 192.168.30.109 /abc/Admin/type/shopnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2] Declaration of Admin\Model\TypeModel::data() should be compatible with Think\Model::data($data = '') /usr/local/apache2/htdocs/abc/Shop/Admin/Model/TypeModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_type` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`path`,`name`,`atime`,`xtime` FROM `shop_type` ORDER BY concat(path, id) LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+

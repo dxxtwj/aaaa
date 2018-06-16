@@ -1,0 +1,72 @@
+[ 2018-01-25T05:05:57+08:00 ] 192.168.30.109 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.124180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `tb_banner_rec` [ RunTime:0.1443s ]
+SQL: SELECT BR_IMG as img,BR_Url as url FROM `tb_banner_rec` WHERE `BR_Is_Show` = 1 AND `BR_Type` = 1 ORDER BY BR_Sort desc  [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `tb_navigation_rec` [ RunTime:0.0036s ]
+SQL: SELECT NR_Name as name,NR_IMG as img,NR_Url as url FROM `tb_navigation_rec` WHERE `NR_Is_Show` = 1 ORDER BY NR_Sort desc LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0013s ]
+SQL: SELECT GR_ID as id,GR_Name as name,GR_IMG as img,GR_Price as price,GR_Old_Price as oldPrice FROM `tb_goods_rec` WHERE `GR_Is_Show` = 1 AND `GR_Is_Recommend` = 1 AND `GR_Is_Delete` = 0 ORDER BY GR_Sort desc LIMIT 4   [ RunTime:0.1548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015583s ]
+
+[ 2018-01-25T05:06:10+08:00 ] 192.168.30.109 /index.php/Home/Open/isopen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tb_system_rec` [ RunTime:0.3326s ]
+SQL: SELECT `SR_ISSiteOpen`,`SR_ShopName` FROM `tb_system_rec` WHERE `SR_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-25T09:40:51+08:00 ] 192.168.30.109 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `tb_banner_rec` [ RunTime:0.0579s ]
+SQL: SELECT BR_IMG as img,BR_Url as url FROM `tb_banner_rec` WHERE `BR_Is_Show` = 1 AND `BR_Type` = 1 ORDER BY BR_Sort desc  [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `tb_navigation_rec` [ RunTime:0.0014s ]
+SQL: SELECT NR_Name as name,NR_IMG as img,NR_Url as url FROM `tb_navigation_rec` WHERE `NR_Is_Show` = 1 ORDER BY NR_Sort desc LIMIT 10   [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0160s ]
+SQL: SELECT GR_ID as id,GR_Name as name,GR_IMG as img,GR_Price as price,GR_Old_Price as oldPrice FROM `tb_goods_rec` WHERE `GR_Is_Show` = 1 AND `GR_Is_Recommend` = 1 AND `GR_Is_Delete` = 0 ORDER BY GR_Sort desc LIMIT 4   [ RunTime:0.0671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013893s ]
+
+[ 2018-01-25T09:40:55+08:00 ] 192.168.30.109 /index.php/Home/Open/isopen
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `tb_system_rec` [ RunTime:0.6240s ]
+SQL: SELECT `SR_ISSiteOpen`,`SR_ShopName` FROM `tb_system_rec` WHERE `SR_ID` = 1 LIMIT 1   [ RunTime:0.0005s ]
+

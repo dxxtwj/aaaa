@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/Public/admin/css/style.css"/>       
+<link href="/Public/admin/assets/css/codemirror.css" rel="stylesheet">
+<link rel="stylesheet" href="/Public/admin/font/css/font-awesome.min.css" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="/Public/admin/assets/css/ace-ie.min.css" />
+<![endif]-->
+<script src="/Public/admin/js/jquery-1.9.1.min.js"></script>
+<script src="/Public/admin/assets/js/bootstrap.min.js"></script>
+<script src="/Public/admin/assets/js/typeahead-bs2.min.js"></script>           	
+<script src="/Public/admin/assets/js/jquery.dataTables.min.js"></script>
+<script src="/Public/admin/assets/js/jquery.dataTables.bootstrap.js"></script>
+<script src="/Public/admin/assets/layer/layer.js" type="text/javascript" ></script>          
+<script src="/Public/admin/assets/laydate/laydate.js" type="text/javascript"></script>
+<title>支付管理</title>
+<style type="text/css">
+.custom_page_header {
+    border-bottom-color: #d5e3ef;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #CCC;
+    color: #478fca!important;
+    font-weight: lighter;
+    font-size: 21px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.table{border:1px solid #dddddd;}
+.table thead tr th{
+	line-height: 50px;
+	background-color:#DDE4ED;
+}
+.table thead tr{background:#fff;color:#000;}
+.table tr td{
+	border-right: 1px solid #ddd;
+}
+.table tbody>tr>td{
+	vertical-align: middle;
+	padding: 15px 10px;
+}
+.table tr:nth-of-type(even){
+	background-color:#f8f8f8;
+}
+.btn-sm{
+	margin: 5px;
+}
+</style>
+</head>
+
+<body>
+<div class="margin clearfix">
+	<div class="panel ">
+
+	<h3 class="custom_page_header">支付方式设置</a>
+   	</h3>
+		<div class="panel-body">
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th class="text-center">支付方式名称</th>
+						<th class="text-center">支付方式描述</th>
+						<th class="text-center">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="text-center">微信支付（公众号&H5&扫码支付）</td>
+						<td class="text-center">微信支付是集成在微信客户端的支付功能，用户可以通过手机完成快速的支付流程。微信支付以绑定银行卡的快捷支付为基础，向用户提供安全、快捷、高效的支付服务。</td>
+						<if condition="$status1 eq 1">
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="wxedit.html">
+									<i class="fa fa-pencil"></i>&nbsp;编&nbsp;辑 &nbsp;
+								</a>
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_close?state=1">
+									<i class="fa fa-times"></i>&nbsp;关&nbsp;闭&nbsp;
+								</a>
+							</td>
+							<else/>
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_open?state=1">
+									<i class="fa fa-times"></i>&nbsp;开&nbsp;启&nbsp;
+								</a>
+							</td>
+						</if>
+					</tr>
+					<tr>
+						<td class="text-center">支付宝（手机版）</td>
+						<td class="text-center">国内先进的网上支付平台。三种支付接口：担保交易，即时到账，双接口。在线即可开通，零预付，免年费，单笔阶梯费率，无流量限制。</td>
+						<if condition="$status2 eq 1">
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="zfbedit.html">
+									<i class="fa fa-cog"></i>&nbsp;编&nbsp;辑&nbsp;
+								</a>
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_close?state=2">
+									<i class="fa fa-times"></i>&nbsp;关&nbsp;闭&nbsp;
+								</a>
+							</td>
+							<else/>
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_open?state=2">
+									<i class="fa fa-times"></i>&nbsp;开&nbsp;启&nbsp;
+								</a>
+							</td>
+						</if>
+					</tr>
+					<tr>
+						<td class="text-center">支付宝（扫码支付）</td>
+						<td class="text-center">国内先进的网上支付平台。三种支付接口：担保交易，即时到账，双接口。在线即可开通，零预付，免年费，单笔阶梯费率，无流量限制。</td>
+						<if condition="$status3 eq 1">
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="zfb_codepay.html">
+									<i class="fa fa-cog"></i>&nbsp;编&nbsp;辑&nbsp;
+								</a>
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_close?state=3">
+									<i class="fa fa-times"></i>&nbsp;关&nbsp;闭&nbsp;
+								</a>
+							</td>
+							<else/>
+							<td class="text-center">
+								<a class="btn btn-default btn-sm" href="/index.php/Admin/PaySet/is_open?state=3">
+									<i class="fa fa-times"></i>&nbsp;开&nbsp;启&nbsp;
+								</a>
+							</td>
+						</if>
+					</tr>
+					
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

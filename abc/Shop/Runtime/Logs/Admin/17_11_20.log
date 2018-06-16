@@ -1,0 +1,2020 @@
+[ 2017-11-20T08:58:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0058s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2017-11-20T08:58:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0083s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0056s ]
+
+[ 2017-11-20T08:58:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0224s ]
+
+[ 2017-11-20T08:58:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0076s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0031s ]
+
+[ 2017-11-20T08:59:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0033s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-20T08:59:37+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2017-11-20T09:00:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0059s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T09:01:00+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0141s ]
+
+[ 2017-11-20T09:01:04+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T09:03:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006889s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0049s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2017-11-20T09:03:20+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0054s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T09:03:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0271s ]
+
+[ 2017-11-20T09:03:36+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T09:03:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0072s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0269s ]
+
+[ 2017-11-20T09:04:18+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0065s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0067s ]
+
+[ 2017-11-20T09:04:23+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0026s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0215s ]
+
+[ 2017-11-20T09:04:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-11-20T09:05:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0101s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0039s ]
+
+[ 2017-11-20T09:06:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0072s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0199s ]
+
+[ 2017-11-20T09:07:19+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-11-20T09:07:51+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0134s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0028s ]
+
+[ 2017-11-20T09:07:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0069s ]
+
+[ 2017-11-20T09:07:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0047s ]
+
+[ 2017-11-20T09:08:01+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0139s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T09:13:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0069s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0103s ]
+
+[ 2017-11-20T09:13:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+
+[ 2017-11-20T09:13:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0042s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T09:13:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0031s ]
+
+[ 2017-11-20T09:14:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0051s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-11-20T09:15:04+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T09:15:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0027s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-20T09:15:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0071s ]
+
+[ 2017-11-20T09:15:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T09:16:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2017-11-20T09:16:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0043s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0048s ]
+
+[ 2017-11-20T09:16:45+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-20T09:16:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0043s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-11-20T09:16:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+
+[ 2017-11-20T09:26:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2017-11-20T09:26:19+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0085s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:26:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T09:26:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:27:34+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0106s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0128s ]
+
+[ 2017-11-20T09:27:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:27:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2017-11-20T09:28:01+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:34:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected '$order' (T_VARIABLE)
+
+[ 2017-11-20T09:34:23+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T09:34:26+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:35:00+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0070s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0048s ]
+
+[ 2017-11-20T09:35:02+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0051s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 10' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET  WHERE `id` = 10
+
+[ 2017-11-20T09:36:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T09:38:26+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0041s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-11-20T09:38:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-20T09:38:42+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0048s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-11-20T09:42:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T09:42:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T09:44:52+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T09:44:58+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:00:48+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:01:06+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:07:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:07:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:07:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:08:26+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:08:37+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:08:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:08:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2017-11-20T10:11:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:15:53+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:15:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:15:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:15:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:15:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/index.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:15:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:16:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:16:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/index.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:16:23+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:18:07+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:18:08+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/index.html
+ERR: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+
+[ 2017-11-20T10:19:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:19:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:19:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:21:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:22:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:22:36+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:22:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:29:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:40:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:41:20+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:51:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:54:53+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T10:55:23+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T10:55:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0029s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-20T10:55:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2017-11-20T13:39:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T13:39:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T13:39:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T13:39:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-11-20T13:40:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T13:41:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0029s ]
+
+[ 2017-11-20T13:42:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T13:55:42+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:00:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:03:26+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:03:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:08:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:13:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T14:21:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-11-20T14:22:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0042s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0145s ]
+
+[ 2017-11-20T14:22:06+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2017-11-20T14:22:08+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='123' WHERE `id` = 10 [ RunTime:0.0208s ]
+
+[ 2017-11-20T14:22:18+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0031s ]
+
+[ 2017-11-20T14:22:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0063s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0130s ]
+
+[ 2017-11-20T14:24:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0033s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-11-20T14:25:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0027s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-11-20T14:26:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T14:27:06+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-11-20T14:27:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0211s ]
+
+[ 2017-11-20T14:27:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2017-11-20T14:29:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T14:29:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0058s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='&quot;asdasd&quot;' WHERE `id` = 10 [ RunTime:0.0151s ]
+
+[ 2017-11-20T14:29:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0048s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2017-11-20T14:31:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0031s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-20T14:31:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-11-20T14:32:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0029s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-20T14:32:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='fsdfd' WHERE `id` = 10 [ RunTime:0.0199s ]
+
+[ 2017-11-20T14:32:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0037s ]
+
+[ 2017-11-20T14:33:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0079s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0038s ]
+
+[ 2017-11-20T14:33:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0057s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0311s ]
+
+[ 2017-11-20T14:33:20+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T14:33:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0082s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2017-11-20T14:34:00+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0186s ]
+
+[ 2017-11-20T14:34:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-11-20T14:34:06+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='12412412',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0196s ]
+
+[ 2017-11-20T14:34:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0068s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T14:34:19+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0023s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='124124121',`uaddress`='NaN' WHERE `id` = 10 [ RunTime:0.0196s ]
+
+[ 2017-11-20T14:34:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0080s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T14:34:52+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-11-20T14:34:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='124124121',`uaddress`='231232' WHERE `id` = 10 [ RunTime:0.0169s ]
+
+[ 2017-11-20T14:34:58+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005022s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0082s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0056s ]
+
+[ 2017-11-20T14:35:01+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0026s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='124124121',`uaddress`='ddfhfs' WHERE `id` = 10 [ RunTime:0.0223s ]
+
+[ 2017-11-20T14:35:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0042s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T14:36:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0043s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T14:36:24+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0047s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='21312',`userphone`='124124121',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0178s ]
+
+[ 2017-11-20T14:37:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0025s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T14:37:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2017-11-20T14:38:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0121s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='123123',`userphone`='12312',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0205s ]
+
+[ 2017-11-20T14:38:19+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0148s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-11-20T14:38:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: UPDATE `shop_order` SET `id`='10',`username`='123123',`userphone`='撒',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0128s ]
+
+[ 2017-11-20T14:38:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0033s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T14:39:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-11-20T14:39:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-11-20T15:01:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:00+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:05+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/index.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-20T15:02:42+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0115s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-11-20T15:03:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='123123',`userphone`='阿斯达斯',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0252s ]
+
+[ 2017-11-20T15:04:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0046s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2017-11-20T15:04:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:04:18+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0043s ]
+
+[ 2017-11-20T15:04:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:08:09+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0064s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-20T15:08:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:08:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2017-11-20T15:08:20+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:08:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0033s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T15:08:38+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0028s ]
+
+[ 2017-11-20T15:08:40+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:08:42+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T15:08:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='123123',`userphone`='532523',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0572s ]
+
+[ 2017-11-20T15:08:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0043s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T15:08:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:09:02+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T15:09:24+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-11-20T15:09:29+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:09:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0057s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2017-11-20T15:09:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T15:09:43+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:09:45+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2017-11-20T15:09:47+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:09:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-11-20T15:10:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:10:04+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-20T15:10:07+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='123123',`userphone`='1231',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0164s ]
+
+[ 2017-11-20T15:10:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0091s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0235s ]
+
+[ 2017-11-20T15:12:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-11-20T15:12:08+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:12:11+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T15:12:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003246s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='阿苏加德纳',`userphone`='1231',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0195s ]
+
+[ 2017-11-20T15:12:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0160s ]
+
+[ 2017-11-20T15:12:21+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:12:23+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-11-20T15:12:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:16:25+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0023s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-11-20T15:16:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:16:34+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0029s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T15:16:36+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:16:40+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0049s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-11-20T15:16:42+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:17:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T15:17:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:22:06+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0043s ]
+
+[ 2017-11-20T15:22:08+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:22:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-11-20T15:22:18+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:22:26+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0047s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2017-11-20T15:22:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:23:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T15:23:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='as',`userphone`='1231',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0244s ]
+
+[ 2017-11-20T15:24:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0055s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0039s ]
+
+[ 2017-11-20T15:24:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:24:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0054s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-20T15:24:51+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Call to a member function getError() on boolean
+
+[ 2017-11-20T15:26:01+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2017-11-20T15:26:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:36:38+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0026s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2017-11-20T15:36:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:39:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0037s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2017-11-20T15:39:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:39:52+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2017-11-20T15:39:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-11-20T15:39:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0039s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0041s ]
+
+[ 2017-11-20T15:40:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='吴伟健',`userphone`='12',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0198s ]
+
+[ 2017-11-20T15:40:47+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0044s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2017-11-20T15:40:53+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='张营',`userphone`='12312',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0369s ]
+
+[ 2017-11-20T15:41:31+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0026s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-11-20T15:41:40+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='张营',`userphone`='1314520',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0259s ]
+
+[ 2017-11-20T15:41:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2017-11-20T15:41:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `shop_order` SET `id`='10',`username`='张营',`userphone`='137814',`uaddress`='阿苏加德纳斯' WHERE `id` = 10 [ RunTime:0.0225s ]
+
+[ 2017-11-20T15:42:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0031s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2017-11-20T16:06:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T16:11:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T17:02:54+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id=NaN&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-11-20T17:04:34+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id=1&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-11-20T17:05:38+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id=NaN&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-11-20T17:06:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-11-20T17:06:32+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-11-20T17:09:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+
+[ 2017-11-20T17:10:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+
+[ 2017-11-20T17:11:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0057s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE (  11 ) AND (  10 ) [ RunTime:0.0478s ]
+
+[ 2017-11-20T17:12:52+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0036s ]
+ERR: 表达式错误:11
+
+[ 2017-11-20T17:15:38+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected ')', expecting ']'
+
+[ 2017-11-20T17:24:07+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: UPDATE `shop_order` SET `coupon`='20' WHERE ( `id` = null  ) [ RunTime:0.0023s ]
+
+[ 2017-11-20T17:25:07+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005803s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0048s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11,10') [ RunTime:0.0290s ]
+
+[ 2017-11-20T17:25:29+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0048s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11,10') [ RunTime:0.0289s ]
+
+[ 2017-11-20T17:25:55+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0029s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11,10') [ RunTime:0.0356s ]
+
+[ 2017-11-20T17:27:20+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-11-20T17:28:40+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0035s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11,10') [ RunTime:0.0271s ]
+
+[ 2017-11-20T17:29:53+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0038s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11,10') [ RunTime:0.0124s ]
+ERR: Call to a member function _sql() on integer
+
+[ 2017-11-20T17:30:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11','10') [ RunTime:0.0145s ]
+
+[ 2017-11-20T17:34:59+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:48+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:48+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:49+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T17:35:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:19:30+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:15+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:23:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: 1054:Unknown column 'coupon' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`username`,`sex`,`phone`,`email`,`addtime`,`grade`,`status`,`integral`,`coupon` FROM `shop_user` ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-20T18:27:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] Undefined index: id C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 113 行.
+NOTIC: [2] join(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET `coupon`='20' WHERE `id` IN ()
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `shop_order` SET `coupon`='20' WHERE `id` IN ()
+
+[ 2017-11-20T18:27:45+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0047s ]
+SQL: UPDATE `shop_order` SET `coupon`='10' WHERE `id` IN ('11','10') [ RunTime:0.0275s ]
+
+[ 2017-11-20T18:29:57+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:31:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:31:27+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:33:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0027s ]
+SQL: UPDATE `shop_user` SET `coupon`='10' WHERE `id` IN ('11') [ RunTime:0.0161s ]
+
+[ 2017-11-20T18:35:03+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=10&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0039s ]
+SQL: UPDATE `shop_user` SET `coupon`='20' WHERE `id` IN ('10') [ RunTime:0.0282s ]
+
+[ 2017-11-20T18:35:51+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=9&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0050s ]
+SQL: UPDATE `shop_user` SET `coupon`='10' WHERE `id` IN ('9') [ RunTime:0.0240s ]
+
+[ 2017-11-20T18:36:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=8&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0042s ]
+SQL: UPDATE `shop_user` SET `coupon`='20' WHERE `id` IN ('8') [ RunTime:0.0207s ]
+
+[ 2017-11-20T18:36:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=8&coupon=30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0053s ]
+SQL: UPDATE `shop_user` SET `coupon`='30' WHERE `id` IN ('8') [ RunTime:0.0279s ]
+
+[ 2017-11-20T18:39:14+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=11&id%5B%5D=10&id%5B%5D=9&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0052s ]
+SQL: UPDATE `shop_user` SET `coupon`='20' WHERE `id` IN ('11','10','9') [ RunTime:0.0169s ]
+
+[ 2017-11-20T18:39:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=1&coupon=30
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0027s ]
+SQL: UPDATE `shop_user` SET `coupon`='30' WHERE `id` IN ('1') [ RunTime:0.0181s ]
+
+[ 2017-11-20T18:42:43+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:42:47+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:43:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T18:50:40+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:06:34+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected ')', expecting ']'
+
+[ 2017-11-20T19:12:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=7&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0031s ]
+SQL: UPDATE `shop_user` SET `coupon`='10' WHERE `id` IN ('7') [ RunTime:0.0191s ]
+
+[ 2017-11-20T19:14:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:17:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:17:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:23:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:24:05+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0027s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0022s ]
+
+[ 2017-11-20T19:24:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:24:28+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 11  [ RunTime:0.0026s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=11 ) [ RunTime:0.0255s ]
+
+[ 2017-11-20T19:24:38+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0031s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0209s ]
+
+[ 2017-11-20T19:24:41+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0027s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0226s ]
+
+[ 2017-11-20T19:24:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 2  [ RunTime:0.0032s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='1' WHERE ( id=2 ) [ RunTime:0.0291s ]
+
+[ 2017-11-20T19:25:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 2  [ RunTime:0.0018s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=2 ) [ RunTime:0.0225s ]
+
+[ 2017-11-20T19:25:13+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/save.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `shop_user` WHERE `id` = 1  [ RunTime:0.0045s ]
+NOTIC: [2] Illegal string offset 'id' C:\wamp64\www\kejian\ErQiXiangMu\TP-shop\Shop\Admin\Controller\UserController.class.php 第 48 行.
+SQL: UPDATE `shop_user` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0197s ]
+
+[ 2017-11-20T19:25:37+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:25:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:25:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:25:53+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:26:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0056s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-11-20T19:27:17+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:27:50+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:32:22+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:33:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:40:56+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=10&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0032s ]
+SQL: UPDATE `shop_user` SET `coupon`='20' WHERE `id` IN ('10') [ RunTime:0.0154s ]
+
+[ 2017-11-20T19:48:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:50:34+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:50:36+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T19:59:01+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:20:07+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2017-11-20T20:20:09+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2017-11-20T20:20:10+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/grade.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2017-11-20T20:24:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=6&id%5B%5D=5&id%5B%5D=4&coupon=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0087s ]
+SQL: UPDATE `shop_user` SET `coupon`='20' WHERE `id` IN ('6','5','4') [ RunTime:0.0236s ]
+
+[ 2017-11-20T20:27:25+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:27:33+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0043s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+
+[ 2017-11-20T20:27:35+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0028s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0028s ]
+
+[ 2017-11-20T20:27:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/Order/edit.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0046s ]
+SQL: SELECT `username`,`userphone`,`uaddress` FROM `shop_order` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-11-20T20:27:47+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:27:48+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:29:19+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:33:46+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:34:39+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/check_val.html?id%5B%5D=on&id%5B%5D=6&id%5B%5D=5&id%5B%5D=4&id%5B%5D=3&id%5B%5D=2&coupon=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0046s ]
+SQL: UPDATE `shop_user` SET `coupon`='10' WHERE `id` IN ('on','6','5','4','3','2') [ RunTime:0.0245s ]
+
+[ 2017-11-20T20:36:44+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:44:08+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:44:12+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-11-20T20:44:16+08:00 ] ::1 /kejian/ErQiXiangMu/TP-shop/Admin/User/css/style.css
+ERR: 非法操作:css
+

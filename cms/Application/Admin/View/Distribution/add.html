@@ -1,0 +1,2439 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)http://www.mmzping.cn/web/index.php?c=site&a=entry&m=xx_shopv2&do=web&r=shop.dispatch.add -->
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<!-- <link rel="shortcut icon" href="http://www.mmzping.cn/attachment/images/global/wechat.jpg"> -->
+		<link href="/Public/admin/postage_files/bootstrap.min.css" rel="stylesheet">
+		<link href="/Public/admin/postage_files/font-awesome.min.css" rel="stylesheet">
+		<link href="/Public/admin/postage_files/animate.css" rel="stylesheet">
+		<link href="/Public/admin/postage_files/v2.css" rel="stylesheet">
+		<link href="/Public/admin/postage_files/common.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/Public/admin/postage_files/iconfont.css">
+		<script src="/Public/admin/postage_files/jquery-1.11.1.min.js"></script>
+		<script src="/Public/admin/postage_files/jquery.gcjs.js"></script>
+		<script src="/Public/admin/postage_files/util.js"></script>
+
+		<script src="/Public/admin/postage_files/require.js"></script>
+		<script src="/Public/admin/postage_files/config.js"></script>
+		<script>
+			require.config({
+				waitSeconds: 0
+			});
+		</script>
+		<script src="/Public/admin/postage_files/myconfig.js"></script>
+		<script type="text/javascript">
+			// if (navigator.appName == 'Microsoft Internet Explorer') {
+			//     if (navigator.userAgent.indexOf("MSIE 5.0") > 0 || navigator.userAgent.indexOf("MSIE 6.0") > 0 || navigator.userAgent.indexOf("MSIE 7.0") > 0) {
+			//         alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
+			//     }
+			// }
+			// myrequire.path = "http://www.mmzping.cn/addons/xx_shopv2/static/js/";
+
+			function preview_html(txt) {
+				var win = window.open("", "win", "width=300,height=600"); // a window object
+				win.document.open("text/html", "replace");
+				win.document.write($(txt).val());
+				win.document.close();
+			}
+		</script>
+
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/web/init.js?v=1476866094595" src="/Public/admin/postage_files/init.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/Public/admin/postage_files/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="/Public/admin/postage_files/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/dist/jquery/jquery.gcjs.js?v=1476866094595" src="/Public/admin/postage_files/jquery.gcjs(1).js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/web/tip.js?v=1476866094595" src="/Public/admin/postage_files/tip.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/web/form.js?v=1476866094595" src="/Public/admin/postage_files/form.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/web/biz.js?v=1476866094595" src="/Public/admin/postage_files/biz.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="css" src="/Public/admin/postage_files/css.min.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/dist/select2/select2.min.js?v=1476866094595" src="/Public/admin/postage_files/select2.min.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/web/table.js?v=1476866094595" src="/Public/admin/postage_files/table.js"></script>
+		<link type="text/css" rel="stylesheet" href="/Public/admin/postage_files/select2.css">
+		<link type="text/css" rel="stylesheet" href="/Public/admin/postage_files/select2-bootstrap.css">
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/dist/jquery/jquery.form.js?v=1476866094595" src="/Public/admin/postage_files/jquery.form.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="../addons/xx_shopv2/static/js/dist/jquery/jquery.validate.min.js?v=1476866094595" src="/Public/admin/postage_files/jquery.validate.min.js"></script>
+		<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="util" src="/Public/admin/postage_files/util.js"></script>
+	</head>
+
+	<body class="white-bg">
+		<!-- <div id="topbar" class="top-navigation   gray-bg "> -->
+		<!-- <nav class="navbar   gray-bg " role="navigation" style="width:1024px;margin:auto;"> -->
+		<div class="navbar-header" style="width:200px;">
+			<!--  <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                        <i class="fa fa-reorder"></i>
+                    </button> -->
+			<!--  <a class="navbar-brand" href="http://www.mmzping.cn/web/index.php?c=site&amp;a=entry&amp;m=xx_shopv2&amp;do=web">LOGO</a> -->
+		</div>
+		<style>
+			.deg180 {
+				transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				/* IE 9 */
+				-moz-transform: rotate(180deg);
+				/* Firefox */
+				-webkit-transform: rotate(180deg);
+				/* Safari 和 Chrome */
+				-o-transform: rotate(180deg);
+				/* Opera */
+			}
+		</style>
+		<div class="wrapper main-wrapper wrapper-content ">
+			<div class="page-menubar">
+			</div>
+			<div class="page-content" style="display: block;">
+				<div class="page-heading">
+					<h2>配送方式 <small></small></h2>
+				</div>
+
+				<form action="{:U('Distribution/add')}" method="post" class="form-horizontal form-validate" enctype="multipart/form-data" novalidate="novalidate">
+					<div class="form-group">
+						<label class="col-sm-2 control-label ">配送区域</label>
+						<div class="col-sm-9 col-xs-12">
+							<table style="width:100%;">
+								<thead>
+									<tr>
+										<th style="height:40px;width:400px;">运送到</th>
+										<th class="show_h" style="width: 110px; display: table-cell;">首重(克)</th>
+										<th class="show_h" style="width: 110px; display: table-cell;">首费(元)</th>
+										<th class="show_h" style="width: 110px; display: table-cell;">续重(克)</th>
+										<th class="show_h" style="width: 110px; display: table-cell;">续费(元)</th>
+										<th class="show_n" style="width: 110px; display: none;">首件(个)</th>
+										<th class="show_n" style="width: 110px; display: none;">运费(元)</th>
+										<th class="show_n" style="width: 110px; display: none;">续件(个)</th>
+										<th class="show_n" style="width: 110px; display: none;">续费(元)</th>
+										<th style="width:80px;">管理</th>
+									</tr>
+								</thead>
+								<tbody id="tbody-areas">
+									<notempty name="default_res">
+										<tr>
+											<td style="padding:10px;">全国 [默认运费]</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="{$default_res['PR_Firstweight']}" class="form-control valid" name="default_firstweight" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="{$default_res['PR_Firstprice']}" class="form-control valid" name="default_firstprice" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="{$default_res['PR_Secondweight']}" class="form-control valid" name="default_secondweight" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="{$default_res['PR_Secondprice']}" class="form-control valid" name="default_secondprice" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h" style="display: table-cell;">
+
+											</td>
+
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="1" class="form-control" name="default_firstnum" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="0" class="form-control" name="default_firstnumprice" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="1" class="form-control" name="default_secondnum" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="0" class="form-control" name="default_secondnumprice" style="width:100px;">
+											</td>
+											<td class="show_n" style="display: none;">
+
+											</td>
+										</tr>
+										<else />
+										<tr>
+											<td style="padding:10px;">全国 [默认运费]</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="1000" class="form-control valid" name="default_firstweight" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="0" class="form-control valid" name="default_firstprice" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="1000" class="form-control valid" name="default_secondweight" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h text-center" style="display: table-cell;">
+												<input type="text" value="0" class="form-control valid" name="default_secondprice" style="width:100px;" aria-invalid="false">
+											</td>
+											<td class="show_h" style="display: table-cell;">
+
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="1" class="form-control" name="default_firstnum" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="0" class="form-control" name="default_firstnumprice" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="1" class="form-control" name="default_secondnum" style="width:100px;">
+											</td>
+											<td class="show_n text-center" style="display: none;">
+												<input type="text" value="0" class="form-control" name="default_secondnumprice" style="width:100px;"></td>
+											<td class="show_n" style="display: none;">
+
+											</td>
+										</tr>
+									</notempty>
+
+									<notempty name="res">
+										<foreach name="res" item="val">
+											<tr class="{$val['PR_Random']}" style="display: table-row;">
+												<td style="word-break:break-all;width:100px;padding:10px;line-height:22px;overflow:hidden; white-space: normal;">
+													<span class="cityshtml">{$val['PR_City']}</span>
+													<input type="hidden" name="random[]" value="{$val['PR_Random']}">
+													<input type="hidden" class="citys" name="citys[{$val['PR_Random']}]" value="{$val['PR_City']}">
+													<a href="javascript:;" onclick="editArea(this)" random="{$val['PR_Random']}">编辑</a>
+												</td>
+												<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;">
+													<input type="text" value="{$val['PR_Firstweight']}" class="form-control valid" name="firstweight[{$val['PR_Random']}]" style="width:100px;" aria-invalid="false">
+												</td>
+												<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;">
+													<input type="text" value="{$val['PR_Firstprice']}" class="form-control valid" name="firstprice[{$val['PR_Random']}]" style="width:100px;" aria-invalid="false">
+												</td>
+												<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;">
+													<input type="text" value="{$val['PR_Secondweight']}" class="form-control" name="secondweight[{$val['PR_Random']}]" style="width:100px;"></td>
+												<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;">
+													<input type="text" value="{$val['PR_Secondprice']}" class="form-control" name="secondprice[{$val['PR_Random']}]" style="width:100px;">
+												</td>
+
+												<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;">
+													<input type="number" value="1" class="form-control" name="firstnum[{$val['PR_Random']}]" style="width:100px;">
+												</td>
+												<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;">
+													<input type="text" value="" class="form-control" name="firstnumprice[{$val['PR_Random']}]" style="width:100px;">
+												</td>
+												<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;">
+													<input type="number" value="1" class="form-control" name="secondnum[{$val['PR_Random']}]" style="width:100px;">
+												</td>
+												<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;">
+													<input type="text" value="" class="form-control" name="secondnumprice[{$val['PR_Random']}]" style="width:100px;">
+												</td>
+												<td style="text-align: center;padding-top:10px;" valign="top">
+													<a href="javascript:;" class="btn btn-default btn-sm" onclick="$(this).parent().parent().remove()"><i class="fa fa-remove"></i>
+													</a>
+												</td>
+											</tr>
+										</foreach>
+									</notempty>
+								</tbody>
+							</table>
+							<a class="btn btn-default" href="javascript:;" onclick="addArea(this)"><span class="fa fa-plus"></span> 新增配送区域</a>
+							<span class="help-block show_h" style="display: block;">根据重量来计算运费，当物品不足《首重重量》时，按照《首重费用》计算，超过部分按照《续重重量》和《续重费用》乘积来计算
+            </span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">不配送区域</label>
+						<div class="col-sm-9 col-xs-12">
+							<div id="areas" class="form-control-static">{$no_res['PR_City']}</div>
+							<a href="javascript:;" class="btn btn-default" onclick="selectAreas()">选择地区</a>
+							<input type="hidden" id="selectedareas" name="nodispatchareas" value="{$no_res['PR_City']}">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label "></label>
+						<div class="col-sm-9 col-xs-12">
+							<input type="submit" value="提交" class="btn btn-primary">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<style type="text/css">
+			.province {
+				float: left;
+				position: relative;
+				width: 150px;
+				height: 35px;
+				line-height: 35px;
+				border: 1px solid #fff;
+			}
+			
+			.province:hover {
+				border: 1px solid #f7e4a5;
+				border-bottom: 1px solid #fffec6;
+				background: #fffec6;
+			}
+			
+			.province .cityall {
+				margin-top: 10px;
+			}
+			
+			.province ul {
+				list-style: outside none none;
+				position: absolute;
+				padding: 0;
+				background: #fffec6;
+				border: 1px solid #f7e4a5;
+				display: none;
+				width: auto;
+				width: 300px;
+				z-index: 999999;
+				left: -1px;
+				top: 32px;
+			}
+			
+			.province ul li {
+				float: left;
+				min-width: 60px;
+				margin-left: 20px;
+				height: 30px;
+				line-height: 30px;
+			}
+		</style>
+		<div id="modal-areas" class="modal fade" tabindex="-1" aria-hidden="true" style="display: none;">
+			<div class="modal-dialog" style="width: 920px;">
+				<div class="modal-content">
+					<div class="modal-header"><button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+						<h3>选择区域</h3></div>
+					<div class="modal-body" style="height:280px;;">
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 北京市                         <span class="citycount" style="color:#ff6600">(2)</span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="北京市"> 北京市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 天津市                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="天津市"> 天津市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 河北省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="石家庄市"> 石家庄市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="唐山市"> 唐山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="秦皇岛市"> 秦皇岛市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="邯郸市"> 邯郸市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="邢台市"> 邢台市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="保定市"> 保定市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="张家口市"> 张家口市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="承德市"> 承德市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="沧州市"> 沧州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="廊坊市"> 廊坊市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="衡水市"> 衡水市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 山西省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="太原市"> 太原市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大同市"> 大同市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阳泉市"> 阳泉市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="长治市"> 长治市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="晋城市"> 晋城市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="朔州市"> 朔州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="晋中市"> 晋中市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="运城市"> 运城市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="忻州市"> 忻州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="临汾市"> 临汾市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="吕梁市"> 吕梁市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 内蒙古                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="呼和浩特市"> 呼和浩特市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="包头市"> 包头市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="乌海市"> 乌海市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="赤峰市"> 赤峰市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="通辽市"> 通辽市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鄂尔多斯市"> 鄂尔多斯市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="呼伦贝尔市"> 呼伦贝尔市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="巴彦淖尔市"> 巴彦淖尔市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="乌兰察布市"> 乌兰察布市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="兴安盟"> 兴安盟                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="锡林郭勒盟"> 锡林郭勒盟                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿拉善盟"> 阿拉善盟                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 辽宁省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="沈阳市"> 沈阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大连市"> 大连市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鞍山市"> 鞍山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="抚顺市"> 抚顺市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="本溪市"> 本溪市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="丹东市"> 丹东市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="锦州市"> 锦州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="营口市"> 营口市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阜新市"> 阜新市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="辽阳市"> 辽阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="盘锦市"> 盘锦市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="铁岭市"> 铁岭市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="朝阳市"> 朝阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="葫芦岛市"> 葫芦岛市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 吉林省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="长春市"> 长春市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="吉林市"> 吉林市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="四平市"> 四平市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="辽源市"> 辽源市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="通化市"> 通化市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="白山市"> 白山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="松原市"> 松原市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="白城市"> 白城市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="延边朝鲜族自治州"> 延边朝鲜族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 黑龙江省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="哈尔滨市"> 哈尔滨市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="齐齐哈尔市"> 齐齐哈尔市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鸡西市"> 鸡西市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鹤岗市"> 鹤岗市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="双鸭山市"> 双鸭山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大庆市"> 大庆市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="伊春市"> 伊春市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="佳木斯市"> 佳木斯市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="七台河市"> 七台河市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="牡丹江市"> 牡丹江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黑河市"> 黑河市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="绥化市"> 绥化市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大兴安岭地区"> 大兴安岭地区                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 上海市                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="上海市"> 上海市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 江苏省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南京市"> 南京市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="无锡市"> 无锡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="徐州市"> 徐州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="常州市"> 常州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="苏州市"> 苏州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南通市"> 南通市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="连云港市"> 连云港市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="淮安市"> 淮安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="盐城市"> 盐城市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="扬州市"> 扬州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="镇江市"> 镇江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="泰州市"> 泰州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宿迁市"> 宿迁市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 浙江省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="杭州市"> 杭州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宁波市"> 宁波市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="温州市"> 温州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="嘉兴市"> 嘉兴市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="湖州市"> 湖州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="绍兴市"> 绍兴市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="金华市"> 金华市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="衢州市"> 衢州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="舟山市"> 舟山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="台州市"> 台州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="丽水市"> 丽水市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 安徽省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="合肥市"> 合肥市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="芜湖市"> 芜湖市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="蚌埠市"> 蚌埠市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="淮南市"> 淮南市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="马鞍山市"> 马鞍山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="淮北市"> 淮北市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="铜陵市"> 铜陵市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="安庆市"> 安庆市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黄山市"> 黄山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="滁州市"> 滁州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阜阳市"> 阜阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宿州市"> 宿州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                        <input type="checkbox" class="city" style="margin-top:8px;" city="巢湖市"> 巢湖市
+                        </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="六安市"> 六安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="亳州市"> 亳州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="池州市"> 池州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宣城市"> 宣城市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 福建省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="福州市"> 福州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="厦门市"> 厦门市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="莆田市"> 莆田市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="三明市"> 三明市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="泉州市"> 泉州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="漳州市"> 漳州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南平市"> 南平市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="龙岩市"> 龙岩市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宁德市"> 宁德市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 江西省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南昌市"> 南昌市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="景德镇市"> 景德镇市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="萍乡市"> 萍乡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="九江市"> 九江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新余市"> 新余市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鹰潭市"> 鹰潭市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="赣州市"> 赣州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="吉安市"> 吉安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宜春市"> 宜春市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="抚州市"> 抚州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="上饶市"> 上饶市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 山东省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="济南市"> 济南市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="青岛市"> 青岛市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="淄博市"> 淄博市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="枣庄市"> 枣庄市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="东营市"> 东营市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="烟台市"> 烟台市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="潍坊市"> 潍坊市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="济宁市"> 济宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="泰安市"> 泰安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="威海市"> 威海市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="日照市"> 日照市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="莱芜市"> 莱芜市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="临沂市"> 临沂市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="德州市"> 德州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="聊城市"> 聊城市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="滨州市"> 滨州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="菏泽市"> 菏泽市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 河南省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="郑州市"> 郑州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="开封市"> 开封市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="洛阳市"> 洛阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="平顶山市"> 平顶山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="安阳市"> 安阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鹤壁市"> 鹤壁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新乡市"> 新乡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="焦作市"> 焦作市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="濮阳市"> 濮阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="许昌市"> 许昌市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="漯河市"> 漯河市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="三门峡市"> 三门峡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南阳市"> 南阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="商丘市"> 商丘市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="信阳市"> 信阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="周口市"> 周口市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="驻马店市"> 驻马店市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                                                                 <input type="checkbox" class="city" style="margin-top:8px;" city="济源市"> 济源市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 湖北省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="武汉市"> 武汉市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黄石市"> 黄石市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="十堰市"> 十堰市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宜昌市"> 宜昌市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="襄阳市"> 襄阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="鄂州市"> 鄂州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="荆门市"> 荆门市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="孝感市"> 孝感市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="荆州市"> 荆州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黄冈市"> 黄冈市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="咸宁市"> 咸宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="随州市"> 随州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="恩施土家族苗族自治州"> 恩施土家族苗族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="仙桃市"> 仙桃市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="潜江市"> 潜江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="天门市"> 天门市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="神农架林区"> 神农架林区                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 湖南省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="长沙市"> 长沙市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="株洲市"> 株洲市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="湘潭市"> 湘潭市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="衡阳市"> 衡阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="邵阳市"> 邵阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="岳阳市"> 岳阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="常德市"> 常德市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="张家界市"> 张家界市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="益阳市"> 益阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="郴州市"> 郴州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="永州市"> 永州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="怀化市"> 怀化市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="娄底市"> 娄底市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="湘西土家族苗族自治州"> 湘西土家族苗族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 广东省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="广州市"> 广州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="韶关市"> 韶关市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="深圳市"> 深圳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="珠海市"> 珠海市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="汕头市"> 汕头市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="佛山市"> 佛山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="江门市"> 江门市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="湛江市"> 湛江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="茂名市"> 茂名市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="肇庆市"> 肇庆市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="惠州市"> 惠州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="梅州市"> 梅州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="汕尾市"> 汕尾市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="河源市"> 河源市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阳江市"> 阳江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="清远市"> 清远市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="东莞市"> 东莞市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="中山市"> 中山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="潮州市"> 潮州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="揭阳市"> 揭阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="云浮市"> 云浮市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 广西壮族                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南宁市"> 南宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="柳州市"> 柳州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="桂林市"> 桂林市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="梧州市"> 梧州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="北海市"> 北海市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="防城港市"> 防城港市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="钦州市"> 钦州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="贵港市"> 贵港市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="玉林市"> 玉林市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="百色市"> 百色市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="贺州市"> 贺州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="河池市"> 河池市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="来宾市"> 来宾市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="崇左市"> 崇左市                            </label>
+								</li>
+							</ul>
+						</div>
+
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 海南省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海口市"> 海口市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="三亚市"> 三亚市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="五指山市"> 五指山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="琼海市"> 琼海市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="儋州市"> 儋州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="文昌市"> 文昌市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="万宁市"> 万宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="东方市"> 东方市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="定安县"> 定安县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="屯昌县"> 屯昌县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="澄迈县"> 澄迈县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="临高县"> 临高县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="白沙黎族自治县"> 白沙黎族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="昌江黎族自治县"> 昌江黎族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="乐东黎族自治县"> 乐东黎族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="陵水黎族自治县"> 陵水黎族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="保亭黎族苗族自治县"> 保亭黎族苗族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="琼中黎族苗族自治县"> 琼中黎族苗族自治县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="西沙群岛"> 西沙群岛                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南沙群岛"> 南沙群岛                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="中沙群岛的岛礁及其海域"> 中沙群岛的岛礁及其海域                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 重庆                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="重庆"> 重庆                            </label>
+								</li>
+
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 四川省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="成都市"> 成都市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="自贡市"> 自贡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="攀枝花市"> 攀枝花市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="泸州市"> 泸州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="德阳市"> 德阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="绵阳市"> 绵阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="广元市"> 广元市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="遂宁市"> 遂宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="内江市"> 内江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="乐山市"> 乐山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南充市"> 南充市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="眉山市"> 眉山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宜宾市"> 宜宾市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="广安市"> 广安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="达州市"> 达州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="雅安市"> 雅安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="巴中市"> 巴中市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="资阳市"> 资阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿坝藏族羌族自治州"> 阿坝藏族羌族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="甘孜藏族自治州"> 甘孜藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="凉山彝族自治州"> 凉山彝族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 贵州省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="贵阳市"> 贵阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="六盘水市"> 六盘水市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="遵义市"> 遵义市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="安顺市"> 安顺市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="铜仁地区"> 铜仁地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黔西南布依族苗族自治州"> 黔西南布依族苗族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="毕节地区"> 毕节地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黔东南苗族侗族自治州"> 黔东南苗族侗族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黔南布依族苗族自治州"> 黔南布依族苗族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 云南省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="昆明市"> 昆明市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="曲靖市"> 曲靖市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="玉溪市"> 玉溪市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="保山市"> 保山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="昭通市"> 昭通市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="丽江市"> 丽江市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="普洱市"> 普洱市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="临沧市"> 临沧市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="楚雄彝族自治州"> 楚雄彝族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="红河哈尼族彝族自治州"> 红河哈尼族彝族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="文山壮族苗族自治州"> 文山壮族苗族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="西双版纳傣族自治州"> 西双版纳傣族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大理白族自治州"> 大理白族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="德宏傣族景颇族自治州"> 德宏傣族景颇族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="怒江傈僳族自治州"> 怒江傈僳族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="迪庆藏族自治州"> 迪庆藏族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 西藏                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="拉萨市"> 拉萨市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="昌都地区"> 昌都地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="山南地区"> 山南地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="日喀则地区"> 日喀则地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="那曲地区"> 那曲地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿里地区"> 阿里地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="林芝地区"> 林芝地区                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 陕西省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="西安市"> 西安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="铜川市"> 铜川市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宝鸡市"> 宝鸡市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="咸阳市"> 咸阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="渭南市"> 渭南市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="延安市"> 延安市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="汉中市"> 汉中市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="榆林市"> 榆林市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="安康市"> 安康市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="商洛市"> 商洛市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 甘肃省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="兰州市"> 兰州市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="嘉峪关市"> 嘉峪关市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="金昌市"> 金昌市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="白银市"> 白银市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="天水市"> 天水市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="武威市"> 武威市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="张掖市"> 张掖市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="平凉市"> 平凉市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="酒泉市"> 酒泉市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="庆阳市"> 庆阳市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="定西市"> 定西市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="陇南市"> 陇南市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="临夏回族自治州"> 临夏回族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="甘南藏族自治州"> 甘南藏族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 青海省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="西宁市"> 西宁市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海东地区"> 海东地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海北藏族自治州"> 海北藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="黄南藏族自治州"> 黄南藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海南藏族自治州"> 海南藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="果洛藏族自治州"> 果洛藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="玉树藏族自治州"> 玉树藏族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海西蒙古族藏族自治州"> 海西蒙古族藏族自治州                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 宁夏                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="银川市"> 银川市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="石嘴山市"> 石嘴山市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="吴忠市"> 吴忠市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="固原市"> 固原市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="中卫市"> 中卫市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 新疆                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="乌鲁木齐市"> 乌鲁木齐市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="克拉玛依市"> 克拉玛依市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="吐鲁番地区"> 吐鲁番地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="哈密地区"> 哈密地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="昌吉回族自治州"> 昌吉回族自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="博尔塔拉蒙古自治州"> 博尔塔拉蒙古自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="巴音郭楞蒙古自治州"> 巴音郭楞蒙古自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿克苏地区"> 阿克苏地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="克孜勒苏柯尔克孜自治州"> 克孜勒苏柯尔克孜自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="喀什地区"> 喀什地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="和田地区"> 和田地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="伊犁哈萨克自治州"> 伊犁哈萨克自治州                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="塔城地区"> 塔城地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿勒泰地区"> 阿勒泰地区                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="石河子市"> 石河子市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="阿拉尔市"> 阿拉尔市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="图木舒克市"> 图木舒克市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="五家渠市"> 五家渠市                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 台湾省                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="台北市"> 台北市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="高雄市"> 高雄市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="基隆市"> 基隆市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="台中市"> 台中市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="台南市"> 台南市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="金门县"> 金门县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="南投县"> 南投县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新竹市"> 新竹市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="嘉义市"> 嘉义市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新北市"> 新北市                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="宜兰县"> 宜兰县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新竹县"> 新竹县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="桃园县"> 桃园县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="苗栗县"> 苗栗县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="彰化县"> 彰化县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="嘉义县"> 嘉义县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="云林县"> 云林县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="屏东县"> 屏东县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="台东县"> 台东县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="花莲县"> 花莲县                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="澎湖县"> 澎湖县                            </label>
+								</li>
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 香港                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="香港岛"> 香港岛                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="九龙"> 九龙                            </label>
+								</li>
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新界"> 新界                            </label>
+								</li>
+								<!--                                                 <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="新界西"> 新界西                            </label>
+                     </li> -->
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 澳门                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="澳门半岛"> 澳门半岛                            </label>
+								</li>
+								<!--    <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="圣安多尼堂区"> 圣安多尼堂区                            </label>
+                     </li>
+                                                <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="花王堂区"> 花王堂区                            </label>
+                     </li>
+                                                <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="大堂区"> 大堂区                            </label>
+                     </li>
+                                                <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="望德堂区"> 望德堂区                            </label>
+                     </li>
+                                                <li>
+                             <label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="风顺堂区"> 风顺堂区                            </label>
+                     </li> -->
+							</ul>
+						</div>
+						<div class="province">
+							<label class="checkbox-inline" style="margin-left:20px;">
+                         <input type="checkbox" class="cityall" style="margin-top:12px;"> 海外                         <span class="citycount" style="color:#ff6600"></span>
+                     </label>
+							<ul style="display: none;">
+								<li>
+									<label class="checkbox-inline">
+                                  <input type="checkbox" class="city" style="margin-top:8px;" city="海外">海外                             </label>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<a href="javascript:;" id="btnSubmitArea" class="btn btn-success" data-dismiss="modal" aria-hidden="true">确定</a>
+						<a href="javascript:;" class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script language="javascript">
+			$(function() {
+
+				$('.province').mouseover(function() {
+					$(this).find('ul').show();
+				}).mouseout(function() {
+					$(this).find('ul').hide();
+				});
+
+				$('.cityall').click(function() {
+					var checked = $(this).get(0).checked;
+					var citys = $(this).parent().parent().find('.city');
+					citys.each(function() {
+						$(this).get(0).checked = checked;
+					});
+					var count = 0;
+					if(checked) {
+						count = $(this).parent().parent().find('.city:checked').length;
+					}
+					if(count > 0) {
+						$(this).next().html("(" + count + ")");
+					} else {
+						$(this).next().html("");
+					}
+				});
+				$('.city').click(function() {
+					var checked = $(this).get(0).checked;
+					var cityall = $(this).parent().parent().parent().parent().find('.cityall');
+
+					if(checked) {
+						cityall.get(0).checked = true;
+					}
+					var count = cityall.parent().parent().find('.city:checked').length;
+					if(count > 0) {
+						cityall.next().html("(" + count + ")");
+					} else {
+						cityall.next().html("");
+					}
+				});
+
+			});
+
+			function clearSelects() {
+				$('.city').attr('checked', false).removeAttr('disabled');
+				$('.cityall').attr('checked', false).removeAttr('disabled');
+				$('.citycount').html('');
+			}
+
+			function editArea(btn) {
+				current = $(btn).attr('random');
+				clearSelects();
+				var old_citys = $(btn).prev().val().split(';');
+
+				$('.city').each(function() {
+					var parentcheck = false;
+					for(var i in old_citys) {
+						if(old_citys[i] == $(this).attr('city')) {
+							parentcheck = true;
+							$(this).get(0).checked = true;
+							break;
+						}
+					}
+					if(parentcheck) {
+						$(this).parent().parent().parent().parent().find('.cityall').get(0).checked = true;
+					}
+				});
+
+				$("#modal-areas").modal();
+				var citystrs = '';
+				$('#btnSubmitArea').unbind('click').click(function() {
+					$('.city:checked').each(function() {
+						citystrs += $(this).attr('city') + ";";
+					});
+					$('.' + current + ' .cityshtml').html(citystrs);
+					$('.' + current + ' .citys').val(citystrs);
+				})
+				var currents = getCurrents(current);
+				currents = currents.split(';');
+				var citys = "";
+				$('.city').each(function() {
+					var parentdisabled = false;
+					for(var i in currents) {
+						if(currents[i] != '' && currents[i] == $(this).attr('city')) {
+							$(this).attr('disabled', true);
+							$(this).parent().parent().parent().parent().find('.cityall').attr('disabled', true);
+						}
+					}
+
+				});
+			}
+
+			function selectAreas() {
+				clearSelects();
+				var old_citys = $('#areas').html().split(';');
+				$('.city').each(function() {
+					var parentcheck = false;
+					for(var i in old_citys) {
+						if(old_citys[i] == $(this).attr('city')) {
+							parentcheck = true;
+							$(this).get(0).checked = true;
+							break;
+						}
+					}
+					if(parentcheck) {
+						$(this).parent().parent().parent().parent().find('.cityall').get(0).checked = true;
+					}
+				});
+
+				$("#modal-areas").modal();
+				var citystrs = '';
+				$('#btnSubmitArea').unbind('click').click(function() {
+					$('.city:checked').each(function() {
+						citystrs += $(this).attr('city') + ";";
+					});
+					$('#areas').html(citystrs);
+					$("#selectedareas").val(citystrs);
+				})
+
+			}
+		</script>
+		<script language="javascript">
+			function show_type(flag) {
+				if(flag == 1) {
+					$('.show_h').hide();
+					$('.show_n').show();
+				} else {
+					$('.show_h').show();
+					$('.show_n').hide();
+				}
+			}
+			$(function() {
+				show_type();
+				$(':radio[name=calculatetype]').click(function() {
+					var val = $(this).val();
+					show_type(val);
+				})
+				$(':radio[name=dispatchtype]').click(function() {
+					var val = $(this).val();
+					$(".dispatch0,.dispatch1").hide();
+					$(".dispatch" + val).show();
+				})
+
+				$("select[name=express]").change(function() {
+					var obj = $(this);
+					var sel = obj.find("option:selected");
+					$(":input[name=expressname]").val(sel.data("name"));
+				});
+
+				$('.province').mouseover(function() {
+					$(this).find('ul').show();
+				}).mouseout(function() {
+					$(this).find('ul').hide();
+				});
+				$('.cityall').click(function() {
+					var checked = $(this).get(0).checked;
+					var citys = $(this).parent().parent().find('.city');
+					citys.each(function() {
+						$(this).get(0).checked = checked;
+					});
+					var count = 0;
+					if(checked) {
+						count = $(this).parent().parent().find('.city:checked').length;
+					}
+					if(count > 0) {
+						$(this).next().html("(" + count + ")");
+					} else {
+						$(this).next().html("");
+					}
+				});
+				$('.city').click(function() {
+					var checked = $(this).get(0).checked;
+					var cityall = $(this).parent().parent().parent().parent().find('.cityall');
+					if(checked) {
+						cityall.get(0).checked = true;
+					}
+					var count = cityall.parent().parent().find('.city:checked').length;
+					if(count > 0) {
+						cityall.next().html("(" + count + ")");
+					} else {
+						cityall.next().html("");
+					}
+				});
+			});
+
+			function getCurrents(withOutRandom) {
+				var citys = "";
+				$('.citys').each(function() {
+					var crandom = $(this).prev().val();
+					if(withOutRandom && crandom == withOutRandom) {
+						return true;
+					}
+					citys += $(this).val();
+				});
+				return citys;
+			}
+
+			var current = '';
+
+			function addArea(btn) {
+				$(btn).button('loading');
+				$.ajax({
+					url: "{:U('Distribution/getRandStr')}",
+					dataType: 'json',
+					success: function(json) {
+						var html = '';
+						$(btn).button('reset');
+						current = json;
+						html += '<tr class="' + current + '" style="display: table-row;">';
+						html += '<td style="word-break:break-all;width:100px;padding:10px;line-height:22px;overflow:hidden; white-space: normal;">';
+						html += '<span class="cityshtml"></span>';
+						html += '<input type="hidden" name="random[]" value="' + current + '">';
+						html += '<input type="hidden" class="citys" name="citys[' + current + ']" value="">';
+						html += '<a href="javascript:;" onclick="editArea(this)" random="' + current + '">编辑</a>';
+						html += '</td>';
+
+						html += '<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;"><input type="text" value="1000" class="form-control valid" name="firstweight[' + current + ']" style="width:100px;" aria-invalid="false"></td>';
+						html += '<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;"><input type="text" value="" class="form-control valid" name="firstprice[' + current + ']" style="width:100px;" aria-invalid="false"></td>';
+						html += '<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;"><input type="text" value="1000" class="form-control" name="secondweight[' + current + ']" style="width:100px;"></td>';
+						html += '<td class="show_h text-center" valign="top" style="padding-top: 10px; display: table-cell;"><input type="text" value="" class="form-control" name="secondprice[' + current + ']" style="width:100px;"></td>';
+
+						html += '<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;"><input type="number" value="1" class="form-control" name="firstnum[' + current + ']" style="width:100px;"></td>';
+						html += '<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;"><input type="text" value="" class="form-control" name="firstnumprice[' + current + ']" style="width:100px;"></td>';
+						html += '<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;"><input type="number" value="1" class="form-control" name="secondnum[' + current + ']" style="width:100px;"></td>';
+						html += '<td class="show_n text-center" valign="top" style="padding-top: 10px; display: none;"><input type="text" value="" class="form-control" name="secondnumprice[' + current + ']" style="width:100px;"></td>';
+
+						html += '<td style="text-align: center;padding-top:10px;" valign="top"><a href="javascript:;" class="btn btn-default btn-sm" onclick="$(this).parent().parent().remove()"><i class="fa fa-remove"></i></a></td>';
+						html += '</tr>';
+
+						$('#tbody-areas').append(html);
+						$('#tbody-areas tr').last().hide();
+						clearSelects();
+						$("#modal-areas").modal();
+						var currents = getCurrents();
+						currents = currents.split(';');
+						var citystrs = "";
+						$('.city').each(function() {
+							var parentdisabled = false;
+							for(var i in currents) {
+								if(currents[i] != '' && currents[i] == $(this).attr('city')) {
+									$(this).attr('disabled', true);
+									$(this).parent().parent().parent().parent().find('.cityall').attr('disabled', true);
+								}
+							}
+
+						});
+						$('#btnSubmitArea').unbind('click').click(function() {
+							$('.city:checked').each(function() {
+								citystrs += $(this).attr('city') + ";";
+							});
+							// 随机数
+							//  alert(current);
+							//  // 市名
+							//  alert(citystrs);
+							//  alert($('.'+current).html());
+							// alert($('.' + current + ' .cityshtml').html());
+							$('.' + current + ' .cityshtml').html(citystrs);
+							$('.' + current + ' .citys').val(citystrs);
+							$('#tbody-areas tr').last().show();
+						})
+						var calculatetype1 = $('input[name="calculatetype"]:checked ').val();
+						show_type(calculatetype1);
+					}
+				})
+			}
+		</script>
+
+		<script language="javascript">
+			require(['bootstrap'], function($) {
+				$('[data-toggle="tooltip"]').tooltip({
+					container: $(document.body)
+				});
+				$('[data-toggle="popover"]').popover({
+					container: $(document.body)
+				});
+			});
+
+			$(function() {
+				setTimeout(function() {
+					check_xx_shopv2_upgrade();
+				}, 4000);
+			});
+		</script>
+		<script language="javascript">
+			myrequire(['web/init'], function() {
+				if($('.form-validate').length <= 0) {
+					$('#page-loading').remove();
+				}
+			});
+		</script>
+
+		<div class="msgbox"></div><span role="status" aria-live="polite" class="select2-hidden-accessible">申通</span>
+		<div id="select2-drop-mask" class="select2-drop-mask" style="display: none;"></div>
+		<div class="select2-drop select2-display-none select2-with-searchbox select2-drop-active" style="left: 764.984px; width: 623px; top: 375px; bottom: auto; display: none;">
+			<div class="select2-search"> <label for="s2id_autogen2_search" class="select2-offscreen"></label> <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-2" id="s2id_autogen2_search" placeholder=""> </div>
+			<ul class="select2-results" role="listbox" id="select2-results-2"></ul>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,1203 @@
+[ 2018-01-24T16:36:31+08:00 ] 192.168.30.109 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: AdminLogin /usr/local/apache2/htdocs/cms/Application/Admin/Controller/CommonController.class.php 第 42 行.
+
+[ 2018-01-24T16:36:31+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 112 行.
+NOTIC: [8] Undefined variable: password /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 120 行.
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-01-24T16:41:17+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'root' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+
+[ 2018-01-24T16:41:21+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 112 行.
+NOTIC: [8] Undefined variable: password /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 120 行.
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-01-24T16:41:23+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'root' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2018-01-24T16:41:25+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 112 行.
+NOTIC: [8] Undefined variable: password /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 120 行.
+NOTIC: [8] Undefined variable: username /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-01-24T16:41:29+08:00 ] 192.168.30.109 /index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 509 行.
+NOTIC: [2] file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=192.168.30.109): failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 509 行.
+NOTIC: [8] Trying to get property of non-object /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 510 行.
+NOTIC: [8] Trying to get property of non-object /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 513 行.
+NOTIC: [8] Undefined index: region /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 486 行.
+NOTIC: [8] Undefined index: city /usr/local/apache2/htdocs/cms/Application/Common/Common/function.php 第 486 行.
+
+[ 2018-01-24T16:41:29+08:00 ] 192.168.30.109 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tb_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_group` WHERE `id` IN ('1') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 0 AND `isMenu` = 1 ORDER BY sort desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 1 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 2 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 3 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 7 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 4 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 5 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 9 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 8 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 10 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 111 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 112 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 105 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-01-24T16:41:29+08:00 ] 192.168.30.109 /index.php/Admin/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_order_rec` [ RunTime:0.0006s ]
+SQL: SELECT `OR_OrderTotal` FROM `tb_order_rec` WHERE `OR_DeleteState` = 0 AND `OR_State` IN ('1','2','3','5')  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_DeleteState` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` IN ('4','5','8') LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2018-01-24T16:41:39+08:00 ] 192.168.30.109 /index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: attribute /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 69 行.
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 93 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 108 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 119 行.
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] krsort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 120 行.
+NOTIC: [2] sort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 122 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 ORDER BY GR_ID desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 209 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 234 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2018-01-24T16:41:42+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/add_type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019285s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 709 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 709 行.
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 716 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 326 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 331 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 338 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 362 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 370 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 377 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 381 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 385 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 399 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 406 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 420 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 441 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 442 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 445 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 446 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 450 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 451 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 453 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 454 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 456 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 457 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 460 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 461 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 474 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 523 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 523 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 537 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 553 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 573 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2018-01-24T16:45:20+08:00 ] 192.168.30.109 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_auth_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_auth_group` WHERE `id` IN ('1') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 0 AND `isMenu` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 1 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 2 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 3 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 7 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 4 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 5 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 9 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 8 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 10 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 111 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 112 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 105 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-01-24T16:45:21+08:00 ] 192.168.30.109 /index.php/Admin/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_order_rec` [ RunTime:0.0005s ]
+SQL: SELECT `OR_OrderTotal` FROM `tb_order_rec` WHERE `OR_DeleteState` = 0 AND `OR_State` IN ('1','2','3','5')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_DeleteState` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` IN ('4','5','8') LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2018-01-24T16:45:42+08:00 ] 192.168.30.109 /index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: type /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: attribute /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 69 行.
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 93 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 108 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 119 行.
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] krsort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 120 行.
+NOTIC: [2] sort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 122 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 ORDER BY GR_ID desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 209 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 234 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2018-01-24T16:45:44+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/add_type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 709 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 709 行.
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 716 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 326 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 331 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 338 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 362 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 370 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 377 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 381 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 385 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 399 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 406 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 420 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 441 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 442 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 445 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 446 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 450 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 451 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 453 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 454 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 456 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 457 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 460 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 461 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 474 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 523 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 523 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 537 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 553 行.
+NOTIC: [8] Undefined variable: gr_info /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 573 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-01-24T17:15:19+08:00 ] 192.168.30.109 /index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: type /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1  [ RunTime:0.0006s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: attribute /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 69 行.
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 93 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 108 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 119 行.
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] krsort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 120 行.
+NOTIC: [2] sort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 122 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 ORDER BY GR_ID desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 209 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 234 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-01-24T17:15:27+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027139s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012363s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.372712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003610s ]
+
+[ 2018-01-24T17:15:27+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016809s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.203497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001247s ]
+
+[ 2018-01-24T17:15:27+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2018-01-24T17:15:30+08:00 ] 192.168.30.109 /index.php/Admin/Goods/getFormatOption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0022s ]
+SQL: SELECT `GR_Is_Options` FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-24T17:15:40+08:00 ] 192.168.30.109 /index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010485s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: attribute /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 69 行.
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 93 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 108 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 119 行.
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] krsort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 120 行.
+NOTIC: [2] sort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 122 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 ORDER BY GR_ID desc LIMIT 0,10   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 209 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 234 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+
+[ 2018-01-24T17:15:45+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007615s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 9 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009590s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009691s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.334413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.334489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.106630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.106743s ]
+
+[ 2018-01-24T17:15:45+08:00 ] 192.168.30.109 /index.php/Admin/Goods/getFormatOption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0007s ]
+SQL: SELECT `GR_Is_Options` FROM `tb_goods_rec` WHERE `GR_ID` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_formats_rec` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_options_rec` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0007s ]
+SQL: SELECT `FR_ID`,`FR_Name` FROM `tb_formats_rec` WHERE `FR_GID` = 9 ORDER BY FR_ID ASC  [ RunTime:0.0002s ]
+SQL: SELECT `OR_ID`,`OR_Name` FROM `tb_options_rec` WHERE `OR_FID` = 7 ORDER BY OR_ID ASC  [ RunTime:0.0001s ]
+SQL: SELECT `OR_ID`,`OR_Name` FROM `tb_options_rec` WHERE `OR_FID` = 8 ORDER BY OR_ID ASC  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_ID ASC  [ RunTime:0.0002s ]
+
+[ 2018-01-24T17:16:04+08:00 ] 192.168.30.109 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tb_auth_group` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_auth_group` WHERE `id` IN ('1') LIMIT 1   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `tb_auth_rule` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 0 AND `isMenu` = 1 ORDER BY sort desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 1 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 2 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 3 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 7 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 4 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 5 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 9 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 8 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 10 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 111 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 112 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `pid` = 105 AND `isMenu` = 1 ORDER BY sort desc,id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-01-24T17:16:06+08:00 ] 192.168.30.109 /index.php/Admin/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.039297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039415s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_order_rec` [ RunTime:0.0006s ]
+SQL: SELECT `OR_OrderTotal` FROM `tb_order_rec` WHERE `OR_DeleteState` = 0 AND `OR_State` IN ('1','2','3','5')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` = 6 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_DeleteState` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_State` IN ('4','5','8') LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1514736000 AND 1517414399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1517414400 AND 1519833599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1519833600 AND 1522511999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1522512000 AND 1525103999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1525104000 AND 1527782399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1527782400 AND 1530374399 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1530374400 AND 1533052799 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1533052800 AND 1535731199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1535731200 AND 1538323199 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1538323200 AND 1541001599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1541001600 AND 1543593599 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order_rec` WHERE `OR_CreateTime` BETWEEN 1543593600 AND 1546271999 AND `OR_State` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.369363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.369483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.130890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.131003s ]
+
+[ 2018-01-24T17:16:12+08:00 ] 192.168.30.109 /index.php/Admin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 AND `GR_Is_Show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `GR_ID`,`GR_Is_Options`,`GR_Stock` FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 4 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 5 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 6 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 8 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `FO_ID` FROM `tb_format_option` WHERE `FO_GID` = 9 AND `FO_Stock` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: attribute /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 69 行.
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 93 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 100 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 104 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 108 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+NOTIC: [8] Undefined index: cid /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 119 行.
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] krsort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 120 行.
+NOTIC: [2] sort() expects parameter 1 to be array, boolean given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 122 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [8] Undefined variable: check_category_arr /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 126 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_Is_Delete` = 0 AND `GR_Type` = 1 ORDER BY GR_ID desc LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 8 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 6 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 5 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 4 ORDER BY FO_Stock ASC LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: goods_name /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 209 行.
+NOTIC: [8] Undefined index: starttime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 234 行.
+NOTIC: [8] Undefined index: endtime /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/7460c3bd08e8aaf3e719467d6ea19bd3.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.713136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.713266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.139484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.139641s ]
+
+[ 2018-01-24T17:16:18+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027528s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2018-01-24T17:16:20+08:00 ] 192.168.30.109 /index.php/Admin/Goods/getFormatOption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011404s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0023s ]
+SQL: SELECT `GR_Is_Options` FROM `tb_goods_rec` WHERE `GR_ID` = 10 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-24T17:16:31+08:00 ] 192.168.30.109 /index.php/Admin/Goods/add/gid/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032504s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tb_category_rec` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 0 AND `CR_Type` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_goods_rec` WHERE `GR_ID` = 9 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `CR_ID`,`CR_PID`,`CR_Name` FROM `tb_category_rec` WHERE `CR_ID` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_category_rec` WHERE `CR_PID` = 2 AND `CR_Type` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: br_info /usr/local/apache2/htdocs/cms/Application/Admin/Controller/GoodsController.class.php 第 702 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: goods_other_imgs /usr/local/apache2/htdocs/cms/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 506 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2018-01-24T17:16:33+08:00 ] 192.168.30.109 /index.php/Admin/Goods/getFormatOption
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010455s ]
+SQL: SHOW COLUMNS FROM `tb_sys_admin` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `tb_sys_admin` WHERE `SA_Name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_goods_rec` [ RunTime:0.0131s ]
+SQL: SELECT `GR_Is_Options` FROM `tb_goods_rec` WHERE `GR_ID` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tb_formats_rec` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_options_rec` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tb_format_option` [ RunTime:0.0010s ]
+SQL: SELECT `FR_ID`,`FR_Name` FROM `tb_formats_rec` WHERE `FR_GID` = 9 ORDER BY FR_ID ASC  [ RunTime:0.0004s ]
+SQL: SELECT `OR_ID`,`OR_Name` FROM `tb_options_rec` WHERE `OR_FID` = 7 ORDER BY OR_ID ASC  [ RunTime:0.0152s ]
+SQL: SELECT `OR_ID`,`OR_Name` FROM `tb_options_rec` WHERE `OR_FID` = 8 ORDER BY OR_ID ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_format_option` WHERE `FO_GID` = 9 ORDER BY FO_ID ASC  [ RunTime:0.0006s ]
+

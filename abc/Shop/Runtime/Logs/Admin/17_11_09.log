@@ -1,0 +1,1572 @@
+[ 2017-11-09T12:28:22+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-11-09T12:29:50+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+ERR: 模板不存在:./Shop/Admin/View/Index/index.html
+
+[ 2017-11-09T12:31:06+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-11-09T12:31:07+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003356s ]
+
+[ 2017-11-09T12:31:08+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-11-09T12:31:09+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003683s ]
+
+[ 2017-11-09T12:31:24+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-11-09T12:31:25+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-11-09T12:31:25+08:00 ] 192.168.32.44 /TP-shop/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-11-09T12:31:29+08:00 ] 192.168.32.44 /TP-shop/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-11-09T12:31:34+08:00 ] 192.168.32.44 /TP-shop/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-11-09T12:33:05+08:00 ] 192.168.32.44 /TP-shop/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-11-09T12:33:09+08:00 ] 192.168.32.44 /TP-shop/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-11-09T12:33:13+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2017-11-09T12:34:22+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038001s ]
+
+[ 2017-11-09T12:34:22+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007332s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011797s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024468s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009902s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042376s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005145s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028147s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032551s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023003s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:34:23+08:00 ] 192.168.32.44 /TP-shop/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-11-09T12:34:24+08:00 ] 192.168.32.44 /TP-shop/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025234s ]
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020919s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011281s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:37:52+08:00 ] 192.168.32.44 /TP-shop/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 无法加载控制器:Assets
+
+[ 2017-11-09T12:40:47+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-11-09T12:40:47+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013856s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005334s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011292s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005240s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008693s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007812s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034212s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015280s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010443s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017314s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006811s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009371s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:48+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000379s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006285s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003653s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004864s ]
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005041s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004154s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012149s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:40:49+08:00 ] 192.168.32.44 /TP-shop/Admin/public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009784s ]
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014193s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016416s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017048s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012424s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037893s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004810s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013859s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010496s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.065907s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:32+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007324s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.008819s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007253s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022808s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007142s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007800s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007797s ]
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006313s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:41:33+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030403s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036679s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022294s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:42:26+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:15+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-11-09T12:44:15+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017071s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:15+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.065378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.065563s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:15+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029742s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:15+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004772s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.122697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.122843s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030315s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010224s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019701s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016601s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010282s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006490s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:16+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:44:17+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:21+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000469s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-11-09T12:45:21+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-rtl.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:21+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021636s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016145s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044282s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016057s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008472s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025539s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021935s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027957s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012844s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013193s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017553s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003224s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-11-09T12:45:22+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/typeahead-bs2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/assets/laydate/laydate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001894s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/js/jquery.nicescroll.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:45:23+08:00 ] 192.168.32.44 /TP-shop/Admin/Public/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-09T12:46:06+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002178s ]
+
+[ 2017-11-09T12:47:49+08:00 ] 192.168.32.44 /TP-shop/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-11-09T12:51:25+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000771s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-11-09T13:07:04+08:00 ] 192.168.32.44 /TP-shop/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-11-09T13:10:45+08:00 ] 192.168.32.44 /TP-shop/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
